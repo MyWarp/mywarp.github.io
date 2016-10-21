@@ -8,6 +8,14 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 # Windows does not come with time zone data
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
-# Middleman Gems
+# Middleman
 gem 'middleman', '>= 4.0.0'
+
+# Middleman Tools
 gem 'middleman-livereload'
+gem 'middleman-autoprefixer'
+gem 'middleman-favicon-maker'
+gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
+gem 'middleman-search_engine_sitemap'
+gem 'middleman-minify-html'
+# gem 'middleman-imageoptim' #incompatible with Middleman 4 :(
