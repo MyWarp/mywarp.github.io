@@ -26,33 +26,6 @@ end
 # Always use autoprefixer
 activate :autoprefixer
 
-###
-# Helpers
-###
-
-# Methods defined in the helpers block are available in templates
- helpers do
-  # ====================================
-  #   Obfuscate email
-  #   Adapted from: http://stackoverflow.com/q/483212/1692291
-  #   Usage: = mailto('hi@email.com', 'Get in touch', 'btn btn--nav')
-  # ====================================
-  MAIL_TO = 'mailto:'
-  AT = ' [at] '
-  DOT = ' [dot] '
-
-  def mailto email="user@example.com", string=email, classes=""
-    comp = email.split("@")
-
-    # process string, if it is an email address
-    if string.include?("@") then
-      string.gsub!("@", AT + "&zwnj;").gsub!(".", DOT)
-    end
-
-    return "<a class=\"#{classes}\" href='javascript:void(0)' rel='nofollow' onclick='str1=\"#{comp[0]}\";str2=\"#{comp[1]}\";this.href=\"#{MAIL_TO}\" + str1 + \"@\" + str2'>#{string}</a>"
-  end
- end
-
 # Build-specific configuration
 configure :build do
 
@@ -111,3 +84,30 @@ activate :deploy do |deploy|
   # optional
   deploy.build_before = true
 end
+
+###
+# Helpers
+###
+
+# Methods defined in the helpers block are available in templates
+ helpers do
+  # ====================================
+  #   Obfuscate email
+  #   Adapted from: http://stackoverflow.com/q/483212/1692291
+  #   Usage: = mailto('hi@email.com', 'Get in touch', 'btn btn--nav')
+  # ====================================
+  MAIL_TO = 'mailto:'
+  AT = ' [at] '
+  DOT = ' [dot] '
+
+  def mailto email="user@example.com", string=email, classes=""
+    comp = email.split("@")
+
+    # process string, if it is an email address
+    if string.include?("@") then
+      string.gsub!("@", AT + "&zwnj;").gsub!(".", DOT)
+    end
+
+    return "<a class=\"#{classes}\" href='javascript:void(0)' rel='nofollow' onclick='str1=\"#{comp[0]}\";str2=\"#{comp[1]}\";this.href=\"#{MAIL_TO}\" + str1 + \"@\" + str2'>#{string}</a>"
+  end
+ end
