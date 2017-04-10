@@ -3,17 +3,16 @@ rvm:
   - 2.2.3
 before_install:
   - rvm install 2.2.3
-install:
-  - bundle install --path vendor/bundle
 script:
   - bundle exec middleman build
 branches:
-  only:
+  except:
   - master
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: build
+  target_branch: master
   on:
-    branch: master
+    branch: src
