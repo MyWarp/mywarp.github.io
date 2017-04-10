@@ -1,32 +1,38 @@
 // Breakpoints
-$medium-screen: 600px;
+$medium-screen: 768px;
 $large-screen: 900px;
 
+$lbourbon: (
+  "modular-scale-ratio": $perfect-fourth,
+  "modular-scale-base": 1em,
+);
+
 // Typography
-$base-font-family: $font-stack-system;
+$base-font-family: "Raleway", $font-stack-system;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 1rem;
 
 // Line height
 $base-line-height: 1.5;
 $heading-line-height: 1.2;
 
 // Other Sizes
-$base-border-radius: 3px;
-$base-spacing: $base-line-height * 1em;
+$base-border-radius: 4px;
+$base-spacing: $base-line-height * 1rem;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #1565c0;
+$mw-green: #3AAF6C;
+$blue: #1eaedb;
 $dark-gray: #333;
-$medium-gray: #999;
+$medium-gray: #6e6e6e;
 $light-gray: #ddd;
 
 // Font Colors
-$base-font-color: $dark-gray;
+$base-font-color: #222;
 $action-color: $blue;
 
 // Border
@@ -43,4 +49,4 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 
 // Animations
 $base-duration: 150ms;
-$base-timing: ease;
+$base-timing: $ease-in-out-quad;

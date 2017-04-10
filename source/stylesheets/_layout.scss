@@ -1,0 +1,39 @@
+#site-header {
+    h1 {
+        margin: 0;
+    }
+
+    #slogan {
+        text-align-last: center;
+    }
+
+    @include button-list;
+}
+
+#site-footer {
+    border-top: $base-border;
+    padding-top: $base-spacing*2;
+    margin-top: $base-spacing;
+}
+
+#download-list {
+    section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-top: $base-border;
+        padding-top: $small-spacing;
+        margin-bottom: $small-spacing;
+    }
+
+    header {
+        margin-right: $base-spacing;
+        margin-bottom: $small-spacing;
+        flex: 1 1 33%;
+    }
+
+    div {
+        flex: 1 1 66%;
+        @include button-list(true);
+    }
+}

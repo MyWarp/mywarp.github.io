@@ -29,6 +29,9 @@ activate :autoprefixer
 # Build-specific configuration
 configure :build do
 
+  # Ignore bitters test page
+  ignore 'bitters.*'
+
   # Minify CSS, HTML & Javascript on build
   activate :minify_css
   activate :minify_html
@@ -69,20 +72,9 @@ configure :build do
   end
 
   # Generate sitemap
-  set :url_root, 'http://my-website.com' # change this!
+  set :url_root, 'https://mywarp.github.io/'
   activate :search_engine_sitemap
 
-end
-
-# Deploy configuration
-activate :deploy do |deploy|
-  deploy.deploy_method   = :ftp
-  deploy.host            = 'ftp.my-website.com' # change this!
-  deploy.path            = '/'
-  deploy.user            = 'USER' # change this!
-  deploy.password        = 'PASSWORD' # change this!
-  # optional
-  deploy.build_before = true
 end
 
 ###

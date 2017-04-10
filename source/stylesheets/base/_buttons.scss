@@ -1,4 +1,4 @@
-#{$all-buttons} {
+#{$all-buttons}, .button {
   appearance: none;
   background-color: $action-color;
   border: 0;
@@ -9,11 +9,10 @@
   font-family: $base-font-family;
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
-  font-weight: 600;
-  line-height: 1;
-  padding: $small-spacing $base-spacing;
-  text-align: center;
-  text-decoration: none;
+
+  @include button-text;
+
+  padding: $small-spacing;
   transition: background-color $base-duration $base-timing;
   user-select: none;
   vertical-align: middle;

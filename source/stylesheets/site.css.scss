@@ -5,11 +5,15 @@
 @import 'normalize/vertical-rhythm';
 @import 'normalize/normalize-mixin';
 
-//bourbon
+//custom, reused mixins
+@import "mixins";
+
+//bourbon, bitters, neat
 @import "bourbon";
 @import "base/base";
 @import "neat";
 
-//custom imports
+//other imports
+@import "github-corner";
 @import "grid";
 @import "layout";

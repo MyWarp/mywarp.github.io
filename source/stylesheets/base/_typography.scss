@@ -3,6 +3,7 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  text-align: justify;
 }
 
 h1,
@@ -12,9 +13,30 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: modular-scale(1);
+  font-weight: lighter;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
+  text-align: left;
+}
+
+h1 {
+  font-size: modular-scale(5);
+}
+h2 {
+  font-size: modular-scale(4);
+}
+h3 {
+  font-size: modular-scale(3);
+}
+h4 {
+  font-size: modular-scale(2);
+}
+h5 {
+  font-size: modular-scale(1);
+}
+h6 {
+  font-size: modular-scale(1);
+  font-weight: normal;
 }
 
 p {
@@ -39,4 +61,21 @@ hr {
   border-right: 0;
   border-top: 0;
   margin: $base-spacing 0;
+}
+
+ul, ol {
+  padding-left: $base-spacing;
+  list-style: outside;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li:last-of-type {
+  margin-bottom: $small-spacing;
 }

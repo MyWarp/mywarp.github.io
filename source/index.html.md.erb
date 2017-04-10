@@ -1,0 +1,53 @@
+---
+title: MyWarp
+---
+## About
+MyWarp is an extension for the Minecraft multiplayer that allows players to share locations with each other. Shared locations (called ‘warps’) can be visited instantly by other players using a simple command. Creators remain in full control over their warps: They can remove them, change their locations, or invite players to or uninvite players from using them.
+
+MyWarp’s goal is to create a highly flexible system that allows players to dynamically connect with each other while beeing entirely self-managed. Once set up, administrative interventions are reduced to a bare minimum.
+
+## Features
+MyWarp is highly customisable. Most functions are optional and are disabled by default: enable what you need, disable what you do not.
+
+* Create public warps, usable by everybody or private ones, only usable by the creator and invited players.
+* Profit from intelligent matching mechanisms that complete warp names while typing based on warps matching the desired action.
+* Use signs with buttons or pressure plates to create unique physical ways to use a warp.
+* Limit the number of warps a user can create — per type and even per world.
+* Charge users for creating, managing and using warps with the economy integration.
+* Make users wait before or after being teleported with flexible timers.
+* Regulate access to certain warps based on the world the user is in.
+* Benefit from an entirely localisable source that properly handles users with different languages on the same server.
+
+And even more: MyWarp is open source and available under GPL3; adding your own feature is highly encouraged.
+
+## Downloads
+
+<section id="download-list">
+    <section class="download bukkit">
+        <header class="download-platform-name">
+            <% link_to 'https://www.bukkit.org' do %>
+            <h3><%#= image_tag 'images/bukkit-logo.svg', :alt=> 'Bukkit' %>Bukkit</h3>
+            <% end %>
+        </header>
+        <div class='download-platform-links'>
+            Implementations of the Bukkit API such as CraftBukkit or Spigot are officially supported.
+            <ul>
+                <li><%= link_to 'Stable Builds', 'https://dev.bukkit.org/bukkit-plugins/mywarp/' %></li>
+                <li><%= link_to 'Development Builds', 'https://thee140.ci.cloudbees.com/job/MyWarp%203%20(for%20Bukit%201.7.9.+)/' %></li>
+            </ul>
+        </div>
+    </section>
+    <section class="download bukkit">
+        <header class="download-platform-name">
+            <% link_to 'https://www.spongepowered.org' do %>
+            <h3>Sponge</h3>
+            <% end %>
+        </header>
+        <div class='download-platform-links'>
+            Support for Sponge is under development.
+            <ul>
+                <li><%= link_to 'Builds coming soon', '#' %></li>
+            </ul>
+        </div>
+    </section>
+</section>
