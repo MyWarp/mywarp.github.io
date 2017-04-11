@@ -1,6 +1,10 @@
 #site-header {
     h1 {
         margin: 0;
+        img {
+          //IE11 renders the img to small if not present
+          width: 100%;
+        }
     }
 
     #slogan {
