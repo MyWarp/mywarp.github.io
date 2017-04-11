@@ -28,10 +28,7 @@ body {
     }
 
     #site-footer {
-        @include grid-column(1, $body-grid);
-
         @include grid-container($footer-grid);
-        @include grid-collapse($footer-grid);
 
         section {
             @include grid-column(1, $footer-grid);
