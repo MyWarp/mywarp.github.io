@@ -76,6 +76,12 @@ configure :build do
   set :url_root, 'https://mywarp.github.io/'
   activate :search_engine_sitemap
 
+  activate :robots, 
+  :rules => [
+    {:user_agent => '*', :allow => %w(/)}
+  ],
+  :sitemap => "https://mywarp.github.io/sitemap.xml"
+
 end
 
 ###
