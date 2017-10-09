@@ -38,10 +38,11 @@ configure :build do
   activate :minify_javascript
 
   # Optimize images on build
-  # activate :imageoptim
+  activate :imageoptim
 
   # Create favicons
   activate :favicon_maker do |f|
+    f.template_dir  = 'source/images'
     f.icons = {
       "_favicon_template.svg" =>  [
         { icon: "apple-touch-icon-180x180-precomposed.png" },             # Same as apple-touch-icon-57x57.png, for iPhone 6+

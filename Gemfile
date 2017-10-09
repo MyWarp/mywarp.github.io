@@ -18,9 +18,9 @@ gem 'middleman-favicon-maker'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem 'middleman-search_engine_sitemap'
 gem 'middleman-minify-html'
-# gem 'middleman-imageoptim' # still incompatible with Middleman 4
+gem "middleman-imageoptim", :git => "https://github.com/plasticine/middleman-imageoptim", :branch => "master"
 
 # Bourbon, Neat & Bitters
-gem 'bourbon', '~> 5.0.0.beta.7'
-gem 'neat', '~> 2.0.0'
-gem 'bitters', '~> 1.5.0' # from 1.3 bitters requires bourbon 5
+gem 'bourbon', '~> 5.0.0.beta.8'
+gem 'neat', '~> 2.1.0'
+gem 'bitters', '~> 1.7.0'

@@ -28,7 +28,7 @@ body {
     }
 
     #site-footer {
-        @include grid-container($footer-grid);
+        //@include grid-container($footer-grid);
 
         section {
             @include grid-column(1, $footer-grid);
