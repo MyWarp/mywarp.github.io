@@ -38,8 +38,29 @@
         <meta name="msapplication-wide310x150logo" content="/mstile-310x310.png">
         <meta name="msapplication-square310x310logo" content="/mstile-310x150.png">
 
-        <!-- Custom assets -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <!-- Web fonts (using Web Font Loader) -->
+        <script>
+            if (sessionStorage.fontsLoaded) {
+                document.documentElement.classList.add('wf-active');
+            } else {
+                WebFontConfig = {
+                    google: {
+                        families: ['Raleway:300,400']
+                    },
+                    active: function() {
+                        sessionStorage.fontsLoaded = true;
+                    },
+                    timeout: 3000
+                };
+
+                (function(d) {
+                    var wf = d.createElement('script'), s = d.scripts[0];
+                    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+                    wf.async = true;
+                    s.parentNode.insertBefore(wf, s);
+                })(document);
+            }
+        </script>
 
         <%= stylesheet_link_tag :site %>
     </head>

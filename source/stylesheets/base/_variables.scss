@@ -8,7 +8,8 @@ $lbourbon: (
 );
 
 // Typography
-$base-font-family: "Raleway", $font-stack-system;
+$fallback-font-family: $font-stack-system;
+$base-font-family: "Raleway", $fallback-font-family;
 $heading-font-family: $base-font-family;
 
 // Font Sizes

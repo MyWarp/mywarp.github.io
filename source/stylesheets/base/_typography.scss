@@ -1,9 +1,14 @@
-body {
+html {
   color: $base-font-color;
-  font-family: $base-font-family;
+  font-family: $fallback-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
   text-align: justify;
+  font-weight: 400;
+
+  &.wf-active {
+    font-family: $base-font-family;
+  }
 }
 
 h1,
@@ -12,8 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
-  font-weight: lighter;
+  font-weight: 300;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
   text-align: left;
