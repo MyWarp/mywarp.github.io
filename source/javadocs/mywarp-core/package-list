@@ -17,6 +17,7 @@ io.github.mywarp.mywarp.service.teleport.timer
 io.github.mywarp.mywarp.sign
 io.github.mywarp.mywarp.util
 io.github.mywarp.mywarp.util.i18n
+io.github.mywarp.mywarp.util.playermatcher
 io.github.mywarp.mywarp.util.teleport
 io.github.mywarp.mywarp.warp
 io.github.mywarp.mywarp.warp.authorization
