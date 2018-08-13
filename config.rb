@@ -87,6 +87,10 @@ configure :build do
   :sitemap => "https://mywarp.github.io/sitemap.xml"
 end
 
+after_build do |builder|
+  builder.thor.create_file(config[:build_dir] + "/.nojekyll", "Deactivate Jekyll for this repository.", false)
+end
+
 ###
 # Helpers
 ###
