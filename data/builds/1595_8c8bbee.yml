@@ -1,0 +1,9 @@
+build:
+  by: Travis
+  number: 1595
+  succesfull: true
+  date: 13/08/2018
+commit:
+  shorthash: 8c8bbee
+  message: Fix script errors
+  author: TheE

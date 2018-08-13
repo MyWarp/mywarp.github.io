@@ -2,7 +2,7 @@ build:
   by: Travis
   number: 1596
   succesfull: true
-  date: 13\08\2018
+  date: 13/08/2018
 commit:
   shorthash: 0b3796b
   message: Fix yml missing from commit

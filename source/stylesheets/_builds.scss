@@ -1,0 +1,50 @@
+.table-wrapper{
+  //div around tables to make scrool if necessary
+  overflow-x:auto;
+}
+
+.build-table {
+  width: 100%;
+  table-layout: fixed;
+  
+  .number{
+    width: 10%;
+  }
+  .succesfull {
+    width: 5%;
+  }
+  
+  .commit-hash, .commit-author, .date {
+    width: 15%;
+  }
+  .commit-author {
+    padding-left: $small-spacing;
+  }
+  td.commit-msg {
+    font-family: $font-stack-consolas;
+    font-size: .8em;
+  }
+  
+  .download {
+    width: 10%;
+    padding-right: 0 !important;
+    text-align: center;
+    
+    @include button-text;
+    
+    a {
+      color: white;
+      background-color: $dark-gray;
+      border: 1px solid $dark-gray;
+      border-radius: $base-border-radius;
+      padding:$small-spacing/2;
+    }
+  }
+}
+
+.downloads {
+  ul, ol{
+    max-width: 50%;
+  }
+  @include button-list(true)
+}

@@ -1,0 +1,44 @@
+<h2>MyWarp Build #<%= info.build.number %></h2>
+
+<section class="warning">
+  These downloads are created from every change made in the code, which may mean that some of these downloads may be unstable or cause problems. If you notice any errors, please <%= link_to 'report', 'https://github.com/MyWarp/MyWarp/issues' %> them.
+</section>
+
+<h3>Changes</h3>
+
+<div class="table-wrapper">
+<table class="build-table">
+  <tr>
+    <th class="commit-hash">Commit</th>
+    <th class="succesfull"></th>
+    <th class="commit-msg">Info</th>
+    <th class="commit-author">Author</th>
+    <th class="date">Date</th>
+  </tr>
+  <tr>
+    <td class="commit-hash"><%= link_to_commit info.commit.shorthash %></td>
+    <td class="succesfull">
+      <% if info.build.succesfull.to_s == "true" %>
+        ✅
+      <% else %>
+        ❌
+      <% end %>
+    </td>
+    <td class="commit-msg"><%= info.commit.message %></td>
+    <td class="commit-author"><%= info.commit.author %></td>
+    <td class="date"><%= info.build.date %></th>
+  </tr>
+</table>
+</div>
+
+<h3>Download</h3>
+<section class="downloads">
+  <% if info.build.succesfull.to_s == "true" %>
+    <ul>
+        <li><%= link_to_download 'MyWarp Bukkit', info, 'mywarp-bukkit-3.0-SNAPSHOT-all.jar' %></li>
+        <li><%= link_to_download 'MyWarp API', info, 'mywarp-core-3.0-SNAPSHOT.jar' %></li>
+    </ul>
+  <% else %>
+    This build failed. Perhaps you want to go <%= link_to 'back', '/builds/'%> and try another one?
+  <% end %>
+</section>

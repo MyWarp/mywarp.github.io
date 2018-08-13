@@ -45,7 +45,7 @@
             } else {
                 WebFontConfig = {
                     google: {
-                        families: ['Raleway:300,400']
+                        families: ['Muli:300,600']
                     },
                     active: function() {
                         sessionStorage.fontsLoaded = true;
@@ -108,17 +108,5 @@
                 <%= yield %>
             </main>
         </div>
-
-        <footer id="site-footer">
-            <section>
-                <% link_to 'https://www.cloudbees.com' do %>
-                  <%= image_tag 'images/cloudbees.png' %>
-                <% end %>
-            </section>
-            <section>
-                Made with ❤️ by the MyWarp team.<br/>
-                Javadocs are available <%= link_to 'here', '/javadocs' %>.</p>
-        </section>
-    </footer>
 </body>
 </html>

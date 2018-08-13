@@ -16,6 +16,10 @@ page '/*.txt', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
+data.builds.each do |id, info|
+  proxy "/builds/#{info.commit.shorthash}.html", "/builds/build_template", :locals => {:info => info}
+end
+
 # General configuration
 
 # Reload the browser automatically whenever files change
@@ -81,7 +85,6 @@ configure :build do
     {:user_agent => '*', :allow => %w(/)}
   ],
   :sitemap => "https://mywarp.github.io/sitemap.xml"
-
 end
 
 ###
@@ -99,7 +102,7 @@ end
   AT = ' [at] '
   DOT = ' [dot] '
 
-  def mailto email="user@example.com", string=email, classes=""
+  def mailto(email="user@example.com", string=email, classes="")
     comp = email.split("@")
 
     # process string, if it is an email address
@@ -109,4 +112,23 @@ end
 
     return "<a class=\"#{classes}\" href='javascript:void(0)' rel='nofollow' onclick='str1=\"#{comp[0]}\";str2=\"#{comp[1]}\";this.href=\"#{MAIL_TO}\" + str1 + \"@\" + str2'>#{string}</a>"
   end
+  
+  # ====================================
+  #   Generate links to individual commits on GitHup using its hash
+  #   Usage: = link_to_commit('22e70a8')
+  # ====================================
+  GITHUB_URL = 'https://github.com/MyWarp/MyWarp/commit/'
+  
+  def link_to_commit(commitHash)
+    return link_to commitHash, GITHUB_URL + commitHash
+  end
+  
+  # ====================================
+  #   Generate links to download inidividual binaries from /builds/commit-folder/
+  #   Usage: = link_to_download 'MyWarp API', info, 'mywarp-core-3.0-SNAPSHOT.jar'
+  # ====================================
+  def link_to_download(text="Download", buildInfo, binaryName)
+    return link_to text, "#{buildInfo.build.number}_#{buildInfo.commit.shorthash}/#{binaryName}"
+  end
+  
  end

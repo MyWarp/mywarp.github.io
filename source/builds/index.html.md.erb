@@ -1,0 +1,36 @@
+---
+title: Builds
+---
+<h2>Builds</h2>
+
+<section class="warning">
+These downloads are created from every change made in the code, which may mean that some of these downloads may be unstable or cause problems. If you notice any errors, please <%= link_to 'report', 'https://github.com/MyWarp/MyWarp/issues' %> them.
+</section>
+
+<div class="table-wrapper">
+<table class="build-table">
+  <tr>
+    <th class="number">No.</th>
+    <th class="commit-hash">Commit</th>
+    <th class="commit-msg">Info</th>
+    <th class="download"></th>
+  </tr>
+
+  <% data.builds.reverse_each do |id, info| %>
+    <tr>
+      <td class="number">
+        #<%= info.build.number %>
+      </td>
+      <td class="commit-hash">
+        <%= link_to_commit info.commit.shorthash %>
+      </td>
+      <td class="commit-msg">
+        <%= info.commit.message %>
+      </td>
+      <td class='download'>
+        <%= link_to 'Get', info.commit.shorthash + '.html'  %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+</div>
