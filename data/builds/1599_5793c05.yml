@@ -1,0 +1,11 @@
+build:
+  by: Travis
+  number: 1599
+  successful: true
+  date: 14/08/2018
+commit:
+  short_hash: 5793c05
+  message: Move deployment script execution back to 'after_success'
+
+Also, the script now fails the build on errors.
+  author: TheE
