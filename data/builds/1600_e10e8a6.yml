@@ -1,9 +1,9 @@
 build:
-  by: Travis
+  by: "Travis"
   number: 1600
   successful: true
-  date: 14/08/2018
+  date: "14/08/2018"
 commit:
-  short_hash: e10e8a6
-  message: [Bukkit] Update bundled H2 to 1.4
-  author: TheE
+  short_hash: "e10e8a6"
+  message: "[Bukkit] Update bundled H2 to 1.4"
+  author: "TheE"

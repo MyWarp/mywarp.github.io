@@ -17,6 +17,7 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 data.builds.each do |id, info|
+  p info.commit.short_hash
   proxy "/builds/#{info.commit.short_hash}.html", "/builds/build_template", :locals => {:info => info}, :ignore => true
 end
 
