@@ -17,7 +17,7 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 data.builds.each do |id, info|
-  proxy "/builds/#{info.commit.shorthash}.html", "/builds/build_template", :locals => {:info => info}, :ignore => true
+  proxy "/builds/#{info.commit.short_hash}.html", "/builds/build_template", :locals => {:info => info}, :ignore => true
 end
 
 # General configuration
@@ -132,7 +132,7 @@ end
   #   Usage: = link_to_download 'MyWarp API', info, 'mywarp-core-3.0-SNAPSHOT.jar'
   # ====================================
   def link_to_download(text="Download", buildInfo, binaryName)
-    return link_to text, "#{buildInfo.build.number}_#{buildInfo.commit.shorthash}/#{binaryName}"
+    return link_to text, "#{buildInfo.build.number}_#{buildInfo.commit.short_hash}/#{binaryName}"
   end
   
  end

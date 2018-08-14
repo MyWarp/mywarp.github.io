@@ -22,13 +22,13 @@ These downloads are created from every change made in the code, which may mean t
         #<%= info.build.number %>
       </td>
       <td class="commit-hash">
-        <%= link_to_commit info.commit.shorthash %>
+        <%= link_to_commit info.commit.short_hash %>
       </td>
       <td class="commit-msg">
         <%= info.commit.message %>
       </td>
       <td class='download'>
-        <%= link_to 'Get', info.commit.shorthash + '.html'  %>
+        <%= link_to 'Get', info.commit.short_hash + '.html'  %>
       </td>
     </tr>
   <% end %>
