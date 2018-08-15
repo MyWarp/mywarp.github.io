@@ -1,0 +1,9 @@
+build:
+  by: "Travis"
+  number: 1601
+  successful: true
+  date: "15/08/2018"
+commit:
+  short_hash: "cc64a9e"
+  message: "[Bukkit] Add a way to specify JDBC configuration options"
+  author: "TheE"
