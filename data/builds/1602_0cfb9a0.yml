@@ -1,0 +1,9 @@
+build:
+  by: "Travis"
+  number: 1602
+  successful: true
+  date: "15/08/2018"
+commit:
+  short_hash: "0cfb9a0"
+  message: "Remove commons-lang dependency, fix some rare new-line bugs on Windows"
+  author: "TheE"
