@@ -1,0 +1,9 @@
+build:
+  by: "Travis"
+  number: 1603
+  successful: true
+  date: "15/08/2018"
+commit:
+  short_hash: "9c6a005"
+  message: "Clean-up and simplify PlaceholderResolver"
+  author: "TheE"
