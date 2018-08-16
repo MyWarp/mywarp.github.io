@@ -31,10 +31,8 @@
   $init: _normalize-include($include, $exclude);
 
   // If we've customized any font variables, we'll need extra properties.
-  @if $base-font-size != 16px
-    or $base-line-height != 24px
+  @if $base-line-height != 24px
     or $base-unit != 'em'
-    or $h1-font-size != 2    * $base-font-size
     or $h2-font-size != 1.5  * $base-font-size
     or $h3-font-size != 1.17 * $base-font-size
     or $h4-font-size != 1    * $base-font-size
@@ -50,25 +48,29 @@
        ========================================================================== */
 
     /**
-     * 1. Change the default font family in all browsers (opinionated).
-     * 2. Correct the line height in all browsers.
-     * 3. Prevent adjustments of font size after orientation changes in
+     * 1. Correct the line height in all browsers.
+     * 2. Prevent adjustments of font size after orientation changes in
      *    IE on Windows Phone and in iOS.
      */
 
     html {
-      font-family: $base-font-family; /* 1 */
-      @if $normalize-vertical-rhythm {
+      @if $base-font-family {
+        /* Change the default font family in all browsers (opinionated). */
+        font-family: $base-font-family;
+      }
+      @if $base-font-size != 16px or $normalize-vertical-rhythm {
         // Correct old browser bug that prevented accessible resizing of text
         // when root font-size is set with px or em.
         font-size: ($base-font-size / 16px) * 100%;
-        line-height: ($base-line-height / $base-font-size) * 1em; /* 2 */
+      }
+      @if $normalize-vertical-rhythm {
+        line-height: ($base-line-height / $base-font-size) * 1em; /* 1 */
       }
       @else {
-        line-height: 1.15; /* 2 */
+        line-height: 1.15; /* 1 */
       }
-      -ms-text-size-adjust: 100%; /* 3 */
-      -webkit-text-size-adjust: 100%; /* 3 */
+      -ms-text-size-adjust: 100%; /* 2 */
+      -webkit-text-size-adjust: 100%; /* 2 */
     }
   }
 
@@ -267,16 +269,6 @@
       background-color: transparent; /* 1 */
       -webkit-text-decoration-skip: objects; /* 2 */
     }
-
-    /**
-     * Remove the outline on focused links when they are also active or hovered
-     * in all browsers (opinionated).
-     */
-
-    a:active,
-    a:hover {
-      outline-width: 0;
-    }
   }
 
   @if _normalize-include(text) {
@@ -284,7 +276,7 @@
        ========================================================================== */
 
     /**
-     * 1. Remove the bottom border in Firefox 39-.
+     * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
      * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
      */
 
@@ -424,7 +416,7 @@
     optgroup,
     select,
     textarea {
-      font-family: $base-font-family; /* 1 */
+      font-family: if($base-font-family, $base-font-family, sans-serif); /* 1 */
       font-size: 100%; /* 1 */
       @if $normalize-vertical-rhythm {
         line-height: ($base-line-height / $base-font-size) * 1em; /* 1 */
@@ -547,13 +539,11 @@
     }
 
     /**
-     * Change the border, margin, and padding in all browsers (opinionated).
+     * Correct the padding in Firefox.
      */
 
     fieldset {
-      border: 1px solid #c0c0c0;
-      margin: 0 2px;
-      padding: 0.35em 0.625em 0.75em;
+      padding: 0.35em 0.75em 0.625em;
     }
 
     /**
