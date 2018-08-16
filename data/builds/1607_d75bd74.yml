@@ -1,0 +1,9 @@
+build:
+  by: "Travis"
+  number: 1607
+  successful: true
+  date: "16/08/2018"
+commit:
+  short_hash: "d75bd74"
+  message: "Use java.time.Duration where possible"
+  author: "TheE"
