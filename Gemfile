@@ -22,6 +22,6 @@ gem "middleman-imageoptim", :git => "https://github.com/plasticine/middleman-ima
 gem 'middleman-robots'
 
 # Bourbon, Neat & Bitters
-gem 'bourbon', '~> 5.0.0.beta.8'
-gem 'neat', '~> 2.1.0'
-gem 'bitters', '~> 1.7.0'
+gem 'bourbon', '~> 5.1'
+gem 'neat', '~> 3.0'
+gem 'bitters', '~> 1.8'

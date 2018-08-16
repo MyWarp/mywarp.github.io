@@ -9,15 +9,7 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-# With alternative layout
-# page "/path/to/file.html", layout: :otherlayout
-
-# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
-#  which_fake_page: "Rendering a fake page with a local variable" }
-
 data.builds.each do |id, info|
-  p info.commit.short_hash
   proxy "/builds/#{info.commit.short_hash}.html", "/builds/build_template", :locals => {:info => info}, :ignore => true
 end
 
@@ -98,25 +90,6 @@ end
 
 # Methods defined in the helpers block are available in templates
  helpers do
-  # ====================================
-  #   Obfuscate email
-  #   Adapted from: http://stackoverflow.com/q/483212/1692291
-  #   Usage: = mailto('hi@email.com', 'Get in touch', 'btn btn--nav')
-  # ====================================
-  MAIL_TO = 'mailto:'
-  AT = ' [at] '
-  DOT = ' [dot] '
-
-  def mailto(email="user@example.com", string=email, classes="")
-    comp = email.split("@")
-
-    # process string, if it is an email address
-    if string.include?("@") then
-      string.gsub!("@", AT + "&zwnj;").gsub!(".", DOT)
-    end
-
-    return "<a class=\"#{classes}\" href='javascript:void(0)' rel='nofollow' onclick='str1=\"#{comp[0]}\";str2=\"#{comp[1]}\";this.href=\"#{MAIL_TO}\" + str1 + \"@\" + str2'>#{string}</a>"
-  end
   
   # ====================================
   #   Generate links to individual commits on GitHup using its hash
