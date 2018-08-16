@@ -1,0 +1,9 @@
+build:
+  by: "Travis"
+  number: 1606
+  successful: true
+  date: "16/08/2018"
+commit:
+  short_hash: "1763ec3"
+  message: "[Bukkit] Fix incompatibilities with Guava 10 and Bukkit 1.7.10"
+  author: "TheE"
