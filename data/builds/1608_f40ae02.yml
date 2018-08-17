@@ -1,0 +1,9 @@
+build:
+  by: "Travis"
+  number: 1608
+  successful: true
+  date: "17/08/2018"
+commit:
+  short_hash: "f40ae02"
+  message: "Address some minor coding issues"
+  author: "TheE"
