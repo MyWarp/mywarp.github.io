@@ -1,0 +1,9 @@
+build:
+  by: "Travis"
+  number: 1610
+  successful: true
+  date: "17/08/2018"
+commit:
+  short_hash: "cc738e1"
+  message: "Fix Travis build (hopefully)."
+  author: "TheE"
