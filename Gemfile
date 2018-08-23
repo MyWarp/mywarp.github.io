@@ -18,7 +18,8 @@ gem 'middleman-favicon-maker'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem 'middleman-search_engine_sitemap'
 gem 'middleman-minify-html'
-gem "middleman-imageoptim", :git => "https://github.com/plasticine/middleman-imageoptim", :branch => "master"
+gem 'middleman-imageoptim', :git => "https://github.com/plasticine/middleman-imageoptim", :branch => "master"
+gem 'middleman-pagination', "~>1.2.0", :git => "https://github.com/suresh44t/middleman-pagination.git" #This fork is actually compatible with Middleman 4
 gem 'middleman-robots'
 
 # Bourbon, Neat & Bitters

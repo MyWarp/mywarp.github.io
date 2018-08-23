@@ -9,8 +9,20 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# With alternative layout
+# page "/path/to/file.html", layout: :otherlayout
+
+# Pagination
+# see: https://github.com/suresh44t/middleman-pagination#usage
+activate :pagination do
+  pageable_set :dev_builds do
+    data.builds.sort.reverse
+  end
+end
+
+# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 data.builds.each do |id, info|
-  proxy "/builds/#{info.commit.short_hash}.html", "/builds/build_template", :locals => {:info => info}, :ignore => true
+  proxy "/builds/#{info.commit.short_hash}.html", "single_build_information", :locals => {:info => info}, :ignore => true
 end
 
 # General configuration
@@ -70,14 +82,16 @@ configure :build do
   end
 
   # Generate sitemap
-  set :url_root, 'https://mywarp.github.io/'
+  set :url_root, 'https://mywarp.github.io'
   activate :search_engine_sitemap
-
+  
+  # Generate robots.txt
   activate :robots, 
   :rules => [
     {:user_agent => '*', :allow => %w(/)}
   ],
-  :sitemap => "https://mywarp.github.io/sitemap.xml"
+  :sitemap => "https://mywarp.github.io/sitemap.xml" # change this!
+
 end
 
 after_build do |builder|
@@ -90,23 +104,18 @@ end
 
 # Methods defined in the helpers block are available in templates
  helpers do
-  
-  # ====================================
-  #   Generate links to individual commits on GitHup using its hash
-  #   Usage: = link_to_commit('22e70a8')
-  # ====================================
   GITHUB_URL = 'https://github.com/MyWarp/MyWarp/commit/'
   
   def link_to_commit(commitHash)
     return link_to commitHash, GITHUB_URL + commitHash
   end
-  
-  # ====================================
-  #   Generate links to download inidividual binaries from /builds/commit-folder/
-  #   Usage: = link_to_download 'MyWarp API', info, 'mywarp-core-3.0-SNAPSHOT.jar'
-  # ====================================
-  def link_to_download(text="Download", buildInfo, binaryName)
-    return link_to text, "#{buildInfo.build.number}_#{buildInfo.commit.short_hash}/#{binaryName}"
+
+  def artifact_url(buildInfo, binaryName)
+    return link_to binaryName, "/files/#{buildInfo.build.number}_#{buildInfo.commit.short_hash}/#{binaryName}"
   end
-  
+
+  def artifact_size(buildInfo, binaryName, format="%.2f")
+    path = "source/files/#{buildInfo.build.number}_#{buildInfo.commit.short_hash}/#{binaryName}"
+    return format % (File.size(path).to_f / 2**20)
+  end
  end

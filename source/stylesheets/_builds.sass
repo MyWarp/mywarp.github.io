@@ -1,0 +1,125 @@
+// ---------------------------------
+// Styles for build pages:
+// Paginated list, as well as single build information
+// ---------------------------------
+@font-face
+  font-family: "Space Mono"
+  font-style: normal
+  font-weight: 400
+  src: local("Space Mono"), local("SpaceMono-Regular"), url("../fonts/space-mono-v2-latin-regular.woff2") format("woff2"), url("../fonts/space-mono-v2-latin-regular.woff") format("woff")
+
+.table-wrapper
+  width: 100%
+  overflow-y: auto
+
+p.warning
+  &:before
+    content: "Attention: "
+    font-weight: bold
+
+.table-heading
+  margin-bottom: 0
+
+table.build-table
+  font-size: 80%
+
+  //on small screen sizes, the table scrolls vertically; no sane person will attempt to download a build on mobile.
+  min-width: 600px
+
+  .commit-tags
+    font-size: 80%
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23aaa' d='M416 64H257.6L76.5 251.6c-8 8-12.3 18.5-12.5 29-.3 11.3 3.9 22.6 12.5 31.2l123.7 123.6c8 8 20.8 12.5 28.8 12.5s22.8-3.9 31.4-12.5L448 256V96l-32-32zm-30.7 102.7c-21.7 6.1-41.3-10-41.3-30.7 0-17.7 14.3-32 32-32 20.7 0 36.8 19.6 30.7 41.3-2.9 10.3-11.1 18.5-21.4 21.4z'/%3E%3C/svg%3E") no-repeat left
+    background-size: 1.2em
+    color: $medium-gray
+    padding-left: $base-spacing
+
+  td
+    font-family: "Space Mono", $font-stack-monaco
+
+#build-list
+  .build-number, .download
+    width: 10%
+
+  .commit-hash
+    width: 15%
+
+  .download a
+    background-color: $action-color
+    padding: ($small-spacing / 4) $small-spacing ($small-spacing / 3)
+    color: #fff
+    text-transform: lowercase
+    border-radius: $base-border-radius
+    transition: background-color $base-duration $base-timing
+
+    &:hover
+      background-color: $base-font-color
+
+.pagination-info
+  font-size: 80%
+
+  a
+    color: $base-font-color
+
+  .page-nav
+    float: right
+
+#commit-info
+  .commit-author, .commit-hash
+    width: 25%
+
+#build-information
+  .build-status
+    .sucessfull:before
+      content: "sucessfull"
+
+    .failed:before
+      color: $red
+      content: "failed"
+
+.downloads
+  p.error
+    font-size: 80%
+    font-family: "Space Mono", $font-stack-monaco
+    color: $red
+
+  ul
+    padding: 0
+
+  li
+    &:before
+      display: none
+
+    display: block
+    padding-bottom: $small-spacing / 2
+
+    a
+      border-radius: $base-border-radius
+      display: inline-block
+      padding: $small-spacing
+      color: $base-font-color
+      border: $base-border
+      font-size: 80%
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M416 199.5h-91.4V64H187.4v135.5H96l160 158.1 160-158.1zM96 402.8V448h320v-45.2H96z'/%3E%3C/svg%3E") no-repeat left
+      background-size: 1.5em
+      background-origin: content-box
+      border-color: $light-gray
+      transition: color $base-duration $base-timing
+      transition: background-color $base-duration $base-timing
+
+      .artifact-info
+        padding-left: $base-spacing / 2 * 3
+
+        .artifact.name
+          padding-right: $small-spacing
+
+        .artifact-size
+          color: $medium-gray
+          font-size: 80%
+
+      &:hover
+        background-color: $base-font-color
+        color: $viewport-background-color
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23fff' d='M416 199.5h-91.4V64H187.4v135.5H96l160 158.1 160-158.1zM96 402.8V448h320v-45.2H96z'/%3E%3C/svg%3E")
+
+        &[data_size]::after
+          color: $viewport-background-color

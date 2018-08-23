@@ -1,0 +1,105 @@
+// ---------------------------------
+// Styles for the side's header
+// ---------------------------------
+
+@font-face
+  font-family: "Ubuntu"
+  font-style: normal
+  font-weight: 700
+  src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("../fonts/ubuntu-v12-latin-700.woff2") format("woff2"), url("../fonts/ubuntu-v12-latin-700.woff") format("woff")
+
+header
+  margin-top: $small-spacing
+
+  .header-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  #site-titel
+    margin-bottom: 0
+
+    .side_heading
+      display: none
+
+      @media screen and #{$media-small-mobile-up}
+        display: inherit
+        text-transform: lowercase
+        color: $medium-gray
+        margin-left: -0.2em
+        font-family: "Ubuntu", $base-font-family
+
+  #site-logo
+    max-height: 2em
+
+    @media screen and #{$media-tablet-up}
+      max-height: 3em
+
+  #site-nav
+    max-height: 0px
+    display: none
+
+    li
+      &:before
+        display: none
+
+      a
+        text-transform: lowercase
+        font-weight: 600
+        color: $base-font-color
+        transition: all $base-timing $base-duration
+
+        &:hover
+          background-color: $base-font-color
+          color: #fff
+
+    @media screen and #{$media-tablet-up}
+      display: block
+      float: right
+
+      //is there a better way to do this?
+      position: relative
+      right: 0px
+      top: -2.2em
+
+      li
+        padding-left: $small-spacing
+        display: inline-block
+
+        a
+          padding: $small-spacing / 2
+
+          &:hover
+            top: -0.25em
+
+  #site-nav.is-active
+    padding-left: 4.25em
+    transition: max-height 0.2s ease-out
+    transition: margin-top $base-duration $base-timing
+    max-height: none
+    display: block
+    width: 100%
+
+    ul
+      padding: 0
+
+    li
+      padding-bottom: $small-spacing / 2
+
+      a:hover
+        padding: $small-spacing / 2
+
+  #menu-button
+    display: inline-block
+
+    @media screen and #{$media-tablet-up}
+      display: none
+
+    span
+      +burger(30px, 3px, 6px, $base-font-color, 2)
+
+#menu-button.is-active
+  span
+    background-color: transparent !important
+
+    +burger-to-cross

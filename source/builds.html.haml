@@ -1,0 +1,49 @@
+---
+title: MyWarp Builds
+site_heading: builds
+pagination:
+  for: dev_builds
+  per_page: 10
+---
+
+%p.warning
+  These downloads are created from every change made in the code, which may mean that some of these downloads may be unstable or cause problems. If you notice any errors, please #{link_to 'report', 'https://github.com/MyWarp/MyWarp/issues'} them.
+
+.table-wrapper
+  %table#build-list.build-table
+    %tr
+      %th.build-number
+        No.
+      %th.commit-hash
+        Commit
+      %th.commit-msg
+        Info
+      %th.download
+
+    - pagination_context.each do |id, info|
+      %tr
+        %td.build-number
+          = info.build.number
+        %td.commit-hash
+          = link_to_commit info.commit.short_hash
+        %td.commit-msg
+          = info.commit.message
+          - unless info.commit.tags.nil?
+            .commit-tags
+              =info.commit.tags
+        %td.download
+          %a{:href=>"/builds/#{info.commit.short_hash}.html"}
+            get
+
+
+.pagination-info
+  %span.page-numbers
+    Page #{pagination_context.page_num} of #{pagination_context.total_page_num}
+  %span.page-nav
+    = link_to "< Previous Page", pagination_context.prev_page.url if pagination_context.prev_page
+    = link_to "Next Page >", pagination_context.next_page.url if pagination_context.next_page
+
+
+// Showing #{pagination_context.per_page} per page
+// = link_to "First page", pagination_context.first_page.url
+// = link_to "Last page", pagination_context.first_page.url

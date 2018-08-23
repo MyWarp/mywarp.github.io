@@ -7,7 +7,7 @@ The `master` branch contains the final website, `src` contains the source. Whene
 
 ## Build
 
-The site is build with [Middleman](https://middlemanapp.com). To build it yourself, make sure that Ruby, Rubygems and Imagemagick are installed and configured, then clone this repository and run:
+The site is build with [Middleman](https://middlemanapp.com). Templates are written in Haml, styles in Sass. To build it yourself, make sure that Ruby, Rubygems and Imagemagick are installed and configured, then clone this repository and run:
 
 ```
 bundle install
