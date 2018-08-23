@@ -111,7 +111,7 @@ end
   end
 
   def artifact_url(buildInfo, binaryName)
-    return link_to binaryName, "/files/#{buildInfo.build.number}_#{buildInfo.commit.short_hash}/#{binaryName}"
+    return "/files/#{buildInfo.build.number}_#{buildInfo.commit.short_hash}/#{binaryName}"
   end
 
   def artifact_size(buildInfo, binaryName, format="%.2f")
