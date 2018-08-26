@@ -14,14 +14,14 @@ body
   flex-direction: column
 
   .outer-wrapper
-    margin: auto
+    margin: auto 0
+
+    @media screen and #{$media-tablet-up}
+      margin: auto
+
+  .inner-wrapper
+    max-heigth: 825px
+    heigth: 825px
     max-width: 768px
-
-    .inner-wrapper
-      min-height: min-content
-      margin: $small-spacing
-      max-heigth: 825px
-      heigth: 825px
-
-  footer
     min-height: min-content
+    padding: $small-spacing
