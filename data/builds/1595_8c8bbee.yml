@@ -7,3 +7,6 @@ commit:
   short_hash: 8c8bbee
   message: Fix script errors
   author: TheE
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

@@ -7,3 +7,6 @@ commit:
   short_hash: 5793c05
   message: Move deployment script execution back to 'after_success'
   author: TheE
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

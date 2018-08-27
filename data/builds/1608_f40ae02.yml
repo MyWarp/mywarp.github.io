@@ -7,3 +7,6 @@ commit:
   short_hash: "f40ae02"
   message: "Address some minor coding issues"
   author: "TheE"
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

@@ -7,3 +7,6 @@ commit:
   short_hash: "0cfb9a0"
   message: "Remove commons-lang dependency, fix some rare new-line bugs on Windows"
   author: "TheE"
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

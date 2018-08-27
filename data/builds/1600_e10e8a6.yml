@@ -7,3 +7,6 @@ commit:
   short_hash: "e10e8a6"
   message: "[Bukkit] Update bundled H2 to 1.4"
   author: "TheE"
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

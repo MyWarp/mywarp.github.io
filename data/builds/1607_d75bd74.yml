@@ -7,3 +7,6 @@ commit:
   short_hash: "d75bd74"
   message: "Use java.time.Duration where possible"
   author: "TheE"
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

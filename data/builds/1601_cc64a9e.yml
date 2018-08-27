@@ -7,3 +7,6 @@ commit:
   short_hash: "cc64a9e"
   message: "[Bukkit] Add a way to specify JDBC configuration options"
   author: "TheE"
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

@@ -7,3 +7,6 @@ commit:
   short_hash: "d9992c7"
   message: "Update MaterialInfo for 1.13, update Bukkit to 1.13"
   author: "TheE"
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

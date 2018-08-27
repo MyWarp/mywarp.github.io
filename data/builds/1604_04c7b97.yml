@@ -7,3 +7,6 @@ commit:
   short_hash: "04c7b97"
   message: "Fix incompatibilities with Guava 10"
   author: "TheE"
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

@@ -7,3 +7,6 @@ commit:
   short_hash: "fcf63e0"
   message: "Use MaterialData when checking for buttons and levers"
   author: "TheE"
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

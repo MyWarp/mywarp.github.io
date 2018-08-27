@@ -7,3 +7,6 @@ commit:
   short_hash: "cc738e1"
   message: "Fix Travis build (hopefully)."
   author: "TheE"
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-core-3.0-SNAPSHOT.jar

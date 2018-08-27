@@ -62,15 +62,22 @@ site_heading: builds
 
 %section.downloads
   - if info.build.successful.to_s == "true"
-    %ul
-      - ['mywarp-bukkit-3.0-SNAPSHOT-all.jar', 'mywarp-core-3.0-SNAPSHOT.jar'].each do |artifact|
-        %li
-          %a.artifact_download{:href=>"#{artifact_url info, artifact}"}
-            .artifact-info
-              %span.artifact-name
-                = artifact
-              %span.artifact-size
-                (#{artifact_size info, artifact} MB)
+    - if info.artifacts.any?
+      %p
+        :markdown
+          **Note:** To run MyWarp, you only need the `-all` version for you platform which includes all dependencies. The `core` is only relevant for developers.
+      %ul
+        - info.artifacts.each do |artifact|
+          %li
+            %a.artifact_download{:href=>"#{artifact_url info, artifact}"}
+              .artifact-info
+                %span.artifact-name
+                  = artifact
+                %span.artifact-size
+                  (#{artifact_size info, artifact} MB)
+    - else
+      %p.error
+        The build suceeded but no artfacts were saved.
   - else
     %p.error
       Build failure.
