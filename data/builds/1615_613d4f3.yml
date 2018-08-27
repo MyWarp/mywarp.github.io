@@ -1,0 +1,13 @@
+build:
+  by: "Travis"
+  number: 1615
+  successful: true
+  date: "27/08/2018"
+commit:
+  short_hash: "613d4f3"
+  message: "Update deployment script for site changes"
+  author: "TheE"
+artifacts:
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-bukkit-3.0-SNAPSHOT.jar
+  - mywarp-core-3.0-SNAPSHOT.jar
