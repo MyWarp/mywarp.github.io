@@ -118,8 +118,11 @@ end
     return "/files/#{buildInfo.build.number}_#{buildInfo.commit.short_hash}/#{binaryName}"
   end
 
-  def artifact_size(buildInfo, binaryName, format="%.2f")
-    path = "source/files/#{buildInfo.build.number}_#{buildInfo.commit.short_hash}/#{binaryName}"
-    return format % (File.size(path).to_f / 2**20)
+  def artifact_files(buildInfo)
+    return Dir.glob( 'source/files/' + buildInfo.build.number.to_s + '_' + buildInfo.commit.short_hash.to_s + '/*.jar' )
+  end
+
+  def artifact_size(binary, format="%.2f")
+    return format % (File.size(binary).to_f / 2**20)
   end
  end

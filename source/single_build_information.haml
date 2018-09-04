@@ -62,19 +62,19 @@ site_heading: builds
 
 %section.downloads
   - if info.build.successful.to_s == "true"
-    - if info.artifacts.any?
+    - if (artifact_files info).any?
       %p
         :markdown
           **Note:** To run MyWarp, you only need the `-all` version for you platform which includes all dependencies. The `core` is only relevant for developers.
       %ul
-        - info.artifacts.each do |artifact|
+        - artifact_files(info).each do |artifact|
           %li
             %a.artifact_download{:href=>"#{artifact_url info, artifact}"}
               .artifact-info
                 %span.artifact-name
-                  = artifact
+                  = File.basename(artifact) 
                 %span.artifact-size
-                  (#{artifact_size info, artifact} MB)
+                  (#{artifact_size artifact} MB)
     - else
       %p.error
         The build suceeded but no artfacts were saved.
