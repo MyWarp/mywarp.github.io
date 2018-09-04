@@ -9,6 +9,6 @@ commit:
   author: "TheE"
   tags: ""
 artifacts:
-  - mywarp-bukkit-*-all.jar
-  - mywarp-bukkit-*.jar
-  - mywarp-core-*.jar
+  - mywarp-bukkit-3.0-SNAPSHOT-all.jar
+  - mywarp-bukkit-3.0-SNAPSHOT.jar
+  - mywarp-core-3.0-SNAPSHOT.jar
