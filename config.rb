@@ -114,8 +114,10 @@ end
     return link_to commitHash, GITHUB_URL + commitHash
   end
 
-  def artifact_url(buildInfo, binaryName)
-    return "/files/#{buildInfo.build.number}_#{buildInfo.commit.short_hash}/#{binaryName}"
+  def artifact_url(binary)
+    absolute_path = Pathname.new(binary)
+    project_root  = Pathname.new("source")
+    return '/' + absolute_path.relative_path_from(project_root).to_s
   end
 
   def artifact_files(buildInfo)

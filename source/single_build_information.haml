@@ -69,7 +69,7 @@ site_heading: builds
       %ul
         - artifact_files(info).each do |artifact|
           %li
-            %a.artifact_download{:href=>"#{artifact_url info, artifact}"}
+            %a.artifact_download{:href=>"#{artifact_url artifact}"}
               .artifact-info
                 %span.artifact-name
                   = File.basename(artifact) 
