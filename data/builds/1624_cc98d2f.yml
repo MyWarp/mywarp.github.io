@@ -1,0 +1,14 @@
+build:
+  by: "Travis"
+  number: 1624
+  successful: true
+  date: "04/09/2018"
+commit:
+  short_hash: "cc98d2f"
+  message: "Fix deployment of non-SNAPSHOT versions, 2nd attempt"
+  author: "TheE"
+  tags: ""
+artifacts:
+  - mywarp-bukkit-*-all.jar
+  - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
+  - mywarp-core-!(*javadoc|*sources).jar
