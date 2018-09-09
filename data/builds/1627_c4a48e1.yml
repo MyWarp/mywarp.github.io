@@ -1,0 +1,14 @@
+build:
+  by: "Travis"
+  number: 1627
+  successful: true
+  date: "09/09/2018"
+commit:
+  short_hash: "c4a48e1"
+  message: "Hotfix for broken limits with warps on multiple worlds"
+  author: "TheE"
+  tags: ""
+artifacts:
+  - mywarp-bukkit-*-all.jar
+  - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
+  - mywarp-core-!(*javadoc|*sources).jar
