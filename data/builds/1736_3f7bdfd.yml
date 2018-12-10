@@ -1,0 +1,14 @@
+build:
+  by: "Travis"
+  number: 1736
+  successful: true
+  date: "10/12/2018"
+commit:
+  short_hash: "3f7bdfd"
+  message: "Update Gradle to 5.0, update plugins to most recent versions"
+  author: "TheE"
+  tags: ""
+artifacts:
+  - mywarp-bukkit-*-all.jar
+  - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
+  - mywarp-core-!(*javadoc|*sources).jar
