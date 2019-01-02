@@ -78,20 +78,23 @@ table.build-table
 
   ul
     padding: 0
+    display: inline-flex
+    flex-direction: column
 
   li
     &:before
       display: none
 
     display: block
-    padding-bottom: $small-spacing / 2
+    margin-bottom: $small-spacing / 2
+    border: $base-border
+    border-radius: $base-border-radius
 
     a
-      border-radius: $base-border-radius
+      width: 100%
       display: inline-block
       padding: $small-spacing
       color: $base-font-color
-      border: $base-border
       font-size: 80%
       background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M416 199.5h-91.4V64H187.4v135.5H96l160 158.1 160-158.1zM96 402.8V448h320v-45.2H96z'/%3E%3C/svg%3E") no-repeat left
       background-size: 1.5em
