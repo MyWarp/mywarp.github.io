@@ -30,7 +30,7 @@ table.build-table
   td
     font-family: "Space Mono", $font-stack-monaco
 
-  a
+  .commit-hash a
     position: relative
 
     &:before
@@ -138,6 +138,10 @@ table.build-table
         .artifact-size
           color: $medium-gray
           font-size: 80%
+          display: block
+
+          @media screen and #{$media-tablet-up}
+            display: inline
 
       &:hover
         background-color: $base-font-color
