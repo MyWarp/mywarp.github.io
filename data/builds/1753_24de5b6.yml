@@ -1,0 +1,14 @@
+build:
+  by: "Travis"
+  number: 1753
+  successful: true
+  date: "05/01/2019"
+commit:
+  short_hash: "24de5b6"
+  message: "[Bukkit] Add missing api-version to plugin.yml"
+  author: "TheE"
+  tags: ""
+artifacts:
+  - mywarp-bukkit-*-all.jar
+  - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
+  - mywarp-core-!(*javadoc|*sources).jar
