@@ -1,0 +1,14 @@
+build:
+  by: "Travis"
+  number: 1752
+  successful: true
+  date: "05/01/2019"
+commit:
+  short_hash: "a941be2"
+  message: "Prepare for next development iteration"
+  author: "TheE"
+  tags: ""
+artifacts:
+  - mywarp-bukkit-*-all.jar
+  - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
+  - mywarp-core-!(*javadoc|*sources).jar
