@@ -1,0 +1,14 @@
+build:
+  by: "Travis"
+  number: 1775
+  successful: true
+  date: "19/02/2019"
+commit:
+  short_hash: "86d9f59"
+  message: "Update VaultAPI to 1.7 and switch to self-hosted repo"
+  author: "TheE"
+  tags: ""
+artifacts:
+  - mywarp-bukkit-*-all.jar
+  - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
+  - mywarp-core-!(*javadoc|*sources).jar
