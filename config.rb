@@ -4,10 +4,6 @@
 
 require 'builder'
 
-# TODO remove when updating to Middleman 4.3
-# See https://github.com/middleman/middleman/issues/2087
-Haml::TempleEngine.disable_option_validator!
-
 # Per-page layout changes:
 #
 # With no layout
