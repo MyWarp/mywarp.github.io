@@ -24,7 +24,7 @@ end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 data.builds.each do |id, info|
-  proxy "/builds/#{info.commit.short_hash}.html", "single_build_information", :locals => {:info => info}, :ignore => true
+  proxy "/builds/#{info.commit.short_hash}.html", "builds/single_build_information", :locals => {:info => info}, :ignore => true
 end
 
 # General configuration

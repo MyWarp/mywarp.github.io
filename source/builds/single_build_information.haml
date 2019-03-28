@@ -1,0 +1,83 @@
+---
+title: MyWarp builds
+site_heading: builds
+---
+%p.warning
+  These downloads are created from every change made in the code, which may mean that some of these downloads may be unstable or cause problems. If you notice any errors, please #{link_to 'report', 'https://github.com/MyWarp/MyWarp/issues'} them.
+
+%h3.table-heading
+  Build
+
+.table-wrapper
+  %table#build-information.build-table
+    %tr
+      %th.build-number
+        No.
+      %th.build-by
+        Build by
+      %th.build-date
+        Date
+      %th.build-status
+        Status
+
+    %tr
+      %td.build-number
+        =info.build.number
+      %td.build-by
+        =info.build.by
+      %td.build-date
+        =info.build.date
+      %td.build-status
+        - if info.build.successful.to_s == "true"
+          %span.sucessfull
+        - else
+          %span.failed
+
+%h3.table-heading
+  Changes
+
+.table-wrapper
+  %table#commit-info.build-table
+    %tr
+      %th.commit-hash
+        Commit
+      %th.commit-msg
+        Info
+      %th.commit-author
+        Author
+
+    %tr
+      %td.commit-hash
+        =link_to_commit info.commit.short_hash
+      %td.commit-msg
+        =info.commit.message
+        - unless info.commit.tags.nil?
+          .commit-tags
+            =info.commit.tags
+      %td.commit-author
+        =info.commit.author
+
+%h3
+  Artifacts
+
+%section.downloads
+  - if info.build.successful.to_s == "true"
+    - if (artifact_files info).any?
+      %p
+        :markdown
+          **Note:** To run MyWarp, you only need the `-all` version for you platform which includes all dependencies. The `core` is only relevant for developers.
+      %ul
+        - artifact_files(info).each do |artifact|
+          %li
+            %a.artifact_download{:href=>"#{artifact_url artifact}"}
+              .artifact-info
+                %span.artifact-name
+                  = File.basename(artifact) 
+                %span.artifact-size
+                  (#{artifact_size artifact} MB)
+    - else
+      %p.error
+        The build suceeded but no artfacts were saved.
+  - else
+    %p.error
+      Build failure.
