@@ -39,6 +39,9 @@
     %meta{:name=> "msapplication-wide310x150logo", :content=> "/mstile-310x310.png"}/
     %meta{:name=> "msapplication-square310x310logo", :content=> "/mstile-310x150.png"}/
 
+    //Feeds
+    %link{:rel=> "alternate", :type=> "application/rss+xml", :title=> "Feed for new builds", :href=> "/builds/builds_feed.xml"}/
+
     //Title from the current page's frontmatter
     %title= current_page.data.title || "MyWarp"
     
@@ -68,7 +71,7 @@
               %li
                 %a{:href=> 'https://github.com/MyWarp/MyWarp/issues'} Issues
               %li
-                %a{:href=> '/builds.html'} Builds
+                %a{:href=> '/builds/'} Builds
               %li
                 %a{:href=> 'https://crowdin.com/project/mywarp'} i18n
             

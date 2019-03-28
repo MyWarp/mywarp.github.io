@@ -22,6 +22,9 @@ gem 'middleman-imageoptim', :git => "https://github.com/plasticine/middleman-ima
 gem 'middleman-pagination', "~>1.2.0", :git => "https://github.com/suresh44t/middleman-pagination.git" #This fork is actually compatible with Middleman 4
 gem 'middleman-robots'
 
+#Tools
+gem 'builder', '~> 3.2'
+
 # Bourbon, Neat & Bitters
 gem 'bourbon', '~> 5.1'
 gem 'neat', '~> 3.0'
