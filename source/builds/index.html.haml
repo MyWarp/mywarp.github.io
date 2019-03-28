@@ -38,10 +38,13 @@ pagination:
 
 .pagination-info
   %span.page-numbers
+    = link_to "&#x226a", pagination_context.prev_page.url if pagination_context.prev_page
     Page #{pagination_context.page_num} of #{pagination_context.total_page_num}
-  %span.page-nav
-    = link_to "< Previous Page", pagination_context.prev_page.url if pagination_context.prev_page
-    = link_to "Next Page >", pagination_context.next_page.url if pagination_context.next_page
+    = link_to "&#x226b;", pagination_context.next_page.url if pagination_context.next_page
+  %span.feeds
+    %span.info
+      Available as
+    = link_to "RSS", "builds/builds_feed.xml"
 
 
 // Showing #{pagination_context.per_page} per page

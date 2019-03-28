@@ -2,6 +2,8 @@
 # Page options, layouts, aliases and proxies
 ###
 
+require 'builder'
+
 # TODO remove when updating to Middleman 4.3
 # See https://github.com/middleman/middleman/issues/2087
 Haml::TempleEngine.disable_option_validator!
