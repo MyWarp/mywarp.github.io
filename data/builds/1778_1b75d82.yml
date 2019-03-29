@@ -1,0 +1,14 @@
+build:
+  by: "Travis"
+  number: 1778
+  successful: true
+  date: "29/03/2019"
+commit:
+  short_hash: "1b75d82"
+  message: "Fix interaction event cancellation"
+  author: "TheE"
+  tags: ""
+artifacts:
+  - mywarp-bukkit-*-all.jar
+  - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
+  - mywarp-core-!(*javadoc|*sources).jar
