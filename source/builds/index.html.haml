@@ -32,7 +32,7 @@ pagination:
             .commit-tags
               =info.commit.tags
         %td.download
-          %a{:href=>"/builds/#{info.commit.short_hash}.html"}
+          %a{:href=>"/builds/#{info.build.number}.html"}
             get
 
 
@@ -44,7 +44,7 @@ pagination:
   %span.feeds
     %span.info
       Available as
-    = link_to "RSS", "builds/builds_feed.xml"
+    = link_to "RSS", "builds/feed.xml"
 
 
 // Showing #{pagination_context.per_page} per page
