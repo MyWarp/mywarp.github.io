@@ -1,0 +1,14 @@
+build:
+  by: "Travis"
+  number: 1779
+  successful: true
+  date: "08/05/2019"
+commit:
+  short_hash: "6c78670"
+  message: "Build against 1.14, update material information accordingly Fixes #209."
+  author: "TheE"
+  tags: ""
+artifacts:
+  - mywarp-bukkit-*-all.jar
+  - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
+  - mywarp-core-!(*javadoc|*sources).jar
