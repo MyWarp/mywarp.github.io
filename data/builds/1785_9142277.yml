@@ -1,0 +1,14 @@
+build:
+  by: "Travis"
+  number: 1785
+  successful: true
+  date: "11/06/2019"
+commit:
+  short_hash: "9142277"
+  message: "Update issue templates"
+  author: "TheE"
+  tags: ""
+artifacts:
+  - mywarp-bukkit-*-all.jar
+  - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
+  - mywarp-core-!(*javadoc|*sources).jar
