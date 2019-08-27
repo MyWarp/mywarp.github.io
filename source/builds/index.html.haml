@@ -35,7 +35,6 @@ pagination:
           %a{:href=>"/builds/#{info.build.number}.html"}
             get
 
-
 .pagination-info
   %span.page-numbers
     = link_to "&#x226a", pagination_context.prev_page.url if pagination_context.prev_page
@@ -45,7 +44,6 @@ pagination:
     %span.info
       Available as
     = link_to "RSS", "builds/feed.xml"
-
 
 // Showing #{pagination_context.per_page} per page
 // = link_to "First page", pagination_context.first_page.url
