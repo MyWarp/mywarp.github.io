@@ -1,15 +1,4 @@
 GIT
-  remote: https://github.com/plasticine/middleman-imageoptim
-  revision: fe3dac51a3a1180acebc38c0223e92e3e981380e
-  branch: master
-  specs:
-    middleman-imageoptim (0.3.0)
-      image_optim (~> 0.25.0)
-      image_optim_pack (~> 0.2.1)
-      middleman-cli
-      middleman-core (>= 3.1)
-
-GIT
   remote: https://github.com/suresh44t/middleman-pagination.git
   revision: cc7a1273ca8798e98e2ca0eac792b6c8daf24a7d
   specs:
@@ -57,7 +46,7 @@ GEM
     favicon_maker (1.3.1)
       docile (~> 1.1)
     ffi (1.10.0)
-    fspath (3.1.0)
+    fspath (3.1.2)
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -78,7 +67,7 @@ GEM
       fspath (>= 2.1, < 4)
       image_optim (~> 0.19)
     image_size (1.5.0)
-    in_threads (1.5.1)
+    in_threads (1.5.3)
     kramdown (1.17.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -121,6 +110,11 @@ GEM
     middleman-favicon-maker (4.1.0)
       favicon_maker (~> 1.3, >= 1.3.1)
       middleman-core (~> 4.0)
+    middleman-imageoptim (0.3.0)
+      image_optim (~> 0.25.0)
+      image_optim_pack (~> 0.2.1)
+      middleman-cli
+      middleman-core (>= 3.1)
     middleman-livereload (3.4.6)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -145,7 +139,7 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.16.0)
-    progress (3.5.0)
+    progress (3.5.2)
     public_suffix (3.0.3)
     rack (2.0.6)
     rack-livereload (0.3.17)
@@ -182,7 +176,7 @@ DEPENDENCIES
   middleman (~> 4.3)
   middleman-autoprefixer
   middleman-favicon-maker
-  middleman-imageoptim!
+  middleman-imageoptim
   middleman-livereload
   middleman-minify-html
   middleman-pagination (~> 1.2.0)!
@@ -193,4 +187,4 @@ DEPENDENCIES
   wdm (~> 0.1)
 
 BUNDLED WITH
-   1.15.4
+   2.0.1
