@@ -112,17 +112,25 @@ end
     return link_to commitHash, GITHUB_URL + commitHash
   end
 
-  def artifact_url(binary)
+  def artifact_files(buildInfo, includePattern="*", excludePattern="")
+    path = 'source/files/' + buildInfo.build.number.to_s + '_' + buildInfo.commit.short_hash.to_s + '/';
+    files =  Dir.glob( path + includePattern )
+
+    unless excludePattern.empty?
+      files -= Dir.glob(path + excludePattern)
+    end
+
+    return files
+  end
+
+  def file_url(binary)
     absolute_path = Pathname.new(binary)
     project_root  = Pathname.new("source")
     return '/' + absolute_path.relative_path_from(project_root).to_s
   end
 
-  def artifact_files(buildInfo)
-    return Dir.glob( 'source/files/' + buildInfo.build.number.to_s + '_' + buildInfo.commit.short_hash.to_s + '/*.jar' )
-  end
-
-  def artifact_size(binary, format="%.2f")
+  def file_size(binary, format="%.2f")
     return format % (File.size(binary).to_f / 2**20)
   end
+
  end
