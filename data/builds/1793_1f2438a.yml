@@ -1,0 +1,14 @@
+build:
+  by: "Travis"
+  number: 1793
+  successful: true
+  date: "28/08/2019"
+commit:
+  short_hash: "1f2438a"
+  message: "Revert unsuccessfully deployment changes"
+  author: "TheE"
+  tags: ""
+artifacts:
+  - mywarp-bukkit-*-all.jar
+  - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
+  - mywarp-core-!(*javadoc|*sources).jar
