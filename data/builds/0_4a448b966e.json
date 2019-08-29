@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "unknown",
+        "number": "0",
+        "successful": "true",
+        "date": "29.08.2019"
+    },
+    "version": {
+        "shortVersion": "3.0.2-SNAPSHOT",
+        "longVersion": "3.0.2-SNAPSHOT+unknown-b0.git-4a448b966e"
+    },
+    "commit": {
+        "short_hash": "4a448b966e",
+        "message": "[Travis] Remove development artifact",
+        "author": "TheE",
+        "tags": null
+    }
+}
