@@ -28,9 +28,9 @@ pagination:
           = link_to_commit info.commit.short_hash
         %td.commit-msg
           = info.commit.message
-          - unless info.commit.tags.nil?
+          - unless info.commit.tag.nil?
             .commit-tags
-              =info.commit.tags
+              =info.commit.tag
         %td.download
           %a{:href=>"/builds/#{info.build.number}.html"}
             get

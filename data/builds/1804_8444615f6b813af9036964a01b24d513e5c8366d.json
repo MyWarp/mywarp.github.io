@@ -3,16 +3,16 @@
         "by": "travis",
         "number": "1804",
         "successful": "true",
-        "date": "31.08.2019"
+        "date": "31/08/2019"
     },
     "version": {
         "shortVersion": "3.0.2-SNAPSHOT",
-        "longVersion": "3.0.2-SNAPSHOT+travis-b1804.git-8444615f6b813af9036964a01b24d513e5c8366d"
+        "longVersion": "3.0.2-SNAPSHOT+travis-b1804.git-8444615"
     },
     "commit": {
-        "short_hash": "8444615f6b813af9036964a01b24d513e5c8366d",
+        "short_hash": "8444615",
         "message": "[Travis] Fix environment variable definition, 2nd attempt",
         "author": "TheE",
-        "tags": null
+        "tags": ""
     }
 }
