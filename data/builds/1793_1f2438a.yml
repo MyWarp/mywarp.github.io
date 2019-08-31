@@ -7,7 +7,7 @@ commit:
   short_hash: "1f2438a"
   message: "Revert unsuccessfully deployment changes"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

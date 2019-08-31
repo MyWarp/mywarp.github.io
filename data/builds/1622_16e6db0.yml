@@ -7,7 +7,7 @@ commit:
   short_hash: "16e6db0"
   message: "Add support for deployment of tagged commits"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-3.0-SNAPSHOT-all.jar
   - mywarp-bukkit-3.0-SNAPSHOT.jar

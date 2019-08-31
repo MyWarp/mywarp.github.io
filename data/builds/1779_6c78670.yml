@@ -7,7 +7,7 @@ commit:
   short_hash: "6c78670"
   message: "Build against 1.14, update material information accordingly Fixes #209."
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

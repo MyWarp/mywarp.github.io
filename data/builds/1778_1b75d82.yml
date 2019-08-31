@@ -7,7 +7,7 @@ commit:
   short_hash: "1b75d82"
   message: "Fix interaction event cancellation"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

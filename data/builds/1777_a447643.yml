@@ -7,7 +7,7 @@ commit:
   short_hash: "a447643"
   message: "Prepare for next development iteration"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

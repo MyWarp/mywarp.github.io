@@ -7,7 +7,7 @@ commit:
   short_hash: "e6d93f3"
   message: "[Bukkit] Increase the conversation timeout to 60 seconds"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

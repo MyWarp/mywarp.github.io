@@ -7,7 +7,7 @@ commit:
   short_hash: "86d9f59"
   message: "Update VaultAPI to 1.7 and switch to self-hosted repo"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

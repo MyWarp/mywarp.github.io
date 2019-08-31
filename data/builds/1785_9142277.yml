@@ -7,7 +7,7 @@ commit:
   short_hash: "9142277"
   message: "Update issue templates"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

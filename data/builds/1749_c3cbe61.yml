@@ -7,7 +7,7 @@ commit:
   short_hash: "c3cbe61"
   message: "Release 3.0"
   author: "TheE"
-  tags: "v3.0"
+  tag: "v3.0"
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
