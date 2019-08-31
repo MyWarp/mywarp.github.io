@@ -7,7 +7,7 @@ commit:
   short_hash: "9308306"
   message: "Build against Bukkit 1.14.4"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

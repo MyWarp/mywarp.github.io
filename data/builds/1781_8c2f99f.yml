@@ -7,7 +7,7 @@ commit:
   short_hash: "8c2f99f"
   message: "Update changelog"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

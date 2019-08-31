@@ -7,7 +7,7 @@ commit:
   short_hash: "c4a48e1"
   message: "Hotfix for broken limits with warps on multiple worlds"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

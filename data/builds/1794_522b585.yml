@@ -7,7 +7,7 @@ commit:
   short_hash: "522b585"
   message: "Update Gradle to 5.6.1, clean-up build files"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

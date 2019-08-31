@@ -7,7 +7,7 @@ commit:
   short_hash: "60ac423"
   message: "Experimental: Minimize shadow jar on build"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

@@ -7,7 +7,7 @@ commit:
   short_hash: "24de5b6"
   message: "[Bukkit] Add missing api-version to plugin.yml"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

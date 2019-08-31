@@ -7,7 +7,7 @@ commit:
   short_hash: "f3ed0f3"
   message: "Fix flawed evaluation of interactions with warp signs"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

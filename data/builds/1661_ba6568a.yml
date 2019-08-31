@@ -7,7 +7,7 @@ commit:
   short_hash: "ba6568a"
   message: "Fix unsupported database errors when using MySQL 5.7 or newer"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar

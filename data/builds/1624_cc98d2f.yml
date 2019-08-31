@@ -7,7 +7,7 @@ commit:
   short_hash: "cc98d2f"
   message: "Fix deployment of non-SNAPSHOT versions, 2nd attempt"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-3.0-SNAPSHOT-all.jar
   - mywarp-bukkit-3.0-SNAPSHOT.jar

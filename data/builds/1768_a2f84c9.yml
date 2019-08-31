@@ -7,7 +7,7 @@ commit:
   short_hash: "a2f84c9"
   message: "[Travis] Use Gradle's build scans"
   author: "TheE"
-  tags: ""
+  tag: ""
 artifacts:
   - mywarp-bukkit-*-all.jar
   - mywarp-bukkit-!(*javadoc|*sources|*-all).jar
