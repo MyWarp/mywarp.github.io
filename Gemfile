@@ -15,7 +15,6 @@ gem 'middleman', '~> 4.3'
 gem 'middleman-livereload'
 gem 'middleman-autoprefixer'
 gem 'middleman-favicon-maker'
-#gem 'middleman-deploy', '~> 2.0.0.pre.alpha' #Unused
 gem 'middleman-search_engine_sitemap'
 gem 'middleman-minify-html'
 gem 'middleman-imageoptim'
@@ -25,7 +24,6 @@ gem 'middleman-robots'
 #Tools
 gem 'builder', '~> 3.2'
 
-# Bourbon, Neat & Bitters
+# Bourbon & Bitters
 gem 'bourbon', '~> 5.1'
-gem 'neat', '~> 3.0'
 gem 'bitters', '~> 1.8'
