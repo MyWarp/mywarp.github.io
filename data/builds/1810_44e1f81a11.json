@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1810",
+        "successful": "true",
+        "date": "25/11/2019"
+    },
+    "version": {
+        "shortVersion": "3.0.2-SNAPSHOT",
+        "longVersion": "3.0.2-SNAPSHOT+Travis-b1810.git-44e1f81a11"
+    },
+    "commit": {
+        "short_hash": "44e1f81a11",
+        "message": "Adds (optional) cooldowns and warmups to warp signs",
+        "author": "TheE",
+        "tag": ""
+    }
+}
