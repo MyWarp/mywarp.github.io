@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1815",
+        "successful": "true",
+        "date": "01/12/2019"
+    },
+    "version": {
+        "shortVersion": "3.1",
+        "longVersion": "3.1+Travis-b1815.git-77239c4f28"
+    },
+    "commit": {
+        "short_hash": "77239c4f28",
+        "message": "Release 3.1",
+        "author": "TheE",
+        "tag": "v3.1"
+    }
+}
