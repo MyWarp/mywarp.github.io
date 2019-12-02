@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1818",
+        "successful": "true",
+        "date": "02/12/2019"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1818.git-3264ee2b35"
+    },
+    "commit": {
+        "short_hash": "3264ee2b35",
+        "message": "[Bukkit] Remove deprecated chunk pre-loading",
+        "author": "TheE",
+        "tag": ""
+    }
+}
