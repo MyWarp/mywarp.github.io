@@ -70,6 +70,7 @@
   font-weight: 400;
   src: local("Space Mono"), local("SpaceMono-Regular"), url("../fonts/space-mono-v2-latin-regular.woff2") format("woff2"), url("../fonts/space-mono-v2-latin-regular.woff") format("woff");
   font-display: swap;
+  font-variant-ligatures: no-common-ligatures;
 }
 
 // Typography
