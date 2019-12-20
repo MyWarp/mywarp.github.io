@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1828",
+        "successful": "true",
+        "date": "20/12/2019"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1828.git-94cd688516"
+    },
+    "commit": {
+        "short_hash": "94cd688516",
+        "message": "Bump com.github.johnrengelman.shadow from 5.1.0 to 5.2.0 (#228)",
+        "author": "dependabot-preview[bot]",
+        "tag": ""
+    }
+}
