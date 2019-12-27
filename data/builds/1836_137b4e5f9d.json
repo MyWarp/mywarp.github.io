@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1836",
+        "successful": "true",
+        "date": "27/12/2019"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1836.git-137b4e5f9d"
+    },
+    "commit": {
+        "short_hash": "137b4e5f9d",
+        "message": "[Bukkit] Do not log an Exception when using LegacyFaceBlockResolver",
+        "author": "TheE",
+        "tag": ""
+    }
+}
