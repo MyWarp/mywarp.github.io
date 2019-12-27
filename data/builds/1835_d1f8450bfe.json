@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1835",
+        "successful": "true",
+        "date": "27/12/2019"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1835.git-d1f8450bfe"
+    },
+    "commit": {
+        "short_hash": "d1f8450bfe",
+        "message": "Bump slf4j-api from 1.7.25 to 1.7.30 (#226)",
+        "author": "dependabot-preview[bot]",
+        "tag": ""
+    }
+}
