@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1833",
+        "successful": "true",
+        "date": "27/12/2019"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1833.git-18b42a1c8c"
+    },
+    "commit": {
+        "short_hash": "18b42a1c8c",
+        "message": "Bump squirrelid from 0.1.0 to 0.2.0 (#229)",
+        "author": "dependabot-preview[bot]",
+        "tag": ""
+    }
+}
