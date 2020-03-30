@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1842",
+        "successful": "true",
+        "date": "30/03/2020"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1842.git-d8bab4f38c"
+    },
+    "commit": {
+        "short_hash": "d8bab4f38c",
+        "message": "Bump com.palantir.git-version from 0.12.2 to 0.12.3 (#236)",
+        "author": "dependabot-preview[bot]",
+        "tag": ""
+    }
+}
