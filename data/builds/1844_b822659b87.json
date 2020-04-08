@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1844",
+        "successful": "true",
+        "date": "08/04/2020"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1844.git-b822659b87"
+    },
+    "commit": {
+        "short_hash": "b822659b87",
+        "message": "Update Flyway to 6.3.3",
+        "author": "TheE",
+        "tag": ""
+    }
+}
