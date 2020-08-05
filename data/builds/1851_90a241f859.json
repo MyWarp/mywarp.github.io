@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1851",
+        "successful": "true",
+        "date": "05/08/2020"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1851.git-90a241f859"
+    },
+    "commit": {
+        "short_hash": "90a241f859",
+        "message": "Bump animal-sniffer-annotations from 1.18 to 1.19 (#248)",
+        "author": "dependabot-preview[bot]",
+        "tag": ""
+    }
+}
