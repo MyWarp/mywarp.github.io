@@ -26,4 +26,4 @@ gem 'builder', '~> 3.2'
 
 # Bourbon & Bitters
 gem 'bourbon', '~> 5.1'
-gem 'bitters', '~> 1.8'
+gem 'bitters', '~> 2.0'
