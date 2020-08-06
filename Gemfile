@@ -25,5 +25,5 @@ gem 'middleman-robots'
 gem 'builder', '~> 3.2'
 
 # Bourbon & Bitters
-gem 'bourbon', '~> 5.1'
+gem 'bourbon', '~> 6.0'
 gem 'bitters', '~> 2.0'
