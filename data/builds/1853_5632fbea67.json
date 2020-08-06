@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1853",
+        "successful": "true",
+        "date": "06/08/2020"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1853.git-5632fbea67"
+    },
+    "commit": {
+        "short_hash": "5632fbea67",
+        "message": "Update com.github.johnrengelman.shadow to 6.0.0",
+        "author": "TheE",
+        "tag": ""
+    }
+}
