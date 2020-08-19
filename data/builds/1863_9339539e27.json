@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1863",
+        "successful": "true",
+        "date": "19/08/2020"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1863.git-9339539e27"
+    },
+    "commit": {
+        "short_hash": "9339539e27",
+        "message": "Bump flyway-core from 6.5.4 to 6.5.5 (#254)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
