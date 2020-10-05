@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1877",
+        "successful": "true",
+        "date": "05/10/2020"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1877.git-c8e1d631d3"
+    },
+    "commit": {
+        "short_hash": "c8e1d631d3",
+        "message": "Bump jooq-checker from 3.13.4 to 3.13.5 (#262)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
