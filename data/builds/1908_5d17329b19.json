@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "Travis",
+        "number": "1908",
+        "successful": "true",
+        "date": "03/11/2020"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+Travis-b1908.git-5d17329b19"
+    },
+    "commit": {
+        "short_hash": "5d17329b19",
+        "message": "Bump spigot-api from 1.16.3-R0.1-SNAPSHOT to 1.16.4-R0.1-SNAPSHOT (#275)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
