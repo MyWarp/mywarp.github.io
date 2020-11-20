@@ -1,0 +1,1 @@
+var menuButton=document.getElementById("menu-button"),menuNav=document.getElementById("site-nav");menuButton.addEventListener("click",function(t){menuButton.classList.toggle("is-active"),menuNav.classList.toggle("is-active"),t.preventDefault()});
