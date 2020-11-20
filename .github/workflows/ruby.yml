@@ -15,9 +15,7 @@ on:
 
 jobs:
   build:
-    name: Builds the site by runnign Middleman
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby
@@ -25,7 +23,9 @@ jobs:
       with:
         ruby-version: 2.6
         bundler-cache: true
-    - name: Install dependencies
+    - name: Install Node dependencies
+      run: npm install svgo pngout-bin
+    - name: Install ruby dependencies
       run: bundle install
     - name: Run Middleman
       run: bundle exec middleman build
