@@ -1,5 +1,5 @@
 # [mywarp.github.io](https://mywarp.github.io)
-[![Build Status](https://travis-ci.org/MyWarp/mywarp.github.io.svg?branch=src)](https://travis-ci.org/MyWarp/mywarp.github.io)
+[![Build Status](https://github.com/MyWarp/mywarp.github.io/workflows/publish%20website/badge.svg)](https://github.com/MyWarp/mywarp.github.io/actions)
 
 Website for the [MyWarp project](https://github.com/MyWarp/MyWarp), hosted on GitHub pages.
 

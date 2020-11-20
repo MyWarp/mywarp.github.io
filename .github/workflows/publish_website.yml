@@ -1,4 +1,4 @@
-name: website
+name: publish website
 
 on:
   push:
@@ -10,12 +10,12 @@ jobs:
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v2
-    - name: Set up Ruby
+    - name: Set up Ruby 🧱
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6
         bundler-cache: true
-    - name: Install dependencies
+    - name: Install dependencies 🧱
       run: bundle install
     - name: Run Middleman 🔧
       run: bundle exec middleman build

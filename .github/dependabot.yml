@@ -6,3 +6,9 @@ updates:
       interval: "daily"
     assignees:
       - "TheE"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "TheE"
