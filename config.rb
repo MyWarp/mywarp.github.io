@@ -49,7 +49,11 @@ configure :build do
   activate :minify_javascript
 
   # Optimize images on build
-  activate :imageoptim
+  activate :imageoptim do |options|
+    #do not use pngout and svgo, both are not part of image_optim_pack
+    options.pngout = false 
+    options.svgo = false
+  end
 
   # Create favicons
   activate :favicon_maker do |f|

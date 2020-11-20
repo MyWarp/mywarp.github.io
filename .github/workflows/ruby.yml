@@ -23,9 +23,7 @@ jobs:
       with:
         ruby-version: 2.6
         bundler-cache: true
-    - name: Install imagemin dependencies
-      run: npm install imagemin-pngout imagemin-svgo
-    - name: Install ruby dependencies
+    - name: Install dependencies
       run: bundle install
     - name: Run Middleman
       run: bundle exec middleman build
