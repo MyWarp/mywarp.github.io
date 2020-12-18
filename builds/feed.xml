@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 18 Dec 2020 11:58:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Dec 2020 14:14:43 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -532,11 +532,11 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1785.html</guid>
     </item>
     <item>
-      <title>Build No. $GITHUB_RUN_NUMBER (3f10ddb47e)</title>
+      <title>Build No. 5 (3f10ddb47e)</title>
       <description>Deploy from GitHub Actions</description>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/$GITHUB_RUN_NUMBER.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/$GITHUB_RUN_NUMBER.html</guid>
+      <link>https://mywarp.github.io/builds/5.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/5.html</guid>
     </item>
     <item>
       <title>Build No. 1889 (80d7f00a9f)</title>
