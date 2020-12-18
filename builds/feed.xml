@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 18 Dec 2020 14:14:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Dec 2020 14:33:20 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -26,6 +26,13 @@
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1793.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1793.html</guid>
+    </item>
+    <item>
+      <title>Build No. 7 (cfde2ab9dc)</title>
+      <description>Remove Travis.</description>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/7.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/7.html</guid>
     </item>
     <item>
       <title>Build No. 1906 (f4cc2a3ad1)</title>
