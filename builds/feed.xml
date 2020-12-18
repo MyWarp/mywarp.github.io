@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 18 Dec 2020 14:33:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Dec 2020 14:35:13 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -194,6 +194,13 @@
       <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1842.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1842.html</guid>
+    </item>
+    <item>
+      <title>Build No. 8 (1be4341292)</title>
+      <description>Bump flyway-core from 7.3.1 to 7.3.2 (#288)</description>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/8.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/8.html</guid>
     </item>
     <item>
       <title>Build No. 1737 (60ac423)</title>
