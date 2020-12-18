@@ -18,13 +18,15 @@ page '/*.txt', layout: false
 # see: https://github.com/suresh44t/middleman-pagination#usage
 activate :pagination do
   pageable_set :dev_builds do
-    data.builds.sort.reverse
+    # After 3.1.1-SNAPSHOT+Travis-b1930.git-10b9684e31, MyWarp switched its CI from Travis to Github actions. Build numbers started over from 0.
+    # Here, we sort the list by (a) CI (alphabetically, i.e. Github Actions comes first) and (b) by build number (higher ones come first).
+    data.builds.sort_by { |file_name, content| [content.build.by, -content.build.number.to_i]}
   end
 end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-data.builds.each do |id, info|
-  proxy "/builds/#{info.build.number}.html", "builds/single_build_information", :locals => {:info => info}, :ignore => true
+data.builds.each do |file_name, content|
+  proxy "/builds/#{content.build.number}.html", "builds/single_build_information", :locals => {:info => content}, :ignore => true
 end
 
 # General configuration

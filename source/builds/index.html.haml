@@ -20,19 +20,19 @@ pagination:
         Info
       %th.download
 
-    - pagination_context.each do |id, info|
+    - pagination_context.each do |file_name, content|
       %tr
         %td.build-number
-          = info.build.number
+          = content.build.number
         %td.commit-hash
-          = link_to_commit info.commit.short_hash
+          = link_to_commit content.commit.short_hash
         %td.commit-msg
-          = info.commit.message
-          - unless info.commit.tag.nil?
+          = content.commit.message
+          - unless content.commit.tag.nil?
             .commit-tags
-              =info.commit.tag
+              =content.commit.tag
         %td.download
-          %a{:href=>"/builds/#{info.build.number}.html"}
+          %a{:href=>"/builds/#{content.build.number}.html"}
             get
 
 .pagination-info

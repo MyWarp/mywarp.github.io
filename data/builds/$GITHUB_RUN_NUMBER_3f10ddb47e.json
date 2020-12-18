@@ -1,15 +1,18 @@
 {
-    "build": {
+    "build":
+    {
         "by": "GitHub Action",
-        "number": "$GITHUB_RUN_NUMBER",
+        "number": "5",
         "successful": "true",
         "date": "18/12/2020"
     },
-    "version": {
+    "version":
+    {
         "shortVersion": "3.1.1-SNAPSHOT",
-        "longVersion": "3.1.1-SNAPSHOT+GitHub Action-b$GITHUB_RUN_NUMBER.git-3f10ddb47e"
+        "longVersion": "3.1.1-SNAPSHOT+GitHub Action-b5.git-3f10ddb47e"
     },
-    "commit": {
+    "commit":
+    {
         "short_hash": "3f10ddb47e",
         "message": "Deploy from GitHub Actions",
         "author": "TheE",
