@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub Action",
+        "number": "9",
+        "successful": "true",
+        "date": "19/12/2020"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+GitHub Action-b9.git-5a266fbb26"
+    },
+    "commit": {
+        "short_hash": "5a266fbb26",
+        "message": "Update changelog",
+        "author": "TheE",
+        "tag": ""
+    }
+}
