@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 18 Dec 2020 14:35:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Dec 2020 10:39:39 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -68,6 +68,13 @@
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1866.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1866.html</guid>
+    </item>
+    <item>
+      <title>Build No. 9 (5a266fbb26)</title>
+      <description>Update changelog</description>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/9.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/9.html</guid>
     </item>
     <item>
       <title>Build No. 1812 (1ebc24b1c0)</title>
