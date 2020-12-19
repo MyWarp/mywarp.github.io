@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 19 Dec 2020 10:39:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Dec 2020 12:07:00 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -334,6 +334,13 @@
       <pubDate>Thu, 5 Nov 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1910.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1910.html</guid>
+    </item>
+    <item>
+      <title>Build No. 10 (4841409a43)</title>
+      <description>Deploy released artifacts to GitHub Releases (experimental)</description>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/10.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/10.html</guid>
     </item>
     <item>
       <title>Build No. 1607 (d75bd74)</title>
