@@ -23,7 +23,7 @@ jobs:
       run: bundle exec middleman build
     - name: Deploy to GitHub Pages 🚀
       uses: JamesIves/github-pages-deploy-action@3.7.1
-      if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/src'
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: master
