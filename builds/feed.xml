@@ -4,8 +4,8 @@
     <title>MyWarp Development Builds</title>
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
-    <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 19 Dec 2020 22:55:48 +0000</lastBuildDate>
+    <pubDate>Sat, 5 Jan 2019 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Dec 2020 23:29:38 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -40,20 +40,6 @@
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1906.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1906.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1620 (6263331)</title>
-      <description>Update Bukkit dependency to 1.13.1</description>
-      <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1620.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1620.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1627 (c4a48e1)</title>
-      <description>Hotfix for broken limits with warps on multiple worlds</description>
-      <pubDate>Sun, 9 Sep 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1627.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1627.html</guid>
     </item>
     <item>
       <title>Build No. 1821 (e3c967e693)</title>
@@ -91,13 +77,6 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1811.html</guid>
     </item>
     <item>
-      <title>Build No. 1616 (995931d)</title>
-      <description>Allow platforms to specify their own services for displaying paginating content</description>
-      <pubDate>Mon, 3 Sep 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1616.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1616.html</guid>
-    </item>
-    <item>
       <title>Build No. 1810 (44e1f81a11)</title>
       <description>Adds (optional) cooldowns and warmups to warp signs</description>
       <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
@@ -117,13 +96,6 @@
       <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1852.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1852.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1604 (04c7b97)</title>
-      <description>Fix incompatibilities with Guava 10</description>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1604.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1604.html</guid>
     </item>
     <item>
       <title>Build No. 1891 (5d3f133462)</title>
@@ -154,6 +126,13 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1859.html</guid>
     </item>
     <item>
+      <title>Build No. 5 (3f10ddb47e)</title>
+      <description>Deploy from GitHub Actions</description>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/5.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/5.html</guid>
+    </item>
+    <item>
       <title>Build No. 1899 (163f3130a6)</title>
       <description>Bump flyway-core from 7.0.4 to 7.1.0 (#271)</description>
       <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
@@ -173,20 +152,6 @@
       <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1777.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1777.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1736 (3f7bdfd)</title>
-      <description>Update Gradle to 5.0, update plugins to most recent versions</description>
-      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1736.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1736.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1602 (0cfb9a0)</title>
-      <description>Remove commons-lang dependency, fix some rare new-line bugs on Windows</description>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1602.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1602.html</guid>
     </item>
     <item>
       <title>Build No. 1882 (8ff3a86a1d)</title>
@@ -210,13 +175,6 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/8.html</guid>
     </item>
     <item>
-      <title>Build No. 1737 (60ac423)</title>
-      <description>Experimental: Minimize shadow jar on build</description>
-      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1737.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1737.html</guid>
-    </item>
-    <item>
       <title>Build No. 1775 (86d9f59)</title>
       <description>Update VaultAPI to 1.7 and switch to self-hosted repo</description>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
@@ -229,13 +187,6 @@
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1921.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1921.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1599 (5793c05)</title>
-      <description>Move deployment script execution back to 'after_success'</description>
-      <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1599.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1599.html</guid>
     </item>
     <item>
       <title>Build No. 1855 (9446119feb)</title>
@@ -259,13 +210,6 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1807.html</guid>
     </item>
     <item>
-      <title>Build No. 1614 (d9992c7)</title>
-      <description>Update MaterialInfo for 1.13, update Bukkit to 1.13</description>
-      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1614.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1614.html</guid>
-    </item>
-    <item>
       <title>Build No. 1832 (2d03ea5fe3)</title>
       <description>Bump com.palantir.git-version from 0.11.0 to 0.12.2 (#230)</description>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
@@ -280,25 +224,11 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1883.html</guid>
     </item>
     <item>
-      <title>Build No. 1626 (222a4b5)</title>
-      <description>Release 3.0-rc-1</description>
-      <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1626.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1626.html</guid>
-    </item>
-    <item>
       <title>Build No. 1853 (5632fbea67)</title>
       <description>Update com.github.johnrengelman.shadow to 6.0.0</description>
       <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1853.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1853.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1613 (fcf63e0)</title>
-      <description>Use MaterialData when checking for buttons and levers</description>
-      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1613.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1613.html</guid>
     </item>
     <item>
       <title>Build No. 1894 (f814d932fa)</title>
@@ -343,13 +273,6 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/10.html</guid>
     </item>
     <item>
-      <title>Build No. 1607 (d75bd74)</title>
-      <description>Use java.time.Duration where possible</description>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1607.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1607.html</guid>
-    </item>
-    <item>
       <title>Build No. 6 (4c6d950c90)</title>
       <description>Fix build number</description>
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
@@ -376,13 +299,6 @@
       <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1768.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1768.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1601 (cc64a9e)</title>
-      <description>[Bukkit] Add a way to specify JDBC configuration options</description>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1601.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1601.html</guid>
     </item>
     <item>
       <title>Build No. 1806 (ff6afdda59)</title>
@@ -427,32 +343,11 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1870.html</guid>
     </item>
     <item>
-      <title>Build No. 1662 (ba6568a)</title>
-      <description>Fix unsupported database errors when using MySQL 5.7 or newer</description>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1662.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1662.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1595 (8c8bbee)</title>
-      <description>Fix script errors</description>
-      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1595.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1595.html</guid>
-    </item>
-    <item>
       <title>Build No. 1818 (3264ee2b35)</title>
       <description>[Bukkit] Remove deprecated chunk pre-loading</description>
       <pubDate>Mon, 2 Dec 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1818.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1818.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1608 (f40ae02)</title>
-      <description>Address some minor coding issues</description>
-      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1608.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1608.html</guid>
     </item>
     <item>
       <title>Build No. 1787 (f3ed0f3)</title>
@@ -467,13 +362,6 @@
       <pubDate>Mon, 5 Oct 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1874.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1874.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1624 (cc98d2f)</title>
-      <description>Fix deployment of non-SNAPSHOT versions, 2nd attempt</description>
-      <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1624.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1624.html</guid>
     </item>
     <item>
       <title>Build No. 1779 (6c78670)</title>
@@ -525,32 +413,11 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1904.html</guid>
     </item>
     <item>
-      <title>Build No. 1748 (c3cbe61)</title>
-      <description>Release 3.0</description>
-      <pubDate>Tue, 1 Jan 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1748.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1748.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1603 (9c6a005)</title>
-      <description>Clean-up and simplify PlaceholderResolver</description>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1603.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1603.html</guid>
-    </item>
-    <item>
       <title>Build No. 1753 (24de5b6)</title>
       <description>[Bukkit] Add missing api-version to plugin.yml</description>
       <pubDate>Sat, 5 Jan 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1753.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1753.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1661 (ba6568a)</title>
-      <description>Fix unsupported database errors when using MySQL 5.7 or newer</description>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1661.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1661.html</guid>
     </item>
     <item>
       <title>Build No. 1785 (9142277)</title>
@@ -560,25 +427,11 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1785.html</guid>
     </item>
     <item>
-      <title>Build No. 5 (3f10ddb47e)</title>
-      <description>Deploy from GitHub Actions</description>
-      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/5.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/5.html</guid>
-    </item>
-    <item>
       <title>Build No. 1889 (80d7f00a9f)</title>
       <description>Bump flyway-core from 7.0.2 to 7.0.3 (#267)</description>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1889.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1889.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1610 (cc738e1)</title>
-      <description>Fix Travis build (hopefully).</description>
-      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1610.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1610.html</guid>
     </item>
     <item>
       <title>Build No. 1916 (667ff808e4)</title>
@@ -607,20 +460,6 @@
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1828.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1828.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1623 (d5cf2d4)</title>
-      <description>Experimental: Fix deployment of non-SNAPSHOT versions</description>
-      <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1623.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1623.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1596 (0b3796b)</title>
-      <description>Fix yml missing from commit</description>
-      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1596.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1596.html</guid>
     </item>
     <item>
       <title>Build No. 1868 (c361eb8f4b)</title>
@@ -656,13 +495,6 @@
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1776.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1776.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1663 (e6d93f3)</title>
-      <description>[Bukkit] Increase the conversation timeout to 60 seconds</description>
-      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1663.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1663.html</guid>
     </item>
     <item>
       <title>Build No. 1923 (bd38d7bc02)</title>
@@ -728,20 +560,6 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1879.html</guid>
     </item>
     <item>
-      <title>Build No. 1622 (16e6db0)</title>
-      <description>Add support for deployment of tagged commits</description>
-      <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1622.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1622.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1600 (e10e8a6)</title>
-      <description>[Bukkit] Update bundled H2 to 1.4</description>
-      <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1600.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1600.html</guid>
-    </item>
-    <item>
       <title>Build No. 1851 (90a241f859)</title>
       <description>Bump animal-sniffer-annotations from 1.18 to 1.19 (#248)</description>
       <pubDate>Wed, 5 Aug 2020 00:00:00 +0000</pubDate>
@@ -761,13 +579,6 @@
       <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1772.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1772.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1605 (87ec042)</title>
-      <description>Fix incompatibilities with Guava 10</description>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1605.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1605.html</guid>
     </item>
     <item>
       <title>Build No. 1819 (b1f5e3ff8b)</title>
@@ -791,20 +602,6 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1836.html</guid>
     </item>
     <item>
-      <title>Build No. 1606 (1763ec3)</title>
-      <description>[Bukkit] Fix incompatibilities with Guava 10 and Bukkit 1.7.10</description>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1606.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1606.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1615 (613d4f3)</title>
-      <description>Update deployment script for site changes</description>
-      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1615.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1615.html</guid>
-    </item>
-    <item>
       <title>Build No. 1925 (634c34fd88)</title>
       <description>Bump flyway-core from 7.2.1 to 7.3.0 (#284)</description>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
@@ -817,13 +614,6 @@
       <pubDate>Sat, 5 Jan 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1752.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1752.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1617 (6263331)</title>
-      <description>Update Bukkit dependency to 1.13.1</description>
-      <pubDate>Tue, 4 Sep 2018 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1617.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1617.html</guid>
     </item>
   </channel>
 </rss>
