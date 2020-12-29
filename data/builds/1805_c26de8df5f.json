@@ -1,15 +1,18 @@
 {
-    "build": {
-        "by": "travis",
+    "build":
+    {
+        "by": "Travis",
         "number": "1805",
         "successful": "true",
         "date": "31/08/2019"
     },
-    "version": {
+    "version":
+    {
         "shortVersion": "3.0.2-SNAPSHOT",
         "longVersion": "3.0.2-SNAPSHOT+travis-b1805.git-c26de8df5f"
     },
-    "commit": {
+    "commit":
+    {
         "short_hash": "c26de8df5f",
         "message": "Fix creation of shadow jar for Bukkit",
         "author": "TheE",
