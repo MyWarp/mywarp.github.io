@@ -1,0 +1,14 @@
+- if artifact_files.empty?
+  %p.error
+    This build did not include any matching artifacts.
+- else
+  %ul.artifact-list
+    - artifact_files.each do |artifact|
+      %li.artifact
+        %a{:href=>"#{file_url artifact}"}
+          %i.gg-arrow-down-r
+          .artifact--info
+            %span.artifact--name
+              = File.basename(artifact) 
+            %span.artifact--size
+              (#{file_size artifact} MB)

@@ -3,11 +3,11 @@
 
 Website for the [MyWarp project](https://github.com/MyWarp/MyWarp), hosted on GitHub pages.
 
-The `master` branch contains the final website, `src` contains the source. Whenever changes are pushed to `src`, it is automatically build by Travis and results are - upon success - pushed to `master`.
+The `master` branch contains the final website, `src` contains the source. Whenever changes are pushed to `src`, it is automatically build by a Github Action and results are - upon success - pushed to `master`.
 
 ## Build
 
-The site is build with [Middleman](https://middlemanapp.com). Templates are written in Haml, styles in Sass. To build it yourself, make sure that Ruby, Rubygems and Imagemagick are installed and configured, then clone this repository and run:
+The site is build with [Middleman](https://middlemanapp.com). Templates are written in Haml, styles in SCSS. To build it yourself, make sure that Ruby, Rubygems and Imagemagick are installed and configured, then clone this repository and run:
 
 ```
 bundle install

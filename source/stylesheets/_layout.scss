@@ -1,0 +1,144 @@
+.site-container {
+    overflow: auto;
+}
+
+.site-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-rows: auto 10fr .5fr;
+}
+
+.site-header {
+    padding: var(--spacing--small);
+    grid-area: header;
+}
+
+.site-content {
+    padding: var(--spacing--small);
+    grid-area: main;
+
+    @media screen and #{$media-tablet-up} {
+        max-width: 66%;
+        margin: 0 auto;
+    }
+}
+
+.site-footer {
+    align-self: end;
+    justify-self: center;
+    font-weight: var(--font-weight--normal);
+    margin-bottom: var(--spacing--small);
+    grid-area: footer;
+    font-size: .8em;
+    color: $gray;
+    z-index: 1;
+}
+
+.site-header--mobile-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header {
+    font-weight: var(--font-weight--semi-bold);
+    z-index: 1;
+}
+
+.site-header--logo {
+    height: 2em;
+}
+
+.site-header--nav {
+    font-size: 2.5em;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+
+    align-items: center;
+    justify-content: center;
+
+    a {
+        color: currentcolor;
+        transition: color var(--timing) var(--duration);
+
+        &:hover {
+            color: $mywarp-green;
+        }
+    }
+
+
+    li {
+        padding: .25em;
+        text-align: center;
+
+        &:last {
+            margin-bottom: var(--spacing);
+        }
+    }
+
+    &.is-active {
+        display: flex;
+
+    }
+}
+
+@media screen and #{$media-tablet-up} {
+
+    .site-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .site-header--btn {
+        display: none;
+    }
+
+    .site-header--mobile-wrapper {
+        display: initial;
+    }
+
+    .site-header--nav {
+        display: initial;
+        position: static;
+
+        font-size: 1.2em;
+        background: none;
+        text-align: right;
+
+        li {
+            display: inline-block;
+            margin-right: var(--spacing--small);
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        a {
+            color: $font-color--base;
+            text-decoration: none;
+            padding: var(--spacing--small);
+            transition: color var(--timing) var(--duration);
+            transition: background-color var(--timing) var(--duration);
+
+            position: relative;
+
+            &:hover {
+                background-color: $font-color--base;
+                color: $viewport-background-color;
+            }
+        }
+    }
+
+}

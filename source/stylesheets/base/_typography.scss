@@ -1,10 +1,8 @@
 html {
-  color: $base-font-color;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  font-weight: regular;
-  text-align: justify;
+    color: $font-color--base;
+    font-family: var(--font-family);
+    font-size: ms(0);
+    line-height: var(--line-height);
 }
 
 h1,
@@ -13,68 +11,74 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
-  font-size: modular-scale(1);
-  line-height: $heading-line-height;
-  margin: 0 0 ($small-spacing / 2);
+    font-family: var(--font-family--heading);
+    line-height: var(--line-height--heading);
+    margin: 0 0 var(--spacing--small);
+}
+
+h1 {
+    font-size: ms(3);
+}
+
+h2 {
+    font-size: ms(2);
+}
+
+summary,
+p {
+    margin: 0 0 var(--spacing--small);
 }
 
 a {
-  color: $action-color;
-  text-decoration-skip: ink;
-  text-decoration: none;
-  transition: color $base-duration $base-timing;
-
-  &:hover {
-    color: darken($action-color, 10%);
-  }
-
-  &:focus {
-    outline: $focus-outline;
-    outline-offset: $focus-outline-offset;
-  }
-}
-
-p {
-  margin: 0 0 $small-spacing;
-
-  a {
-    color: $base-font-color;
-    position: relative;
-
-    &:before {
-      position: absolute;
-      margin: 0 auto;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background-color: $base-font-color;
-      content: '';
-      transform: scaleX(0.8);
-      transition: all $base-duration $base-timing;
-    }
+    color: $action-color;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    transition: color var(--duration) var(--timing);
 
     &:hover {
-      color: $action-color;
-      transition-property: transform;
-
-      &:before {
-        background-color: $action-color;
-        transform: scaleX(1);
-      }
+        color: $action-color--alt;
     }
-  }
+
+    &:focus {
+        outline: var(--focus-outline);
+        outline-offset: var(--focus-outline-offset);
+    }
 }
 
 hr {
-  border-bottom: $base-border;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
-  margin: $base-spacing 0;
+    border-bottom: var(--border);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: var(--spacing) 0;
 }
 
-code, pre, samp {
-  font-family: $mono-font-familiy;
+p a {
+    color: currentcolor;
+    text-decoration: none;
+
+    margin: 0 .125em;
+    position: relative;
+    color: var(--font-color--base);
+
+    &:before {
+        content: '';
+        position: absolute;
+        margin: 0 auto;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: .125em;
+        background-color: currentcolor;
+        transform: scaleX(0.9);
+        transition: all var(--duration) var(--timing);
+    }
+
+    &:hover {
+        color: $action-color;
+    }
+
+    &:hover:before {color: $action-color;
+transform: scaleX(1);
+    }
 }

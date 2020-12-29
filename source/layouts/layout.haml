@@ -1,5 +1,3 @@
-!!! HTML
-!!!
 %html
 
   %head
@@ -7,77 +5,71 @@
     %meta{:content=> "IE=edge", :http-equiv=>"X-UA-Compatible"}/
     %meta{:content=> "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", :name=>"viewport"}/
     
-    //Favicons
-    
-    //Classic favicons
-    %link{:rel=> "icon", :type=> "image/ico", :href=> "favicon.ico"}/
-    %link{:rel=> "shortcut icon", :href=> "favicon.png"}/
+    //Favicons (via realfavicongenerator)
+    %link{:rel=> "apple-touch-icon", :sizes=> "180x180", :href=> "/apple-touch-icon.png"}/
+    %link{:rel=> "icon", :type=> "image/png", :sizes=> "32x32", :href=> "/favicon-32x32.png"}/
+    %link{:rel=> "icon", :type=> "image/png", :sizes=> "16x16", :href=> "/favicon-16x16.png"}/
+    %link{:rel=> "manifest", :href=> "/site.webmanifest"}/
+    %link{:rel=> "mask-icon", :href=> "/safari-pinned-tab.svg", :color=> "#3fae6a"}/
+    %meta{:name=> "msapplication-TileColor", :content=> "#3fae6a"}/
+    %meta{:name=> "theme-color", :content=> "#ffffff"}/
 
-    //Safari (macOS & iOS)
-    %link{:rel=> "apple-touch-icon-precomposed", :sizes=> "180x180", :href=> "apple-touch-icon-180x180-precomposed.png"}/
-    %link{:rel=> "apple-touch-icon-precomposed", :sizes=> "152x152", :href=> "apple-touch-icon-152x152-precomposed.png"}/
-    %link{:rel=> "apple-touch-icon-precomposed", :sizes=> "144x144", :href=> "apple-touch-icon-144x144-precomposed.png"}/
-    %link{:rel=> "apple-touch-icon-precomposed", :sizes=> "120x120", :href=> "apple-touch-icon-120x120-precomposed.png"}/
-    %link{:rel=> "apple-touch-icon-precomposed", :sizes=> "114x114", :href=> "apple-touch-icon-114x114-precomposed.png"}/
-    %link{:rel=> "apple-touch-icon-precomposed", :sizes=> "76x76", :href=> "apple-touch-icon-76x76-precomposed.png"}/
-    %link{:rel=> "apple-touch-icon-precomposed", :sizes=> "72x72", :href=> "apple-touch-icon-72x72-precomposed.png"}/
-    %link{:rel=> "apple-touch-icon-precomposed", :href=> "apple-touch-icon-precomposed.png"}/
-
-    //Chrome for Android
-    %link{:rel=> "icon", :sizes=> "192x192", :href=> "touch-icon-192x192.png"}/
-
-    //Opera, Google TV, Safari on macOS
-    %link{:rel=> "icon", :sizes=> "160x160", :href=> "touch-icon-160x160.png"}/
-    %link{:rel=> "icon", :sizes=> "96x96", :href=> "touch-icon-96x96.png"}/
-    %link{:rel=> "icon", :sizes=> "32x32", :href=> "touch-icon-32x32.png"}/
-
-    //Windows 8+ title pictures
-    %meta{:name=> "msapplication-TileColor", :content=> "#ffffff"}/
-    %meta{:name=> "msapplication-TileImage", :content=> "/mstile-144x144.png"}/
-    %meta{:name=> "msapplication-square70x70logo", :content=> "/mstile-70x70.png"}/
-    %meta{:name=> "msapplication-square150x150logo", :content=> "/mstile-150x150.png"}/
-    %meta{:name=> "msapplication-wide310x150logo", :content=> "/mstile-310x310.png"}/
-    %meta{:name=> "msapplication-square310x310logo", :content=> "/mstile-310x150.png"}/
+    //Fonts
+    %link{:rel=>"preconnect", :href=>"https://fonts.gstatic.com"}/
+    %link{:href=>"https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;600&display=swap", :rel=>"stylesheet"}/
 
     //Feeds
     %link{:rel=> "alternate", :type=> "application/rss+xml", :title=> "Feed for new builds", :href=> "/builds/feed.xml"}/
 
     //Title from the current page's frontmatter
-    %title= current_page.data.title || "MyWarp"
+    %title= locals.key?(:title) ? title : current_page.data.title || "MyWarp"
     
     = stylesheet_link_tag :site
 
-  %body{:id => page_classes}
+  %body{:class => page_classes}
 
-    .outer-wrapper
-      .inner-wrapper
+    #site-canvas{:style => "position: fixed; z-index: -999; height: 100%; width: 100%;"}
     
-        %header#site-header
-          .header-wrapper
-            %h1#site-titel
-              %a{:href=> '/'}
-                %img{:src=>'/images/logo.svg', :alt => "mywarp", :id => "site-logo"}
-                  //heading used by specific pages
-                  - unless current_page.data.site_heading.nil?
-                    %span.side_heading= current_page.data.site_heading
+    .site-container
+      %header.site-header
+        .site-header--mobile-wrapper
+          %h1.site-header--titel
+            %a{:href=> '/'}
+              %img.site-header--logo{:src=>'/images/logo.svg', :alt => "mywarp"}
+          %button#menu-button.site-header--btn.hamburger.hamburger--collapse{:type=>'button'}
+            %span.hamburger-box
+              %span.hamburger-inner
 
-            %a{:href=> '#', :id=>"menu-button"}
-              %span.navicon
-              
-          %nav#site-nav
-            %ul.menu
-              %li
-                %a{:href=> 'https://github.com/MyWarp/MyWarp/wiki'} Docs
-              %li
-                %a{:href=> 'https://github.com/MyWarp/MyWarp/issues'} Issues
-              %li
-                %a{:href=> '/builds/'} Builds
-              %li
-                %a{:href=> 'https://crowdin.com/project/mywarp'} i18n
+        %nav#main-navigation.site-header--nav
+          %ol
+            %li
+              =link_to 'Docs', 'https://github.com/MyWarp/MyWarp/wiki', :class=>'external'
+            %li
+              =link_to 'Issues', 'https://github.com/MyWarp/MyWarp/issues', :class=>'external'
+            %li
+              =current_link_to 'Builds', '/builds/index.html'
             
-        %main#site-content
-          = yield
+      %main.site-content
+        -unless locals.key?(:title).blank? && current_page.data.title.blank?
+          %h2=locals.key?(:title) ? title : current_page.data.title
+        = yield
         
-    %footer
-      = partial "github-corner"
-      = javascript_include_tag :navButton
+      %footer.site-footer
+        Maintained by TheE.
+
+    - if current_page.data.display_particles
+
+      %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.17.8/tsparticles.min.js", :integrity => "sha512-JQh9uNSQnCT+cUNvDFrBWiNAO6+jmkjCIam2MbJmvZzI1JlBGHDu6KNfMHPf4WCkiIbumYQPGTjIVhmbBG+hMA==", :crossorigin => "anonymous"}
+          
+      :javascript
+        tsParticles
+        .loadJSON("site-canvas", "default.json")
+        .then((container) => {
+          console.log("callback - tsparticles config loaded");
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+
+    //= partial "github-corner"
+    = javascript_include_tag :site

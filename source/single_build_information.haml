@@ -1,0 +1,78 @@
+---
+change_frequency: never
+---
+%p.warning
+  These downloads are created automatically on every change in the code. Some may be unstable or cause problems. Please #{link_to 'report', 'https://github.com/MyWarp/MyWarp/issues'} any issue.
+
+%h3
+  Build
+
+.table-wrapper
+  %table.build-table
+    %tr
+      %th
+        No.
+      %th
+        Build by
+      %th
+        Date
+      %th
+        Status
+
+    %tr
+      %td
+        =info.build.number
+      %td
+        =info.build.by
+      %td
+        =info.build.date
+      %td
+        - if info.build.successful.to_s == "true"
+          %span.successful
+            successful
+        - else
+          %span.error
+            failed
+
+%h3
+  Changes
+
+.table-wrapper
+  %table.build-table
+    %tr
+      %th
+        Commit
+      %th
+        Info
+      %th
+        Author
+
+    %tr
+      %td
+        =link_to_commit info.commit.short_hash
+      %td
+        =info.commit.message
+        - unless info.commit.tag.blank?
+          .build-table--commit-tag
+            %i.gg-tag
+            =info.commit.tag
+      %td
+        =info.commit.author
+
+%h3
+  Artifacts
+
+%details{:open=>true}
+  
+  %summary To use MyWarp (including all required dependencies)
+
+  = partial "build_download.haml", :locals => {:artifact_files => (artifact_files info, "*-all.jar")}
+
+%details
+  
+  %summary Without dependencies (e.g. for development)
+    
+  :markdown
+      These artifacts **do not** include runtime dependencies and **cannot** be used to run MyWarp. Use these only of you know what you are doing.
+
+  = partial "build_download.haml", :locals => {:artifact_files => (artifact_files info, "*.jar", "*-all.jar")}

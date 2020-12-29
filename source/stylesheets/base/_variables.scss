@@ -1,124 +1,58 @@
-/* open-sans-300 - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/open-sans-v15-latin-300.woff2") format("woff2"), url("../fonts/open-sans-v15-latin-300.woff") format("woff");
-  font-display: swap;
-
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* open-sans-300italic - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 300;
-  src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"), url("../fonts/open-sans-v15-latin-300italic.woff2") format("woff2"), url("../fonts/open-sans-v15-latin-300italic.woff") format("woff");
-  font-display: swap;
-
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* open-sans-regular - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Open Sans Regular"), local("OpenSans-Regular"), url("../fonts/open-sans-v15-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v15-latin-regular.woff") format("woff");
-  font-display: swap;
-
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* open-sans-italic - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local("Open Sans Italic"), local("OpenSans-Italic"), url("../fonts/open-sans-v15-latin-italic.woff2") format("woff2"), url("../fonts/open-sans-v15-latin-italic.woff") format("woff");
-  font-display: swap;
-
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* open-sans-700 - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/open-sans-v15-latin-700.woff2") format("woff2"), url("../fonts/open-sans-v15-latin-700.woff") format("woff");
-  font-display: swap;
-
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* open-sans-700italic - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url("../fonts/open-sans-v15-latin-700italic.woff2") format("woff2"), url("../fonts/open-sans-v15-latin-700italic.woff") format("woff");
-  font-display: swap;
-
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-@font-face {
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Space Mono"), local("SpaceMono-Regular"), url("../fonts/space-mono-v2-latin-regular.woff2") format("woff2"), url("../fonts/space-mono-v2-latin-regular.woff") format("woff");
-  font-display: swap;
-  font-variant-ligatures: no-common-ligatures;
-}
-
-// Typography
-$base-font-family: "Open Sans", $font-stack-system;
-$heading-font-family: "Open Sans", $base-font-family;
-$mono-font-familiy: "Space Mono", $font-stack-monaco;
-
-$base-font-size: 120%;
-
-// Line height
-$base-line-height: 1.5;
-$heading-line-height: 1.2;
-
-// Other Sizes
-$base-border-radius: 3px;
-$base-spacing: 1.5em;
-$small-spacing: $base-spacing / 2;
-$base-z-index: 0;
-
 // Colors
-$mw-green: #3FAE6A;
+$mywarp-green: #3FAE6A;
 $orange: #E85B2B;
-
-$red: #FF0E3E;
-$green: #49E053;
-$blue: #56A7AE;
-$dark-gray: #333;
-$medium-gray: #aaa;
-$light-gray: #ddd;
+$gray-light: lightgray;
+$gray: gray;
+$gray-dark: #333;
+$white: #fff;
 
 // Font Colors
-$base-font-color: $dark-gray;
+$font-color--base: $gray-dark;
 $action-color: $orange;
-
-// Border
-$base-border-color: $light-gray;
-$base-border: 1px solid $base-border-color;
-$base-border-radius: 3px;
+$action-color--alt: darken($action-color, 10%);
+$action-color--contrast: $white;
 
 // Background Colors
-$viewport-background-color: #fff;
+$viewport-background-color: $white;
 
-// Focus
-$focus-outline-color: transparentize($light-gray, 0.5);
-$focus-outline-width: 3px;
-$focus-outline: $focus-outline-width solid $focus-outline-color;
-$focus-outline-offset: 2px;
+$media-small-mobile-up: "(min-width: 325px)";
+$media-tablet-up: "(min-width: 768px)";
 
-// Animations
-$base-duration: 300ms;
-$base-timing: ease;
+:root {
+    // Typography
+    --font-family: "IBM Plex Sans", system-ui, sans-serif;
+    --font-family--mono: 'IBM Plex Mono', monospace;
+    --font-family--heading: var(--font-family);
+
+    --font-weight--thin: 100;
+    --font-weight--extra-light: 200;
+    --font-weight--light: 300;
+    --font-weight--normal: 400;
+    --font-weight--medium: 500;
+    --font-weight--semi-bold: 600;
+    --font-weight--bold: 700;
+    --font-weight--extra-bold: 800;
+    --font-weight--black: 900;
+
+    // Line heights
+    --line-height: 1.5;
+    --line-height--heading: 1.2;
+
+    // Other Sizes
+    --border-radius: 0.1875rem;
+    --spacing: 1.5rem;
+    --spacing--small: 0.75rem;
+
+    // Borders
+    --border-width: 0.0625rem;
+    --border: var(--border-width) solid currentColor;
+
+    // Focus
+    --focus-outline-width: 0.1875rem;
+    --focus-outline-offset: 0.125rem;
+    --focus-outline: var(--focus-outline-width) solid #{$action-color};
+
+    // Animations
+    --duration: 150ms;
+    --timing: ease;
+}

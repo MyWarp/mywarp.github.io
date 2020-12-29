@@ -1,50 +1,48 @@
 ---
-title: MyWarp Builds
-site_heading: builds
+title: Development Builds
 pagination:
-  for: dev_builds
-  per_page: 10
+  for: development_builds
+  per_page: 15
 ---
 
-%p.warning
-  These downloads are created from every change made in the code, which may mean that some of these downloads may be unstable or cause problems. If you notice any errors, please #{link_to 'report', 'https://github.com/MyWarp/MyWarp/issues'} them.
+:markdown
+  These downloads are created automatically on every change in the code. Some may be unstable or cause problems. Please [report](https://github.com/MyWarp/MyWarp/issues) any issue.
 
 .table-wrapper
-  %table#build-list.build-table
+  %table.build-table
     %tr
-      %th.build-number
+      %th
         No.
-      %th.commit-hash
+      %th
         Commit
-      %th.commit-msg
+      %th
         Info
-      %th.download
+      %th
 
-    - pagination_context.each do |file_name, content|
+    - pagination_context.each do |id, info|
       %tr
-        %td.build-number
-          = content.build.number
-        %td.commit-hash
-          = link_to_commit content.commit.short_hash
-        %td.commit-msg
-          = content.commit.message
-          - unless content.commit.tag.nil?
-            .commit-tags
-              =content.commit.tag
-        %td.download
-          %a{:href=>"/builds/#{content.build.number}.html"}
-            get
+        %td.fitwidth
+          = info.build.number
+        %td.fitwidth
+          = link_to_commit info.commit.short_hash
+        %td
+          = info.commit.message
+          - unless info.commit.tag.blank?
+            .build-table--commit-tag
+              %i.gg-tag
+              =info.commit.tag
+        %td.build-table--download.fitwidth
+          = link_to "get", "/builds/#{info.build.number}.html"
 
-.pagination-info
-  %span.page-numbers
+%footer.pagination-info
+  %span.pagination-info--page-numbers
     = link_to "&#x226a", pagination_context.prev_page.url if pagination_context.prev_page
     Page #{pagination_context.page_num} of #{pagination_context.total_page_num}
     = link_to "&#x226b;", pagination_context.next_page.url if pagination_context.next_page
-  %span.feeds
-    %span.info
-      Available as
+  %span.pagination-info--feeds
+    Available as
     = link_to "RSS", "builds/feed.xml"
 
 // Showing #{pagination_context.per_page} per page
 // = link_to "First page", pagination_context.first_page.url
-// = link_to "Last page", pagination_context.first_page.url
+// = link_to "Last page", pagination_context.last_page.url

@@ -1,0 +1,85 @@
+.index .site-content {
+    align-self: center;
+
+    font-weight: var(--font-weight--semi-bold);
+    font-size: ms(2);
+
+    .link-list {
+        font-size: 1.2rem;
+    }
+}
+
+.link-list {
+
+    padding: var(--spacing--small) 0;
+
+    li {
+        display: inline-block;
+        margin-right: var(--spacing--small);
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    a {
+        color: $font-color--base;
+        text-decoration: none;
+        padding: var(--spacing--small);
+        transition: color var(--timing) var(--duration);
+        transition: background-color var(--timing) var(--duration);
+
+        position: relative;
+
+        &:hover {
+            background-color: $font-color--base;
+            color: $viewport-background-color;
+        }
+    }
+}
+
+[aria-current]:not([aria-current="false"]),
+.link-list--underlined a {
+
+    &:before {
+        content: '';
+        position: absolute;
+        margin: 0 auto;
+        bottom: .5em;
+        left: var(--spacing--small);
+        width: calc(100% - 2* var(--spacing--small));
+        height: .125em;
+        background-color: currentcolor;
+        transition: all var(--timing) var(--duration);
+
+    }
+
+    transition: all var(--timing) var(--duration);
+
+    &:hover {
+        color: $font-color--base;
+        background-color: $viewport-background-color;
+        box-shadow: inset 0 0 0 var(--border-radius) $font-color--base;
+
+        &:before {
+            background-color: $viewport-background-color;
+        }
+    }
+
+}
+
+.link-list--button a {
+    background-color: $font-color--base;
+    box-shadow: inset 0 0 0 var(--border-radius) $font-color--base;
+
+    color: $viewport-background-color;
+
+    &:before {
+        display: none;
+    }
+
+    &:hover {
+        background-color: $viewport-background-color;
+        color: $font-color--base;
+    }
+}
