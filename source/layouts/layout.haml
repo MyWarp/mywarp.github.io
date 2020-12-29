@@ -59,17 +59,7 @@
 
     - if current_page.data.display_particles
 
-      %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.17.8/tsparticles.min.js", :integrity => "sha512-JQh9uNSQnCT+cUNvDFrBWiNAO6+jmkjCIam2MbJmvZzI1JlBGHDu6KNfMHPf4WCkiIbumYQPGTjIVhmbBG+hMA==", :crossorigin => "anonymous"}
-          
-      :javascript
-        tsParticles
-        .loadJSON("site-canvas", "default.json")
-        .then((container) => {
-          console.log("callback - tsparticles config loaded");
-        })
-        .catch((error) => {
-          console.error(error);
-        });
+      %script{:async => "", :src => "https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.17.8/tsparticles.min.js", :integrity => "sha512-JQh9uNSQnCT+cUNvDFrBWiNAO6+jmkjCIam2MbJmvZzI1JlBGHDu6KNfMHPf4WCkiIbumYQPGTjIVhmbBG+hMA==", :crossorigin => "anonymous", :onLoad=>"tsParticles.loadJSON('site-canvas', 'default.json').catch((error) => {console.error(error)})"}
 
     //= partial "github-corner"
     = javascript_include_tag :site
