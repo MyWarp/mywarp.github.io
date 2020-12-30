@@ -4,6 +4,9 @@
 
 .site-container {
     min-height: 100vh;
+    //see https://css-tricks.com/css-fix-for-100vh-in-mobile-webkit/
+    min-height: -webkit-fill-available;
+
     display: grid;
     align-items: start;
     grid-template-areas:
