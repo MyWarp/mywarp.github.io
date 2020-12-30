@@ -1,11 +1,9 @@
-@import url('https://css.gg/css');
-
-@import "vendor/hamburgers";
 @import "vendor/normalize";
 @import "vendor/modularscale";
+@import "vendor/hamburgers";
+@import "vendor/css-gg";
 
-$modularscale: (base: 1em,
-ratio: 1.2);
+$modularscale: (base: 1em, ratio: 1.2);
 
 @import "base/base";
 

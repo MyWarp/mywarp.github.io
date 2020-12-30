@@ -1,13 +1,13 @@
 // Colors
 $mywarp-green: #3FAE6A;
 $orange: #E85B2B;
-$gray-light: lightgray;
 $gray: gray;
 $gray-dark: #333;
 $white: #fff;
 
 // Font Colors
 $font-color--base: $gray-dark;
+$font-color--light: $gray;
 $action-color: $orange;
 $action-color--alt: darken($action-color, 10%);
 $action-color--contrast: $white;
@@ -51,7 +51,7 @@ $media-tablet-up: "(min-width: 768px)";
     // Focus
     --focus-outline-width: 0.1875rem;
     --focus-outline-offset: 0.125rem;
-    --focus-outline: var(--focus-outline-width) solid #{$action-color};
+    --focus-outline: var(--focus-outline-width) solid #{$font-color--light};
 
     // Animations
     --duration: 150ms;

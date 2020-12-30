@@ -67,12 +67,12 @@
     }
 
     .artifact--size {
-        color: $gray;
+        color: $font-color--light;
     }
 }
 
 .build-table--commit-tag {
-    color: $gray;
+    color: $font-color--light;
     font-size: .8em;
     display: flex;
     align-items: flex-end;
