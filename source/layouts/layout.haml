@@ -15,8 +15,13 @@
     %meta{:name=> "theme-color", :content=> "#ffffff"}/
 
     //Fonts
-    %link{:rel=>"preconnect", :href=>"https://fonts.gstatic.com"}/
-    %link{:href=>"https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;600&display=swap", :rel=>"stylesheet"}/
+    //See https://css-tricks.com/how-to-load-fonts-in-a-way-that-fights-fout-and-makes-lighthouse-happy/
+    - font_link = "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@400;600&display=swap"
+    %link{:rel=>"preconnect", :href=>"https://fonts.gstatic.com", :crossorigin=>true}/
+    %link{:rel=>"preload", :as=>"style", :href=>font_link}/
+    %link{:rel=>"stylesheet", :href=>font_link, :media=>"print", :onload=>"this.media='all'"}/
+    %noscript
+      %link{:rel=>"stylesheet", :href=>font_link}/
 
     //Feeds
     %link{:rel=> "alternate", :type=> "application/rss+xml", :title=> "Feed for new builds", :href=> "/builds/feed.xml"}/
