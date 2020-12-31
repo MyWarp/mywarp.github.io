@@ -13,6 +13,7 @@
         "header"
         "main"
         "footer";
+    grid-template-rows: auto 1fr auto;
 }
 
 .site-header {
@@ -56,19 +57,26 @@
     margin: 0;
 }
 
+.site-header--btn {
+    padding-right: 0;
+}
+
 .site-header--logo {
     height: 2em;
 }
 
 .site-header--nav {
     font-size: 2.5em;
-    display: none;
+    display: flex;
+    opacity: 0;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 0;
+    height: 0;
+    overflow: hidden;
     background-color: $viewport-background-color;
+    transition: opacity var(--timing) var(--duration);
     z-index: -1;
 
     align-items: center;
@@ -94,7 +102,9 @@
     }
 
     &.is-active {
-        display: flex;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
 
     }
 }
@@ -118,6 +128,9 @@
     .site-header--nav {
         display: initial;
         position: static;
+        width: auto;
+        height: auto;
+        opacity: 1;
 
         font-size: 1.2em;
         background: none;

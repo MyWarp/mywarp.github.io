@@ -46,7 +46,8 @@ end
  helpers do
   
   def link_to_commit(commitHash)
-    return link_to commitHash, "https://github.com/MyWarp/MyWarp/commit/" + commitHash
+    truncatedHash = commitHash[0...7]
+    return link_to truncatedHash, "https://github.com/MyWarp/MyWarp/commit/" + commitHash
   end
 
   def artifact_files(buildInfo, includePattern="*", excludePattern="")

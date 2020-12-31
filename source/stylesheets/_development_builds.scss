@@ -36,6 +36,8 @@
     padding-bottom: var(--spacing--small);
     font-size: .8em;
     font-family: var(--font-family--mono);
+    //word-break: break-word;
+    hyphens: manual;
 
     a {
         text-decoration: none;
@@ -80,5 +82,14 @@
     i {
         --ggs: .8;
         margin-right: .5em;
+    }
+}
+
+.build-table--commit-hash {
+    word-break: break-all;
+
+    @media screen and #{$media-small-mobile-up} {
+        word-break: none;
+        white-space: nowrap;
     }
 }
