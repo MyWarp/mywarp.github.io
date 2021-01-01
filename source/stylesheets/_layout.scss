@@ -109,6 +109,11 @@
     }
 }
 
+body.noscroll {
+    overflow: hidden;
+    position: fixed;
+}
+
 @media screen and #{$media-tablet-up} {
 
     .site-header {
@@ -143,6 +148,33 @@
 
             &:last-child {
                 margin-right: 0;
+            }
+        }
+
+        [aria-current]:not([aria-current="false"]) {
+            &:before {
+                content: '';
+                position: absolute;
+                margin: 0 auto;
+                bottom: .5em;
+                left: var(--spacing--small);
+                width: calc(100% - 2* var(--spacing--small));
+                height: .125em;
+                background-color: currentcolor;
+                transition: all var(--timing) var(--duration);
+
+            }
+
+            transition: all var(--timing) var(--duration);
+
+            &:hover {
+                color: $font-color--base;
+                background-color: $viewport-background-color;
+                box-shadow: inset 0 0 0 var(--border-radius) $font-color--base;
+
+                &:before {
+                    background-color: $viewport-background-color;
+                }
             }
         }
 
