@@ -23,6 +23,14 @@ th {
     font-weight: 600;
 }
 
+td {
+    hyphens: auto;
+
+    @media screen and #{$media-tablet-up} {
+        hyphens: none;
+    }
+}
+
 th,
 td {
     padding: var(--spacing--small) var(--spacing--small) var(--spacing--small) 0;
@@ -35,4 +43,21 @@ td {
         width: 1px;
         white-space: nowrap;
     }
+
+    &.hide-on-small-mobile {
+        display: none;
+
+        @media screen and #{$media-small-mobile-up} {
+            display: table-cell;
+        }
+    }
 }
+
+//.table-wrapper {
+//    white-space: nowrap;
+//    overflow-y: auto;
+//
+//    table {
+//        table-layout: fixed;
+//    }
+//}

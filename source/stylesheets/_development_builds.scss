@@ -1,26 +1,32 @@
-.table-wrapper {
-    white-space: nowrap;
-    overflow-y: auto;
-    width: 100%;
-}
-
 .build-table--download {
     text-align: right;
     text-transform: lowercase;
+}
 
-    a {
-        color: $viewport-background-color;
-        text-decoration: none;
-        background: $font-color--base;
+.build-table--commit-tag {
+    color: $font-color--light;
+    font-size: .8em;
+    display: flex;
+    align-items: flex-end;
 
-        transition: background-color var(--timing) var(--duration);
-        padding: .4em var(--spacing--small);
+    i {
+        --ggs: .8;
+        margin-right: .5em;
+    }
+}
 
-        &:hover {
-            color: $font-color--base;
-            background: $viewport-background-color;
-            box-shadow: inset 0 0 0 var(--border-width) $font-color--base;
-        }
+.small-button a {
+    color: $viewport-background-color;
+    text-decoration: none;
+    background: $font-color--base;
+
+    transition: background-color var(--timing) var(--duration);
+    padding: .4em var(--spacing--small);
+
+    &:hover {
+        color: $font-color--base;
+        background: $viewport-background-color;
+        box-shadow: inset 0 0 0 var(--border-width) $font-color--base;
     }
 }
 
@@ -36,7 +42,6 @@
     padding-bottom: var(--spacing--small);
     font-size: .8em;
     font-family: var(--font-family--mono);
-    //word-break: break-word;
     hyphens: manual;
 
     a {
@@ -70,26 +75,5 @@
 
     .artifact--size {
         color: $font-color--light;
-    }
-}
-
-.build-table--commit-tag {
-    color: $font-color--light;
-    font-size: .8em;
-    display: flex;
-    align-items: flex-end;
-
-    i {
-        --ggs: .8;
-        margin-right: .5em;
-    }
-}
-
-.build-table--commit-hash {
-    word-break: break-all;
-
-    @media screen and #{$media-small-mobile-up} {
-        word-break: none;
-        white-space: nowrap;
     }
 }

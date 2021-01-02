@@ -29,6 +29,15 @@ p {
     margin: 0 0 var(--spacing--small);
 }
 
+summary {
+    cursor: pointer;
+
+    &:focus {
+        outline: var(--focus-outline);
+        outline-offset: var(--focus-outline-offset);
+    }
+}
+
 a {
     color: $action-color;
     text-decoration: none;
@@ -78,7 +87,8 @@ p a {
         color: $action-color;
     }
 
-    &:hover:before {color: $action-color;
-transform: scaleX(1);
+    &:hover:before {
+        color: $action-color;
+        transform: scaleX(1);
     }
 }

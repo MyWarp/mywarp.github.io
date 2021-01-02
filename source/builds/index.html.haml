@@ -13,9 +13,9 @@ pagination:
     %tr
       %th
         No.
-      %th
+      %th.hide-on-mobile
         Commit
-      %th
+      %th.build-table--commit-msg
         Info
       %th
 
@@ -23,7 +23,7 @@ pagination:
       %tr
         %td.fitwidth
           = info.build.number
-        %td.build-table--commit-hash
+        %td.hide-on-small-mobile
           = link_to_commit info.commit.short_hash
         %td
           = info.commit.message
@@ -31,7 +31,7 @@ pagination:
             .build-table--commit-tag
               %i.gg-tag
               =info.commit.tag
-        %td.build-table--download.fitwidth
+        %td.build-table--download.small-button.fitwidth
           = link_to "get", "/builds/#{info.build.number}.html"
 
 %footer.pagination-info
