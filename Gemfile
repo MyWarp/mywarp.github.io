@@ -12,7 +12,8 @@ gem 'middleman-livereload'
 gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
 gem 'middleman-imageoptim'
-gem 'middleman-pagination', "~>1.2.0", :git => "https://github.com/suresh44t/middleman-pagination.git" #This fork is actually compatible with Middleman 4
+gem 'middleman-pagination', :git => "https://github.com/suresh44t/middleman-pagination.git" #This fork is actually compatible with Middleman 4
 gem 'middleman-robots'
 gem "middleman-aria_current"
+gem "middleman-favicon-maker"
 gem 'builder'
