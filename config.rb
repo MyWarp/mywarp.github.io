@@ -3,8 +3,9 @@ set :url_root, 'https://mywarp.github.com'
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-#
 activate :aria_current
+
+activate :inline_svg
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"

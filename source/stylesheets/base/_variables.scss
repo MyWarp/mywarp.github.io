@@ -6,14 +6,14 @@ $gray-dark: #333;
 $white: #fff;
 
 // Font Colors
-$font-color--base: $gray-dark;
-$font-color--light: $gray;
-$action-color: $orange;
-$action-color--alt: darken($action-color, 10%);
-$action-color--contrast: $white;
+$font-color--base: var(--font-color--base);
+$font-color--light: var(--font-color--light);
+$action-color: var(--action-color);
+$action-color--alt: var(--action-color--alt);
+$action-color--contrast: var(--action-color-contrast);
 
 // Background Colors
-$viewport-background-color: $white;
+$viewport-background-color: var(--viewport-background-color);
 
 $media-small-mobile-up: "(min-width: 325px)";
 $media-large-mobile-up: "(min-width: 400px)";
@@ -56,4 +56,20 @@ $media-tablet-up: "(min-width: 768px)";
     // Animations
     --duration: 250ms;
     --timing: ease;
+
+    // Color
+    --font-color--base: #{$gray-dark};
+    --font-color--light: #{$gray};
+    --action-color: #{$orange};
+    --action-color--alt: darken($action-color, 10%);
+    --action-color--contrast: #{$white};
+
+    // Background Colors
+    --viewport-background-color: #{$white};
+
+    @media (prefers-color-scheme: dark) {
+        --font-color--base: #EEE;
+        --action-color--contrast: #1c1c1c;
+        --viewport-background-color: #1c1c1c;
+    }
 }

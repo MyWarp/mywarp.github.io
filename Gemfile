@@ -16,4 +16,5 @@ gem 'middleman-pagination', :git => "https://github.com/suresh44t/middleman-pagi
 gem 'middleman-robots'
 gem "middleman-aria_current"
 gem "middleman-favicon-maker"
-gem 'builder'
+gem "middleman-svg"
+gem "builder"

@@ -33,14 +33,14 @@
 
   %body{:class => page_classes}
 
-    #site-canvas{:style => "position: fixed; z-index: -999; height: 100%; width: 100%;"}
+    %canvas#site-canvas{:style => "position: fixed; z-index: -999; height: 100%; width: 100%;"}
     
     .site-container
       %header.site-header
         .site-header--mobile-wrapper
           %h1.site-header--titel
             %a{:href=> '/'}
-              %img.site-header--logo{:src=>'/images/logo.svg', :alt => "mywarp"}
+              =inline_svg "logo.svg", class: "site-header--logo"
           %button#menu-button.site-header--btn.hamburger.hamburger--squeeze{:type=>'button'}
             %span.hamburger-box
               %span.hamburger-inner
@@ -64,7 +64,6 @@
 
     - if current_page.data.display_particles
 
-      %script{:defer => true, :src => "https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.17.8/tsparticles.min.js", :integrity => "sha512-JQh9uNSQnCT+cUNvDFrBWiNAO6+jmkjCIam2MbJmvZzI1JlBGHDu6KNfMHPf4WCkiIbumYQPGTjIVhmbBG+hMA==", :crossorigin => "anonymous", :onLoad=>"tsParticles.loadJSON('site-canvas', 'default.json').catch((error) => {console.error(error)})"}
+      %script{:defer => true, :src => "https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.11/tsparticles.slim.min.js", :integrity => "sha512-QkzZcvuvw4wzmrbYQMdx9+kv+cGajrwlRSJ35H2Y8ix6J9xFZ+K3fgahqqAoarSI6LuC7urUdXqv5YQanCcwCQ==", :crossorigin => "anonymous", :onLoad=>"tsParticles.loadJSON('site-canvas', 'default.json').catch((error) => {console.error(error)})"}
 
-    //= partial "github-corner"
     = javascript_include_tag :site
