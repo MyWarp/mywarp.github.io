@@ -1,19 +1,19 @@
 @import "vendor/normalize";
 @import "vendor/modularscale";
-@import "vendor/hamburgers";
 @import "vendor/css.gg";
 
 $modularscale: (base: 1em, ratio: 1.2);
 
 @import "base/base";
 
-$hamburger-padding-x : 10px;
-$hamburger-padding-y : 10px;
-$hamburger-layer-width : 25px;
-$hamburger-layer-height : 3px;
-$hamburger-layer-spacing : 4px;
-$hamburger-layer-color : $font-color--base;
-$hamburger-layer-border-radius : 0;
+$hamburger-layer-color: $font-color--base;
+
+@import "vendor/hamburgers";
+
+
+
+
+$hamburger-layer-border-radius: 0;
 
 button.hamburger {
     background: none !important;
