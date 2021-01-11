@@ -84,10 +84,16 @@ end
 # Build-specific configuration
 configure :build do
 
-  # Minify CSS, HTML & Javascript on build
+  # Minify CSS, HTML
   activate :minify_css
   activate :minify_html
-  activate :minify_javascript
+
+  # Minify Javascript, including the ES6 syntax
+  require "uglifier"
+  activate :minify_javascript,
+  compressor: proc {
+      ::Uglifier.new(:harmony => true)
+  }
 
   # Optimize images on build
   activate :imageoptim do |options|
