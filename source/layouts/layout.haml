@@ -64,6 +64,6 @@
 
     - if current_page.data.display_particles
 
-      %script{:defer => true, :src => "https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.11/tsparticles.slim.min.js", :integrity => "sha512-QkzZcvuvw4wzmrbYQMdx9+kv+cGajrwlRSJ35H2Y8ix6J9xFZ+K3fgahqqAoarSI6LuC7urUdXqv5YQanCcwCQ==", :crossorigin => "anonymous", :onLoad=>"tsParticles.loadJSON('site-canvas', 'default.json').catch((error) => {console.error(error)})"}
+      %script{:defer => true, :src => "https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.11/tsparticles.slim.min.js", :integrity => "sha512-QkzZcvuvw4wzmrbYQMdx9+kv+cGajrwlRSJ35H2Y8ix6J9xFZ+K3fgahqqAoarSI6LuC7urUdXqv5YQanCcwCQ==", :crossorigin => "anonymous", :onLoad=>"setup_particles()"}
 
     = javascript_include_tag :site

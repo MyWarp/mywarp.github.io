@@ -1,7 +1,7 @@
 // Colors
 $mywarp-green: #3FAE6A;
 $orange: #E85B2B;
-$gray: gray;
+$gray: #808080;
 $gray-dark: #333;
 $white: #fff;
 
@@ -67,9 +67,13 @@ $media-tablet-up: "(min-width: 768px)";
     // Background Colors
     --viewport-background-color: #{$white};
 
+    //tsParticles (cannot use named HTML colors here)
+    --particles-color: #111;
+
     @media (prefers-color-scheme: dark) {
         --font-color--base: #EEE;
         --action-color--contrast: #1c1c1c;
         --viewport-background-color: #1c1c1c;
+        --particles-color: #D1D1D1;
     }
 }
