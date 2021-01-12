@@ -1,15 +1,18 @@
 {
-    "build": {
-        "by": "GitHub Action",
+    "build":
+    {
+        "by": "GitHub_Action",
         "number": "7",
         "successful": "true",
         "date": "18/12/2020"
     },
-    "version": {
+    "version":
+    {
         "shortVersion": "3.1.1-SNAPSHOT",
-        "longVersion": "3.1.1-SNAPSHOT+GitHub Action-b7.git-cfde2ab9dc"
+        "longVersion": "3.1.1-SNAPSHOT+GitHub_Action-b7.git-cfde2ab9dc"
     },
-    "commit": {
+    "commit":
+    {
         "short_hash": "cfde2ab9dc",
         "message": "Remove Travis.",
         "author": "TheE",

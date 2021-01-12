@@ -1,15 +1,18 @@
 {
-    "build": {
-        "by": "GitHub Action",
+    "build":
+    {
+        "by": "GitHub_Action",
         "number": "10",
         "successful": "true",
         "date": "19/12/2020"
     },
-    "version": {
+    "version":
+    {
         "shortVersion": "3.1.1-SNAPSHOT",
-        "longVersion": "3.1.1-SNAPSHOT+GitHub Action-b10.git-4841409a43"
+        "longVersion": "3.1.1-SNAPSHOT+GitHub_Action-b10.git-4841409a43"
     },
-    "commit": {
+    "commit":
+    {
         "short_hash": "4841409a43",
         "message": "Deploy released artifacts to GitHub Releases (experimental)",
         "author": "TheE",

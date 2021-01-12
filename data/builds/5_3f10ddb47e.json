@@ -1,7 +1,7 @@
 {
     "build":
     {
-        "by": "GitHub Action",
+        "by": "GitHub_Action",
         "number": "5",
         "successful": "true",
         "date": "18/12/2020"
@@ -9,7 +9,7 @@
     "version":
     {
         "shortVersion": "3.1.1-SNAPSHOT",
-        "longVersion": "3.1.1-SNAPSHOT+GitHub Action-b5.git-3f10ddb47e"
+        "longVersion": "3.1.1-SNAPSHOT+GitHub_Action-b5.git-3f10ddb47e"
     },
     "commit":
     {

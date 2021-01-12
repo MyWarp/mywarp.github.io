@@ -1,15 +1,18 @@
 {
-    "build": {
-        "by": "GitHub Action",
+    "build":
+    {
+        "by": "GitHub_Action",
         "number": "6",
         "successful": "true",
         "date": "18/12/2020"
     },
-    "version": {
+    "version":
+    {
         "shortVersion": "3.1.1-SNAPSHOT",
-        "longVersion": "3.1.1-SNAPSHOT+GitHub Action-b6.git-4c6d950c90"
+        "longVersion": "3.1.1-SNAPSHOT+GitHub_Action-b6.git-4c6d950c90"
     },
-    "commit": {
+    "commit":
+    {
         "short_hash": "4c6d950c90",
         "message": "Fix build number",
         "author": "TheE",
