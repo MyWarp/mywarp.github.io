@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "16",
+        "successful": "true",
+        "date": "12/01/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.1",
+        "longVersion": "3.1.1+GitHub_Action-b16.git-d80ddf2ca9"
+    },
+    "commit": {
+        "short_hash": "d80ddf2ca9",
+        "message": "Release 3.1.1",
+        "author": "TheE",
+        "tag": ""
+    }
+}
