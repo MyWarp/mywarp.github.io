@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Sat, 5 Jan 2019 00:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 12 Jan 2021 09:12:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jan 2021 12:07:42 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -397,6 +397,13 @@
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1930.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1930.html</guid>
+    </item>
+    <item>
+      <title>Build No. 15 (80abfb9dff)</title>
+      <description>Fix version string</description>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/15.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/15.html</guid>
     </item>
     <item>
       <title>Build No. 1844 (b822659b87)</title>
