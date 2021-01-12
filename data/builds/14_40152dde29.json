@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub Action",
+        "number": "14",
+        "successful": "true",
+        "date": "12/01/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+GitHub Action-b14.git-40152dde29"
+    },
+    "commit": {
+        "short_hash": "40152dde29",
+        "message": "Bump flyway-core from 7.4.0 to 7.5.0 (#290)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
