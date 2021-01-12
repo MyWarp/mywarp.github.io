@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "15",
+        "successful": "true",
+        "date": "12/01/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.1-SNAPSHOT",
+        "longVersion": "3.1.1-SNAPSHOT+GitHub_Action-b15.git-80abfb9dff"
+    },
+    "commit": {
+        "short_hash": "80abfb9dff",
+        "message": "Fix version string",
+        "author": "TheE",
+        "tag": ""
+    }
+}
