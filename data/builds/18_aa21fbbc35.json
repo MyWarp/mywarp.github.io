@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "18",
+        "successful": "true",
+        "date": "18/01/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.1",
+        "longVersion": "3.1.1+GitHub_Action-b18.git-aa21fbbc35"
+    },
+    "commit": {
+        "short_hash": "aa21fbbc35",
+        "message": "Bump spigot-api from 1.16.4-R0.1-SNAPSHOT to 1.16.5-R0.1-SNAPSHOT (#291)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
