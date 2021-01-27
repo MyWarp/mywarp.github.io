@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "23",
+        "successful": "true",
+        "date": "27/01/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.1",
+        "longVersion": "3.1.1+GitHub_Action-b23.git-3b91129114"
+    },
+    "commit": {
+        "short_hash": "3b91129114",
+        "message": "Bump jooq-checker from 3.14.4 to 3.14.6 (#293)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
