@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "25",
+        "successful": "true",
+        "date": "27/01/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.1",
+        "longVersion": "3.1.1+GitHub_Action-b25.git-b4376c0066"
+    },
+    "commit": {
+        "short_hash": "b4376c0066",
+        "message": "Bump jooq from 3.14.4 to 3.14.6 (#294)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
