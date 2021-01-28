@@ -5,13 +5,22 @@ Website for the [MyWarp project](https://github.com/MyWarp/MyWarp), hosted on Gi
 
 The `master` branch contains the final website, `src` contains the source. Whenever changes are pushed to `src`, it is automatically build by a Github Action and results are - upon success - pushed to `master`.
 
+## Development
+
+We use [Middleman](https://middlemanapp.com) to build the site and [Webpack](https://webpack.js.org) to parse SASS and Javascript.
+
+Middleman automatically calls Webpack during the build process via its [External Pipeline](https://middlemanapp.com/advanced/external-pipeline/). This allows us to manage frontend dependencies via NPM, import them in SASS and Javascript, and parse Javascript via [Babel](https://babeljs.io). After the build, Middlemann calls [PurgeCSS](https://purgecss.com) to remove unused CSS.
+
+Check [Gabriele Canepa](https://github.com/gabrielecanepa)'s [middleman-webpack](https://github.com/gabrielecanepa/middleman-webpack) for more information.
+
 ## Build
 
-The site is build with [Middleman](https://middlemanapp.com). Templates are written in Haml, styles in SCSS. To build it yourself, make sure that Ruby, Rubygems and Imagemagick are installed and configured, then clone this repository and run:
+Install ruby, Node (including NPM) and Imageoptim. Then, run:
 
 ```
 bundle install
-middleman build
+npm install
+bundle exec middleman build
 ```
 
-For development you might want to use Middleman's build-in server: `middleman server`.
+For development you might want to use Middleman's build-in server: `bundle exec middleman server`.

@@ -10,18 +10,24 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout 🛎️
+    - name: 🛎️ Checkout
       uses: actions/checkout@v2
-    - name: Set up Ruby 🧱
+    - name: 👉 Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6
         bundler-cache: true
-    - name: Install dependencies 🧱
+    - name: 👉 Set up Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: 🧱 Ruby Dependencies
       run: bundle install
-    - name: Run Middleman 🔧
+    - name: 🧱 Node Dependencies
+      run: npm install
+    - name: 🔧 Run Middleman
       run: bundle exec middleman build
-    - name: Deploy to GitHub Pages 🚀
+    - name: 🚀 Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       if: github.ref == 'refs/heads/src'
       with:

@@ -29,7 +29,7 @@
     //Title from the current page's frontmatter
     %title= locals.key?(:title) ? title : current_page.data.title || "MyWarp"
     
-    = stylesheet_link_tag :site
+    = stylesheet_link_tag "style"
 
   %body{:class => page_classes}
 
@@ -60,10 +60,10 @@
         = yield
         
       %footer.site-footer
-        Maintained by TheE.
+        Maintained by #{link_to 'TheE', 'https://github.com/TheE'}.
 
+    = javascript_include_tag "site.min"
     - if current_page.data.display_particles
+      = javascript_include_tag "particles.min", :defer => true
 
-      %script{:defer => true, :src => "https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.11/tsparticles.slim.min.js", :integrity => "sha512-QkzZcvuvw4wzmrbYQMdx9+kv+cGajrwlRSJ35H2Y8ix6J9xFZ+K3fgahqqAoarSI6LuC7urUdXqv5YQanCcwCQ==", :crossorigin => "anonymous", :onLoad=>"setup_particles()"}
-
-    = javascript_include_tag :site
+   

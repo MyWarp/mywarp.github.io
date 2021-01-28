@@ -9,9 +9,8 @@ gem 'middleman', '~> 4.3'
 
 #Tools
 gem 'middleman-livereload'
-gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
-gem 'middleman-imageoptim'
+gem 'middleman-imageoptim', :git => 'https://github.com/alexsanderson/middleman-imageoptim' #Fixed ":image_optim is deprecated" warning
 gem 'middleman-pagination', :git => "https://github.com/suresh44t/middleman-pagination.git" #This fork is actually compatible with Middleman 4
 gem 'middleman-robots'
 gem "middleman-aria_current"

@@ -10,6 +10,10 @@
 # Ignore the build directory
 /build
 
+# Ignore stuff created by the external pipeline
+/node_modules
+/.tmp
+
 # Ignore cache
 /.sass-cache
 /.cache
