@@ -93,7 +93,7 @@ end
 # https://middlemanapp.com/advanced/custom-extensions/#after_build
 
 after_build do |builder|
-  builder.thor.run 'npx purgecss --css build/style.css --content build/**.html build/*.js --output build/'
+  builder.thor.run 'npx purgecss --css build/style.css --content build/**/*.html build/*.js --output build/'
 end
 
 # Helpers
