@@ -10,10 +10,10 @@ gem 'middleman', '~> 4.3'
 #Tools
 gem 'middleman-livereload'
 gem 'middleman-minify-html'
-gem 'middleman-imageoptim', :git => 'https://github.com/alexsanderson/middleman-imageoptim' #Fixed ":image_optim is deprecated" warning
-gem 'middleman-pagination', :git => "https://github.com/suresh44t/middleman-pagination.git" #This fork is actually compatible with Middleman 4
+gem 'middleman-imageoptim', :git => 'https://github.com/alexsanderson/middleman-imageoptim' #Fixed ':image_optim is deprecated' warning
+gem 'middleman-pagination', :git => 'https://github.com/suresh44t/middleman-pagination.git' #This fork is actually compatible with Middleman 4
 gem 'middleman-robots'
-gem "middleman-aria_current"
-gem "middleman-favicon-maker"
-gem "middleman-svg"
-gem "builder"
+gem 'middleman-aria_current'
+gem 'middleman-favicon-maker'
+gem 'middleman-inline_svg'
+gem 'builder'
