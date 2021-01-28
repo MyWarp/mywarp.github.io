@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "26",
+        "successful": "true",
+        "date": "28/01/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.1",
+        "longVersion": "3.1.1+GitHub_Action-b26.git-d262a223e6"
+    },
+    "commit": {
+        "short_hash": "d262a223e6",
+        "message": "Bump flyway-core from 7.5.1 to 7.5.2 (#295)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
