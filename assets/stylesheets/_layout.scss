@@ -40,6 +40,15 @@
     font-size: .8em;
     color: $font-color--light;
     z-index: 1;
+
+    a {
+        color: $font-color--light;
+        border-bottom: var(--border);
+
+        &:hover {
+            color: $action-color;
+        }
+    }
 }
 
 .site-header--mobile-wrapper {
