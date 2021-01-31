@@ -9,6 +9,14 @@ GIT
       middleman-core (>= 3.1)
 
 GIT
+  remote: https://github.com/middleman/middleman-autoprefixer.git
+  revision: f9efe59a2441017d85c404235b74d99432b2d4ac
+  specs:
+    middleman-autoprefixer (2.10.1)
+      autoprefixer-rails (~> 10.0)
+      middleman-core (>= 4.0.0)
+
+GIT
   remote: https://github.com/suresh44t/middleman-pagination.git
   revision: cc7a1273ca8798e98e2ca0eac792b6c8daf24a7d
   specs:
@@ -25,6 +33,8 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    autoprefixer-rails (10.2.0.0)
+      execjs
     backports (3.20.2)
     builder (3.2.4)
     coffee-script (2.4.1)
@@ -165,6 +175,7 @@ DEPENDENCIES
   builder
   middleman (~> 4.3)
   middleman-aria_current
+  middleman-autoprefixer!
   middleman-favicon-maker
   middleman-imageoptim!
   middleman-inline_svg

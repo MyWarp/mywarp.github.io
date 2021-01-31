@@ -9,11 +9,11 @@ config[:css_dir] = 'assets/stylesheets'
 activate :aria_current
 activate :inline_svg
 
+
 activate :external_pipeline,
- name: :webpack,
- command: build? ? 'npm run build' : 'npm run start',
- source: ".tmp/dist",
- latency: 1
+  name: :parcel,
+  command: build? ? 'npm run build' : 'npm run dev',
+  source: ".tmp"
 
 activate :pagination do
   # See https://github.com/suresh44t/middleman-pagination#usage
@@ -54,6 +54,7 @@ configure :development do
 end
 
 configure :build do
+  activate :autoprefixer
   activate :minify_html
 
   activate :imageoptim do |options|
@@ -93,7 +94,7 @@ end
 # https://middlemanapp.com/advanced/custom-extensions/#after_build
 
 after_build do |builder|
-  builder.thor.run 'npx purgecss --css build/style.css --content build/*.html build/**/*.html build/*.js --output build/'
+  builder.thor.run 'npm run after_build'
 end
 
 # Helpers

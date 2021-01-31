@@ -1,6 +1,6 @@
-@import '~modern-normalize';
-@import '~modularscale-sass/stylesheets/modularscale';
-@import "~css.gg/icons/all";
+@import 'modern-normalize/modern-normalize';
+@import 'modularscale-sass/stylesheets/modularscale';
+@import "css.gg/icons/all";
 
 $modularscale: (base: 1em, ratio: 1.2);
 
@@ -9,7 +9,7 @@ $modularscale: (base: 1em, ratio: 1.2);
 $hamburger-layer-color: $font-color--base !important;
 $hamburger-layer-border-radius: 0;
 
-@import "~hamburgers/_sass/hamburgers/hamburgers";
+@import "hamburgers/_sass/hamburgers/hamburgers";
 
 button.hamburger {
     background: none !important;

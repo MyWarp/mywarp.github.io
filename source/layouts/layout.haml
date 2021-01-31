@@ -29,7 +29,7 @@
     //Title from the current page's frontmatter
     %title= locals.key?(:title) ? title : current_page.data.title || "MyWarp"
     
-    = stylesheet_link_tag "style"
+    =stylesheet_link_tag "site"
 
   %body{:class => page_classes}
 
@@ -62,8 +62,8 @@
       %footer.site-footer
         Maintained by #{link_to 'TheE', 'https://github.com/TheE'}.
 
-    = javascript_include_tag "site.min"
+    = javascript_include_tag "site"
     - if current_page.data.display_particles
-      = javascript_include_tag "particles.min", :defer => true
+      = javascript_include_tag "particles", :defer => true
 
    
