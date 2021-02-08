@@ -38,6 +38,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@4.0.0
       if: github.ref == 'refs/heads/src'
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: master
-        FOLDER: build
+        branch: master
+        folder: build
