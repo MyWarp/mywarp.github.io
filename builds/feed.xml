@@ -4,8 +4,8 @@
     <title>MyWarp Development Builds</title>
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
-    <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 11 Feb 2021 09:42:15 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Feb 2021 09:44:08 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -712,6 +712,13 @@
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1828.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1828.html</guid>
+    </item>
+    <item>
+      <title>Build No. 38 (1a5f8cbd7d)</title>
+      <description>Bump animal-sniffer-annotations from 1.19 to 1.20 (#301)</description>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/38.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/38.html</guid>
     </item>
   </channel>
 </rss>
