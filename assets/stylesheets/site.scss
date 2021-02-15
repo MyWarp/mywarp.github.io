@@ -12,7 +12,7 @@ $hamburger-layer-border-radius: 0;
 @import "hamburgers/_sass/hamburgers/hamburgers";
 
 button.hamburger {
-    background: none !important;
+  background: none !important;
 }
 
 @import "layout";
@@ -20,9 +20,9 @@ button.hamburger {
 @import "development_builds";
 
 .successful {
-    color: $mywarp-green;
+  color: $mywarp-green;
 }
 
 .error {
-    color: red;
+  color: red;
 }
