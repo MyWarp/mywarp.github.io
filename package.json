@@ -21,7 +21,7 @@
     "modularscale-sass": "^3.0.10",
     "parcel": "^2.0.0-beta.1",
     "purgecss": "^4.0.2",
-    "sass": "^1.32.7"
+    "sass": "^1.32.8"
   },
   "dependencies": {
     "modern-normalize": "^1.0.0",
