@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "42",
+        "successful": "true",
+        "date": "23/02/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.2-SNAPSHOT",
+        "longVersion": "3.1.2-SNAPSHOT+GitHub_Action-b42.git-c99ab3b5b6"
+    },
+    "commit": {
+        "short_hash": "c99ab3b5b6",
+        "message": "Bump flyway-core from 7.5.3 to 7.5.4 (#303)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
