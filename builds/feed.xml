@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 23 Feb 2021 07:31:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 1 Mar 2021 08:32:55 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -579,6 +579,13 @@
       <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1852.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1852.html</guid>
+    </item>
+    <item>
+      <title>Build No. 45 (08fc34e766)</title>
+      <description>Bump jooq from 3.14.7 to 3.14.8 (#304)</description>
+      <pubDate>Mon, 1 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/45.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/45.html</guid>
     </item>
     <item>
       <title>Build No. 1819 (b1f5e3ff8b)</title>
