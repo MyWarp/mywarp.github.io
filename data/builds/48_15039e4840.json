@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "48",
+        "successful": "true",
+        "date": "05/03/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.2-SNAPSHOT",
+        "longVersion": "3.1.2-SNAPSHOT+GitHub_Action-b48.git-15039e4840"
+    },
+    "commit": {
+        "short_hash": "15039e4840",
+        "message": "Trigger build",
+        "author": "TheE",
+        "tag": ""
+    }
+}
