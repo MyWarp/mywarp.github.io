@@ -41,6 +41,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mywarp.github.com/builds/pages/8.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mywarp.github.com/builds/1810.html</loc>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
@@ -52,6 +57,11 @@
   </url>
   <url>
     <loc>https://mywarp.github.com/builds/1827.html</loc>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mywarp.github.com/builds/50.html</loc>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
   </url>
