@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "modern-normalize": "^1.0.0",
-    "tsparticles": "^1.18.12"
+    "tsparticles": "^1.19.2"
   }
 }
