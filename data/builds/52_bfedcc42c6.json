@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "52",
+        "successful": "true",
+        "date": "12/03/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.2-SNAPSHOT",
+        "longVersion": "3.1.2-SNAPSHOT+GitHub_Action-b52.git-bfedcc42c6"
+    },
+    "commit": {
+        "short_hash": "bfedcc42c6",
+        "message": "Bump flyway-core from 7.6.0 to 7.7.0 (#308)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
