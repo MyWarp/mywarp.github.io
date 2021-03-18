@@ -9,11 +9,15 @@ config[:css_dir] = 'assets/stylesheets'
 activate :aria_current
 activate :inline_svg
 
+activate :external_pipeline,
+  name: :esbuild,
+  command: build? ? 'npm run build:esbuild' : 'npm run watch:esbuild',
+  source: ".tmp/javascripts"
 
 activate :external_pipeline,
-  name: :parcel,
-  command: build? ? 'npm run build' : 'npm run dev',
-  source: ".tmp"
+  name: :sass,
+  command: build? ? 'npm run build:sass' : 'npm run watch:sass',
+  source: ".tmp/stylesheets"
 
 activate :pagination do
   # See https://github.com/suresh44t/middleman-pagination#usage
@@ -23,13 +27,6 @@ activate :pagination do
     data.builds.sort_by { |file_name, content| [content.build.by, -content.build.number.to_i]}
   end
 end
-
-# Layouts
-# https://middlemanapp.com/basics/layouts
-
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'

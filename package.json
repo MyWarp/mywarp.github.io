@@ -4,9 +4,11 @@
   "description": "Website for the MyWarp project, hosted on GitHub pages",
   "private": true,
   "scripts": {
-    "dev": "parcel watch --dist-dir=.tmp/assets assets/javascripts/*.js assets/stylesheets/site.scss",
-    "build": "parcel build --dist-dir=.tmp/assets assets/javascripts/*.js assets/stylesheets/site.scss",
-    "after_build": "purgecss --css build/style.css --content build/*.html build/**/*.html build/*.js --output build/"
+    "after_build": "purgecss --css build/style.css --content build/*.html build/**/*.html build/*.js --output build/",
+    "build:esbuild": "esbuild assets/javascripts/*.js --outdir=.tmp/javascripts/ --bundle --minify",
+    "build:sass": "sass assets/stylesheets/site.scss .tmp/stylesheets/site.css --no-source-map --load-path=node_modules",
+    "watch:esbuild": "esbuild assets/javascripts/*.js --outdir=.tmp/javascripts/ --bundle --watch",
+    "watch:sass": "sass assets/stylesheets/site.scss .tmp/stylesheets/site.css --watch --load-path=node_modules"
   },
   "repository": {
     "type": "git",
@@ -15,16 +17,15 @@
   "author": "TheE (https://github.com/TheE)",
   "license": "GPL3",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.0-nightly.598",
-    "css.gg": "^2.0.0",
-    "hamburgers": "^1.1.3",
-    "modularscale-sass": "^3.0.10",
-    "parcel": "^2.0.0-beta.1",
+    "esbuild": "^0.9.3",
     "purgecss": "^4.0.2",
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "css.gg": "^2.0.0",
+    "hamburgers": "^1.1.3",
     "modern-normalize": "^1.0.0",
+    "modularscale-sass": "^3.0.10",
     "tsparticles": "^1.20.1"
   }
 }
