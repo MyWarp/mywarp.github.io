@@ -1,0 +1,50 @@
+body.noscroll {
+  overflow: hidden;
+  position: fixed;
+}
+
+.site-container {
+  min-height: 100vh;
+  //see https://css-tricks.com/css-fix-for-100vh-in-mobile-webkit/
+  min-height: -webkit-fill-available;
+
+  display: grid;
+  align-items: start;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+
+  overflow: auto;
+}
+
+.site-content {
+  padding: 0 var(--spacing--small);
+  grid-area: main;
+
+  @media screen and #{$media-tablet-up} {
+    max-width: 66%;
+    margin: 0 auto;
+  }
+}
+
+.site-footer {
+  align-self: end;
+  justify-self: center;
+  font-weight: var(--font-weight--normal);
+  margin-bottom: var(--spacing--small);
+  grid-area: footer;
+  font-size: .8em;
+  color: $font-color--light;
+  z-index: 1;
+
+  a {
+    color: $font-color--light;
+    border-bottom: var(--border);
+
+    &:hover {
+      color: $action-color;
+    }
+  }
+}

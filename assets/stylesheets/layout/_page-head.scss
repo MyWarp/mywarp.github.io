@@ -1,0 +1,48 @@
+.site-header {
+  padding: var(--spacing--small);
+  grid-area: header;
+}
+
+.site-header--mobile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header {
+  font-weight: var(--font-weight--semi-bold);
+  z-index: 1;
+}
+
+.site-header--titel {
+  margin: 0;
+}
+
+.site-header--btn {
+  padding-right: 0;
+  background: none;
+}
+
+.site-header--logo {
+  height: 2em;
+
+  color: $font-color--base;
+}
+
+@media screen and #{$media-tablet-up} {
+
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .site-header--btn {
+    display: none;
+  }
+
+  .site-header--mobile-wrapper {
+    display: initial;
+  }
+
+}

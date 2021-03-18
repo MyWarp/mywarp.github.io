@@ -1,0 +1,111 @@
+.site-header--nav {
+  font-size: 2.5em;
+  display: flex;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  background-color: $viewport-background-color;
+  transition: opacity var(--timing) var(--duration);
+  z-index: -1;
+
+  align-items: center;
+  justify-content: center;
+
+  a {
+    color: currentcolor;
+    transition: color var(--timing) var(--duration);
+
+    &:hover {
+      color: $mywarp-green;
+    }
+  }
+
+
+  li {
+    padding: .25em;
+    text-align: center;
+
+    &:last {
+      margin-bottom: var(--spacing);
+    }
+  }
+
+  &.is-active {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+
+  }
+}
+
+@media screen and #{$media-tablet-up} {
+
+  .site-header--nav {
+    display: initial;
+    position: static;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+
+    font-size: 1.2em;
+    background: none;
+    text-align: right;
+
+    li {
+      display: inline-block;
+      margin-right: var(--spacing--small);
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    [aria-current]:not([aria-current="false"]) {
+      &:before {
+        content: '';
+        position: absolute;
+        margin: 0 auto;
+        bottom: .5em;
+        left: var(--spacing--small);
+        width: calc(100% - 2* var(--spacing--small));
+        height: .125em;
+        background-color: currentcolor;
+        transition: all var(--timing) var(--duration);
+
+      }
+
+      transition: all var(--timing) var(--duration);
+
+      &:hover {
+        color: $font-color--base;
+        background-color: $viewport-background-color;
+        box-shadow: inset 0 0 0 var(--border-radius) $font-color--base;
+
+        &:before {
+          background-color: $viewport-background-color;
+        }
+      }
+    }
+
+    a {
+      color: $font-color--base;
+      text-decoration: none;
+      padding: var(--spacing--small);
+      transition: color var(--timing) var(--duration);
+      transition: background-color var(--timing) var(--duration);
+
+      position: relative;
+
+      &:hover {
+        background-color: $font-color--base;
+        color: $viewport-background-color;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,19 @@
+.site-footer {
+  align-self: end;
+  justify-self: center;
+  font-weight: var(--font-weight--normal);
+  margin-bottom: var(--spacing--small);
+  grid-area: footer;
+  font-size: .8em;
+  color: $font-color--light;
+  z-index: 1;
+
+  a {
+    color: $font-color--light;
+    border-bottom: var(--border);
+
+    &:hover {
+      color: $action-color;
+    }
+  }
+}
