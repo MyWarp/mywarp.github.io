@@ -6,7 +6,7 @@
   "scripts": {
     "after_build": "purgecss --css build/style.css --content build/*.html build/**/*.html build/*.js --output build/",
     "build:esbuild": "esbuild assets/javascripts/*.js --outdir=.tmp/javascripts/ --bundle --minify",
-    "build:sass": "sass assets/stylesheets/site.scss .tmp/stylesheets/site.css --no-source-map --load-path=node_modules",
+    "build:sass": "sass assets/stylesheets/site.scss .tmp/stylesheets/site.css --no-source-map  --style compressed --load-path=node_modules",
     "watch:esbuild": "esbuild assets/javascripts/*.js --outdir=.tmp/javascripts/ --bundle --watch",
     "watch:sass": "sass assets/stylesheets/site.scss .tmp/stylesheets/site.css --watch --load-path=node_modules"
   },
