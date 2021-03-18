@@ -1,0 +1,1 @@
+(()=>{var t=document.getElementById("menu-button"),n=document.getElementById("main-navigation");t.addEventListener("click",function(e){t.classList.toggle("is-active"),n.classList.toggle("is-active"),document.body.classList.toggle("noscroll"),e.preventDefault()});})();
