@@ -4,8 +4,8 @@
     <title>MyWarp Development Builds</title>
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
-    <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Apr 2021 06:44:32 +0000</lastBuildDate>
+    <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 22 Apr 2021 21:09:59 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -14,270 +14,11 @@
       <width>32</width>
     </image>
     <item>
-      <title>Build No. 5 (3f10ddb47e)</title>
-      <description>Deploy from GitHub Actions</description>
-      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/5.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/5.html</guid>
-    </item>
-    <item>
-      <title>Build No. 34 (a45b2f08b7)</title>
-      <description>Switch to our own fork of slf4bukkit</description>
-      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/34.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/34.html</guid>
-    </item>
-    <item>
-      <title>Build No. 9 (5a266fbb26)</title>
-      <description>Update changelog</description>
-      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/9.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/9.html</guid>
-    </item>
-    <item>
-      <title>Build No. 56 (bdf01d46f6)</title>
-      <description>Bump flyway-core from 7.7.1 to 7.7.2 (#311)</description>
-      <pubDate>Fri, 2 Apr 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/56.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/56.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1894 (f814d932fa)</title>
-      <description>Remove Code Climate</description>
-      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1894.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1894.html</guid>
-    </item>
-    <item>
-      <title>Build No. 25 (b4376c0066)</title>
-      <description>Bump jooq from 3.14.4 to 3.14.6 (#294)</description>
-      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/25.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/25.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1819 (b1f5e3ff8b)</title>
-      <description>[Bukkit] Simplify chunk pre-loading</description>
-      <pubDate>Thu, 5 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1819.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1819.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1895 (4a19b11679)</title>
-      <description>Bump jooq-checker from 3.13.5 to 3.14.0 (#270)</description>
-      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1895.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1895.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1899 (163f3130a6)</title>
-      <description>Bump flyway-core from 7.0.4 to 7.1.0 (#271)</description>
-      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1899.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1899.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1916 (667ff808e4)</title>
-      <description>Bump flyway-core from 7.1.1 to 7.2.0 (#279)</description>
-      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1916.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1916.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1861 (52b8ad555e)</title>
-      <description>Bump flyway-core from 6.5.3 to 6.5.4 (#253)</description>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1861.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1861.html</guid>
-    </item>
-    <item>
-      <title>Build No. 50 (8951576166)</title>
-      <description>Bump flyway-core from 7.5.4 to 7.6.0 (#306)</description>
-      <pubDate>Mon, 8 Mar 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/50.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/50.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1887 (2b42425ee3)</title>
-      <description>Bump flyway-core from 7.0.1 to 7.0.2 (#266)</description>
-      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1887.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1887.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1866 (ceb3357a96)</title>
-      <description>Bump spigot-api from 1.16.2-R0.1-SNAPSHOT to 1.16.3-R0.1-SNAPSHOT (#258)</description>
-      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1866.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1866.html</guid>
-    </item>
-    <item>
-      <title>Build No. 52 (bfedcc42c6)</title>
-      <description>Bump flyway-core from 7.6.0 to 7.7.0 (#308)</description>
-      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/52.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/52.html</guid>
-    </item>
-    <item>
-      <title>Build No. 8 (1be4341292)</title>
-      <description>Bump flyway-core from 7.3.1 to 7.3.2 (#288)</description>
-      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/8.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/8.html</guid>
-    </item>
-    <item>
-      <title>Build No. 62 (3f469a7688)</title>
-      <description>Bump flyway-core from 7.8.0 to 7.8.1 (#315)</description>
-      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/62.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/62.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1818 (3264ee2b35)</title>
-      <description>[Bukkit] Remove deprecated chunk pre-loading</description>
-      <pubDate>Mon, 2 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1818.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1818.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1842 (d8bab4f38c)</title>
-      <description>Bump com.palantir.git-version from 0.12.2 to 0.12.3 (#236)</description>
-      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1842.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1842.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1793 (1f2438a)</title>
-      <description>Revert unsuccessfully deployment changes</description>
-      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1793.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1793.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1840 (a7f912dddf)</title>
-      <description>Update Flyway to 6.2.3</description>
-      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1840.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1840.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1885 (5be86ff3de)</title>
-      <description>Improve warning if a limit's world does not exist</description>
-      <pubDate>Thu, 8 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1885.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1885.html</guid>
-    </item>
-    <item>
-      <title>Build No. 16 (d80ddf2ca9)</title>
-      <description>Release 3.1.1</description>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/16.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/16.html</guid>
-    </item>
-    <item>
-      <title>Build No. 12 (e0a29e9d15)</title>
-      <description>Bump flyway-core from 7.3.2 to 7.4.0 (#289)</description>
-      <pubDate>Tue, 5 Jan 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/12.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/12.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1749 (c3cbe61)</title>
-      <description>Release 3.0</description>
-      <pubDate>Tue, 1 Jan 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1749.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1749.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1852 (232676f182)</title>
-      <description>Update SpigotAPI to 1.16.1-R0.1-SNAPSHOT</description>
-      <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1852.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1852.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1879 (6fff461ba1)</title>
-      <description>Bump flyway-core from 6.5.7 to 7.0.0 (#261)</description>
-      <pubDate>Mon, 5 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1879.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1879.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1772 (32897eb)</title>
-      <description>Fix translation files missing from build</description>
-      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1772.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1772.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1815 (77239c4f28)</title>
-      <description>Release 3.1</description>
-      <pubDate>Sun, 1 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1815.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1815.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1788 (9308306)</title>
-      <description>Build against Bukkit 1.14.4</description>
-      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1788.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1788.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1807 (7ebc83c87f)</title>
-      <description>Fix link to build website</description>
-      <pubDate>Mon, 2 Sep 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1807.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1807.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1839 (af154f27d0)</title>
-      <description>Bump bukkit from 1.15.1-R0.1-SNAPSHOT to 1.15.2-R0.1-SNAPSHOT (#233)</description>
-      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1839.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1839.html</guid>
-    </item>
-    <item>
-      <title>Build No. 65 (70f30931fe)</title>
-      <description>Bump jooq from 3.14.8 to 3.14.9 (#317)</description>
-      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/65.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/65.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1851 (90a241f859)</title>
-      <description>Bump animal-sniffer-annotations from 1.18 to 1.19 (#248)</description>
-      <pubDate>Wed, 5 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1851.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1851.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1753 (24de5b6)</title>
-      <description>[Bukkit] Add missing api-version to plugin.yml</description>
-      <pubDate>Sat, 5 Jan 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1753.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1753.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1844 (b822659b87)</title>
-      <description>Update Flyway to 6.3.3</description>
-      <pubDate>Wed, 8 Apr 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1844.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1844.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1891 (5d3f133462)</title>
-      <description>Bump flyway-core from 7.0.3 to 7.0.4 (#268)</description>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1891.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1891.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1805 (c26de8df5f)</title>
-      <description>Fix creation of shadow jar for Bukkit</description>
-      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1805.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1805.html</guid>
+      <title>Build No. 1859 (1b2f2f1894)</title>
+      <description>Bump spigot-api from 1.16.1-R0.1-SNAPSHOT to 1.16.2-R0.1-SNAPSHOT (#252)</description>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1859.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1859.html</guid>
     </item>
     <item>
       <title>Build No. 1804 (8444615)</title>
@@ -287,228 +28,11 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1804.html</guid>
     </item>
     <item>
-      <title>Build No. 1883 (bdd10fca4a)</title>
-      <description>Bump com.github.johnrengelman.shadow from 6.0.0 to 6.1.0 (#264)</description>
-      <pubDate>Thu, 8 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1883.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1883.html</guid>
-    </item>
-    <item>
-      <title>Build No. 18 (aa21fbbc35)</title>
-      <description>Bump spigot-api from 1.16.4-R0.1-SNAPSHOT to 1.16.5-R0.1-SNAPSHOT (#291)</description>
-      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/18.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/18.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1930 (10b9684e31)</title>
-      <description>Bump jooq-checker from 3.14.3 to 3.14.4 (#286)</description>
-      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1930.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1930.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1870 (40e6b0b6f1)</title>
-      <description>Bump flyway-core from 6.5.6 to 6.5.7 (#260)</description>
-      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1870.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1870.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1783 (61ceac2)</title>
-      <description>Fix warp signs not supporting new buttons and pressure plates</description>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1783.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1783.html</guid>
-    </item>
-    <item>
-      <title>Build No. 45 (08fc34e766)</title>
-      <description>Bump jooq from 3.14.7 to 3.14.8 (#304)</description>
-      <pubDate>Mon, 1 Mar 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/45.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/45.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1806 (ff6afdda59)</title>
-      <description>Document variables that can be used in the build process</description>
-      <pubDate>Mon, 2 Sep 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1806.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1806.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1906 (f4cc2a3ad1)</title>
-      <description>Bump flyway-core from 7.1.0 to 7.1.1 (#274)</description>
-      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1906.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1906.html</guid>
-    </item>
-    <item>
-      <title>Build No. 20 (83990d2f44)</title>
-      <description>Bump flyway-core from 7.5.0 to 7.5.1 (#292)</description>
-      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/20.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/20.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1882 (8ff3a86a1d)</title>
-      <description>Bump flyway-core from 7.0.0 to 7.0.1 (#265)</description>
-      <pubDate>Thu, 8 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1882.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1882.html</guid>
-    </item>
-    <item>
-      <title>Build No. 23 (3b91129114)</title>
-      <description>Bump jooq-checker from 3.14.4 to 3.14.6 (#293)</description>
-      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/23.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/23.html</guid>
-    </item>
-    <item>
-      <title>Build No. 60 (5e7c1e1b5b)</title>
-      <description>Bump flyway-core from 7.7.3 to 7.8.0 (#314)</description>
-      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/60.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/60.html</guid>
-    </item>
-    <item>
-      <title>Build No. 15 (80abfb9dff)</title>
-      <description>Fix version string</description>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/15.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/15.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1910 (488af1d2f0)</title>
-      <description>Bump ru.vyarus.animalsniffer from 1.5.1 to 1.5.2 (#276)</description>
-      <pubDate>Thu, 5 Nov 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1910.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1910.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1857 (66417f4b0a)</title>
-      <description>Bump flyway-core from 6.3.3 to 6.5.3 (#251)</description>
-      <pubDate>Fri, 7 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1857.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1857.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1904 (6352795c00)</title>
-      <description>Bump jooq-checker from 3.14.0 to 3.14.1 (#273)</description>
-      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1904.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1904.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1781 (8c2f99f)</title>
-      <description>Update changelog</description>
-      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1781.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1781.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1808 (c5635e98ab)</title>
-      <description>Add configurable sorting to the 'list' command, add '-o' overwrite</description>
-      <pubDate>Mon, 2 Sep 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1808.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1808.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1811 (e740ed4cca)</title>
-      <description>Merge branch 'feature/flyway5'</description>
-      <pubDate>Sun, 1 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1811.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1811.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1778 (1b75d82)</title>
-      <description>Fix interaction event cancellation</description>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1778.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1778.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1897 (b6965d8081)</title>
-      <description>Bump jooq from 3.13.5 to 3.14.0 (#269)</description>
-      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1897.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1897.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1784 (f3ed0f3)</title>
-      <description>Fix flawed evaluation of interactions with warp signs</description>
-      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1784.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1784.html</guid>
-    </item>
-    <item>
-      <title>Build No. 7 (cfde2ab9dc)</title>
-      <description>Remove Travis.</description>
-      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/7.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/7.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1828 (94cd688516)</title>
-      <description>Bump com.github.johnrengelman.shadow from 5.1.0 to 5.2.0 (#228)</description>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1828.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1828.html</guid>
-    </item>
-    <item>
-      <title>Build No. 10 (4841409a43)</title>
-      <description>Deploy released artifacts to GitHub Releases (experimental)</description>
-      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/10.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/10.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1833 (18b42a1c8c)</title>
-      <description>Bump squirrelid from 0.1.0 to 0.2.0 (#229)</description>
-      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1833.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1833.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1925 (634c34fd88)</title>
-      <description>Bump flyway-core from 7.2.1 to 7.3.0 (#284)</description>
-      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1925.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1925.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1837 (adb90972b9)</title>
-      <description>Bump bukkit from 1.14.4-R0.1-SNAPSHOT to 1.15.1-R0.1-SNAPSHOT (#225)</description>
-      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1837.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1837.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1752 (a941be2)</title>
-      <description>Prepare for next development iteration</description>
-      <pubDate>Sat, 5 Jan 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1752.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1752.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1820 (4a94f5cc9e)</title>
-      <description>[Bukkit] Remove cancellation of interaction events for warp signs</description>
-      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1820.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1820.html</guid>
-    </item>
-    <item>
-      <title>Build No. 32 (a9d333ad81)</title>
-      <description>Bump jooq-checker from 3.14.6 to 3.14.7 (#299)</description>
-      <pubDate>Wed, 3 Feb 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/32.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/32.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1908 (5d17329b19)</title>
-      <description>Bump spigot-api from 1.16.3-R0.1-SNAPSHOT to 1.16.4-R0.1-SNAPSHOT (#275)</description>
-      <pubDate>Tue, 3 Nov 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1908.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1908.html</guid>
+      <title>Build No. 1805 (c26de8df5f)</title>
+      <description>Fix creation of shadow jar for Bukkit</description>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1805.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1805.html</guid>
     </item>
     <item>
       <title>Build No. 1817 (afc540b8b0)</title>
@@ -518,11 +42,221 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1817.html</guid>
     </item>
     <item>
-      <title>Build No. 1787 (f3ed0f3)</title>
+      <title>Build No. 1777 (a447643)</title>
+      <description>Prepare for next development iteration</description>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1777.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1777.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1839 (af154f27d0)</title>
+      <description>Bump bukkit from 1.15.1-R0.1-SNAPSHOT to 1.15.2-R0.1-SNAPSHOT (#233)</description>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1839.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1839.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1899 (163f3130a6)</title>
+      <description>Bump flyway-core from 7.0.4 to 7.1.0 (#271)</description>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1899.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1899.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1840 (a7f912dddf)</title>
+      <description>Update Flyway to 6.2.3</description>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1840.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1840.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1844 (b822659b87)</title>
+      <description>Update Flyway to 6.3.3</description>
+      <pubDate>Wed, 8 Apr 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1844.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1844.html</guid>
+    </item>
+    <item>
+      <title>Build No. 60 (5e7c1e1b5b)</title>
+      <description>Bump flyway-core from 7.7.3 to 7.8.0 (#314)</description>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/60.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/60.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1883 (bdd10fca4a)</title>
+      <description>Bump com.github.johnrengelman.shadow from 6.0.0 to 6.1.0 (#264)</description>
+      <pubDate>Thu, 8 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1883.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1883.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1877 (c8e1d631d3)</title>
+      <description>Bump jooq-checker from 3.13.4 to 3.13.5 (#262)</description>
+      <pubDate>Mon, 5 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1877.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1877.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1923 (bd38d7bc02)</title>
+      <description>Bump flyway-core from 7.2.0 to 7.2.1 (#282)</description>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1923.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1923.html</guid>
+    </item>
+    <item>
+      <title>Build No. 45 (08fc34e766)</title>
+      <description>Bump jooq from 3.14.7 to 3.14.8 (#304)</description>
+      <pubDate>Mon, 1 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/45.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/45.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1879 (6fff461ba1)</title>
+      <description>Bump flyway-core from 6.5.7 to 7.0.0 (#261)</description>
+      <pubDate>Mon, 5 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1879.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1879.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1793 (1f2438a)</title>
+      <description>Revert unsuccessfully deployment changes</description>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1793.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1793.html</guid>
+    </item>
+    <item>
+      <title>Build No. 67 (76bfad6ac7)</title>
+      <description>Bump jooq-checker from 3.14.8 to 3.14.9 (#316)</description>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/67.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/67.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1857 (66417f4b0a)</title>
+      <description>Bump flyway-core from 6.3.3 to 6.5.3 (#251)</description>
+      <pubDate>Fri, 7 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1857.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1857.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1842 (d8bab4f38c)</title>
+      <description>Bump com.palantir.git-version from 0.12.2 to 0.12.3 (#236)</description>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1842.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1842.html</guid>
+    </item>
+    <item>
+      <title>Build No. 36 (780a6097a0)</title>
+      <description>Bump flyway-core from 7.5.2 to 7.5.3 (#300)</description>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/36.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/36.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1806 (ff6afdda59)</title>
+      <description>Document variables that can be used in the build process</description>
+      <pubDate>Mon, 2 Sep 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1806.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1806.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1812 (1ebc24b1c0)</title>
+      <description>Update JOOQ to 3.12.3</description>
+      <pubDate>Sun, 1 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1812.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1812.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1821 (e3c967e693)</title>
+      <description>Update Flyway to 6.1.1</description>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1821.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1821.html</guid>
+    </item>
+    <item>
+      <title>Build No. 12 (e0a29e9d15)</title>
+      <description>Bump flyway-core from 7.3.2 to 7.4.0 (#289)</description>
+      <pubDate>Tue, 5 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/12.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/12.html</guid>
+    </item>
+    <item>
+      <title>Build No. 18 (aa21fbbc35)</title>
+      <description>Bump spigot-api from 1.16.4-R0.1-SNAPSHOT to 1.16.5-R0.1-SNAPSHOT (#291)</description>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/18.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/18.html</guid>
+    </item>
+    <item>
+      <title>Build No. 26 (d262a223e6)</title>
+      <description>Bump flyway-core from 7.5.1 to 7.5.2 (#295)</description>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/26.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/26.html</guid>
+    </item>
+    <item>
+      <title>Build No. 23 (3b91129114)</title>
+      <description>Bump jooq-checker from 3.14.4 to 3.14.6 (#293)</description>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/23.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/23.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1885 (5be86ff3de)</title>
+      <description>Improve warning if a limit's world does not exist</description>
+      <pubDate>Thu, 8 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1885.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1885.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1891 (5d3f133462)</title>
+      <description>Bump flyway-core from 7.0.3 to 7.0.4 (#268)</description>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1891.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1891.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1784 (f3ed0f3)</title>
       <description>Fix flawed evaluation of interactions with warp signs</description>
-      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1787.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1787.html</guid>
+      <pubDate>Sat, 25 May 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1784.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1784.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1828 (94cd688516)</title>
+      <description>Bump com.github.johnrengelman.shadow from 5.1.0 to 5.2.0 (#228)</description>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1828.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1828.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1820 (4a94f5cc9e)</title>
+      <description>[Bukkit] Remove cancellation of interaction events for warp signs</description>
+      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1820.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1820.html</guid>
+    </item>
+    <item>
+      <title>Build No. 56 (bdf01d46f6)</title>
+      <description>Bump flyway-core from 7.7.1 to 7.7.2 (#311)</description>
+      <pubDate>Fri, 2 Apr 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/56.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/56.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1807 (7ebc83c87f)</title>
+      <description>Fix link to build website</description>
+      <pubDate>Mon, 2 Sep 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1807.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1807.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1908 (5d17329b19)</title>
+      <description>Bump spigot-api from 1.16.3-R0.1-SNAPSHOT to 1.16.4-R0.1-SNAPSHOT (#275)</description>
+      <pubDate>Tue, 3 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1908.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1908.html</guid>
     </item>
     <item>
       <title>Build No. 1768 (a2f84c9)</title>
@@ -532,32 +266,11 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1768.html</guid>
     </item>
     <item>
-      <title>Build No. 54 (45e5df7891)</title>
-      <description>Bump flyway-core from 7.7.0 to 7.7.1 (#309)</description>
-      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/54.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/54.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1863 (9339539e27)</title>
-      <description>Bump flyway-core from 6.5.4 to 6.5.5 (#254)</description>
-      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1863.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1863.html</guid>
-    </item>
-    <item>
-      <title>Build No. 30 (10863c39c6)</title>
-      <description>Bump jooq from 3.14.6 to 3.14.7 (#298)</description>
-      <pubDate>Wed, 3 Feb 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/30.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/30.html</guid>
-    </item>
-    <item>
-      <title>Build No. 58 (de9876393f)</title>
-      <description>Bump flyway-core from 7.7.2 to 7.7.3 (#312)</description>
-      <pubDate>Fri, 9 Apr 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/58.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/58.html</guid>
+      <title>Build No. 52 (bfedcc42c6)</title>
+      <description>Bump flyway-core from 7.6.0 to 7.7.0 (#308)</description>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/52.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/52.html</guid>
     </item>
     <item>
       <title>Build No. 1779 (6c78670)</title>
@@ -567,25 +280,95 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1779.html</guid>
     </item>
     <item>
-      <title>Build No. 1775 (86d9f59)</title>
-      <description>Update VaultAPI to 1.7 and switch to self-hosted repo</description>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1775.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1775.html</guid>
+      <title>Build No. 1910 (488af1d2f0)</title>
+      <description>Bump ru.vyarus.animalsniffer from 1.5.1 to 1.5.2 (#276)</description>
+      <pubDate>Thu, 5 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1910.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1910.html</guid>
     </item>
     <item>
-      <title>Build No. 1785 (9142277)</title>
-      <description>Update issue templates</description>
-      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1785.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1785.html</guid>
+      <title>Build No. 9 (5a266fbb26)</title>
+      <description>Update changelog</description>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/9.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/9.html</guid>
     </item>
     <item>
-      <title>Build No. 1921 (8eaccaea65)</title>
-      <description>Bump jooq-checker from 3.14.1 to 3.14.3 (#280)</description>
-      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1921.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1921.html</guid>
+      <title>Build No. 27 (645d2b3d6f)</title>
+      <description>Prepare for next development iteration</description>
+      <pubDate>Mon, 1 Feb 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/27.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/27.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1853 (5632fbea67)</title>
+      <description>Update com.github.johnrengelman.shadow to 6.0.0</description>
+      <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1853.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1853.html</guid>
+    </item>
+    <item>
+      <title>Build No. 40 (b7e5fc8c2e)</title>
+      <description>Bump ru.vyarus.animalsniffer from 1.5.2 to 1.5.3 (#302)</description>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/40.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/40.html</guid>
+    </item>
+    <item>
+      <title>Build No. 32 (a9d333ad81)</title>
+      <description>Bump jooq-checker from 3.14.6 to 3.14.7 (#299)</description>
+      <pubDate>Wed, 3 Feb 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/32.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/32.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1894 (f814d932fa)</title>
+      <description>Remove Code Climate</description>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1894.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1894.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1749 (c3cbe61)</title>
+      <description>Release 3.0</description>
+      <pubDate>Tue, 1 Jan 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1749.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1749.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1833 (18b42a1c8c)</title>
+      <description>Bump squirrelid from 0.1.0 to 0.2.0 (#229)</description>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1833.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1833.html</guid>
+    </item>
+    <item>
+      <title>Build No. 15 (80abfb9dff)</title>
+      <description>Fix version string</description>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/15.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/15.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1778 (1b75d82)</title>
+      <description>Fix interaction event cancellation</description>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1778.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1778.html</guid>
+    </item>
+    <item>
+      <title>Build No. 7 (cfde2ab9dc)</title>
+      <description>Remove Travis.</description>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/7.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/7.html</guid>
+    </item>
+    <item>
+      <title>Build No. 5 (3f10ddb47e)</title>
+      <description>Deploy from GitHub Actions</description>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/5.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/5.html</guid>
     </item>
     <item>
       <title>Build No. 1832 (2d03ea5fe3)</title>
@@ -595,6 +378,223 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1832.html</guid>
     </item>
     <item>
+      <title>Build No. 25 (b4376c0066)</title>
+      <description>Bump jooq from 3.14.4 to 3.14.6 (#294)</description>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/25.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/25.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1815 (77239c4f28)</title>
+      <description>Release 3.1</description>
+      <pubDate>Sun, 1 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1815.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1815.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1930 (10b9684e31)</title>
+      <description>Bump jooq-checker from 3.14.3 to 3.14.4 (#286)</description>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1930.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1930.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1752 (a941be2)</title>
+      <description>Prepare for next development iteration</description>
+      <pubDate>Sat, 5 Jan 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1752.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1752.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1810 (44e1f81a11)</title>
+      <description>Adds (optional) cooldowns and warmups to warp signs</description>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1810.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1810.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1776 (351e1d5)</title>
+      <description>Release 3.0.1</description>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1776.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1776.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1868 (c361eb8f4b)</title>
+      <description>Bump flyway-core from 6.5.5 to 6.5.6 (#259)</description>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1868.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1868.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1827 (5788b5bfe0)</title>
+      <description>Bump animal-sniffer-annotations from 1.16 to 1.18 (#227)</description>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1827.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1827.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1921 (8eaccaea65)</title>
+      <description>Bump jooq-checker from 3.14.1 to 3.14.3 (#280)</description>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1921.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1921.html</guid>
+    </item>
+    <item>
+      <title>Build No. 6 (4c6d950c90)</title>
+      <description>Fix build number</description>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/6.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/6.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1861 (52b8ad555e)</title>
+      <description>Bump flyway-core from 6.5.3 to 6.5.4 (#253)</description>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1861.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1861.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1837 (adb90972b9)</title>
+      <description>Bump bukkit from 1.14.4-R0.1-SNAPSHOT to 1.15.1-R0.1-SNAPSHOT (#225)</description>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1837.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1837.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1785 (9142277)</title>
+      <description>Update issue templates</description>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1785.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1785.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1818 (3264ee2b35)</title>
+      <description>[Bukkit] Remove deprecated chunk pre-loading</description>
+      <pubDate>Mon, 2 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1818.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1818.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1843 (8c61372fdd)</title>
+      <description>Update Flyway to 6.3.2</description>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1843.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1843.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1863 (9339539e27)</title>
+      <description>Bump flyway-core from 6.5.4 to 6.5.5 (#254)</description>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1863.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1863.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1866 (ceb3357a96)</title>
+      <description>Bump spigot-api from 1.16.2-R0.1-SNAPSHOT to 1.16.3-R0.1-SNAPSHOT (#258)</description>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1866.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1866.html</guid>
+    </item>
+    <item>
+      <title>Build No. 20 (83990d2f44)</title>
+      <description>Bump flyway-core from 7.5.0 to 7.5.1 (#292)</description>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/20.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/20.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1895 (4a19b11679)</title>
+      <description>Bump jooq-checker from 3.13.5 to 3.14.0 (#270)</description>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1895.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1895.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1772 (32897eb)</title>
+      <description>Fix translation files missing from build</description>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1772.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1772.html</guid>
+    </item>
+    <item>
+      <title>Build No. 34 (a45b2f08b7)</title>
+      <description>Switch to our own fork of slf4bukkit</description>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/34.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/34.html</guid>
+    </item>
+    <item>
+      <title>Build No. 10 (4841409a43)</title>
+      <description>Deploy released artifacts to GitHub Releases (experimental)</description>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/10.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/10.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1897 (b6965d8081)</title>
+      <description>Bump jooq from 3.13.5 to 3.14.0 (#269)</description>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1897.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1897.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1819 (b1f5e3ff8b)</title>
+      <description>[Bukkit] Simplify chunk pre-loading</description>
+      <pubDate>Thu, 5 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1819.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1819.html</guid>
+    </item>
+    <item>
+      <title>Build No. 54 (45e5df7891)</title>
+      <description>Bump flyway-core from 7.7.0 to 7.7.1 (#309)</description>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/54.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/54.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1811 (e740ed4cca)</title>
+      <description>Merge branch 'feature/flyway5'</description>
+      <pubDate>Sun, 1 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1811.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1811.html</guid>
+    </item>
+    <item>
+      <title>Build No. 62 (3f469a7688)</title>
+      <description>Bump flyway-core from 7.8.0 to 7.8.1 (#315)</description>
+      <pubDate>Mon, 19 Apr 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/62.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/62.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1808 (c5635e98ab)</title>
+      <description>Add configurable sorting to the 'list' command, add '-o' overwrite</description>
+      <pubDate>Mon, 2 Sep 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1808.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1808.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1852 (232676f182)</title>
+      <description>Update SpigotAPI to 1.16.1-R0.1-SNAPSHOT</description>
+      <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1852.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1852.html</guid>
+    </item>
+    <item>
+      <title>Build No. 16 (d80ddf2ca9)</title>
+      <description>Release 3.1.1</description>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/16.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/16.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1889 (80d7f00a9f)</title>
+      <description>Bump flyway-core from 7.0.2 to 7.0.3 (#267)</description>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1889.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1889.html</guid>
+    </item>
+    <item>
       <title>Build No. 48 (15039e4840)</title>
       <description>Trigger build</description>
       <pubDate>Fri, 5 Mar 2021 00:00:00 +0000</pubDate>
@@ -602,11 +602,144 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/48.html</guid>
     </item>
     <item>
+      <title>Build No. 1906 (f4cc2a3ad1)</title>
+      <description>Bump flyway-core from 7.1.0 to 7.1.1 (#274)</description>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1906.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1906.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1851 (90a241f859)</title>
+      <description>Bump animal-sniffer-annotations from 1.18 to 1.19 (#248)</description>
+      <pubDate>Wed, 5 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1851.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1851.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1904 (6352795c00)</title>
+      <description>Bump jooq-checker from 3.14.0 to 3.14.1 (#273)</description>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1904.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1904.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1783 (61ceac2)</title>
+      <description>Fix warp signs not supporting new buttons and pressure plates</description>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1783.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1783.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1753 (24de5b6)</title>
+      <description>[Bukkit] Add missing api-version to plugin.yml</description>
+      <pubDate>Sat, 5 Jan 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1753.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1753.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1887 (2b42425ee3)</title>
+      <description>Bump flyway-core from 7.0.1 to 7.0.2 (#266)</description>
+      <pubDate>Mon, 12 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1887.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1887.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1854 (7ca3776d58)</title>
+      <description>Update exception.no-such-player message</description>
+      <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1854.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1854.html</guid>
+    </item>
+    <item>
       <title>Build No. 42 (c99ab3b5b6)</title>
       <description>Bump flyway-core from 7.5.3 to 7.5.4 (#303)</description>
       <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/42.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/42.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1855 (9446119feb)</title>
+      <description>Use Maven Central instead of JCenter</description>
+      <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1855.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1855.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1835 (d1f8450bfe)</title>
+      <description>Bump slf4j-api from 1.7.25 to 1.7.30 (#226)</description>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1835.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1835.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1864 (0440f00135)</title>
+      <description>Correctly display the invitee's name</description>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1864.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1864.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1849 (9c5763c5cb)</title>
+      <description>Create Dependabot config file (#250)</description>
+      <pubDate>Wed, 5 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1849.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1849.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1787 (f3ed0f3)</title>
+      <description>Fix flawed evaluation of interactions with warp signs</description>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1787.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1787.html</guid>
+    </item>
+    <item>
+      <title>Build No. 58 (de9876393f)</title>
+      <description>Bump flyway-core from 7.7.2 to 7.7.3 (#312)</description>
+      <pubDate>Fri, 9 Apr 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/58.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/58.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1882 (8ff3a86a1d)</title>
+      <description>Bump flyway-core from 7.0.0 to 7.0.1 (#265)</description>
+      <pubDate>Thu, 8 Oct 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1882.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1882.html</guid>
+    </item>
+    <item>
+      <title>Build No. 50 (8951576166)</title>
+      <description>Bump flyway-core from 7.5.4 to 7.6.0 (#306)</description>
+      <pubDate>Mon, 8 Mar 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/50.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/50.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1836 (137b4e5f9d)</title>
+      <description>[Bukkit] Do not log an Exception when using LegacyFaceBlockResolver</description>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1836.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1836.html</guid>
+    </item>
+    <item>
+      <title>Build No. 14 (40152dde29)</title>
+      <description>Bump flyway-core from 7.4.0 to 7.5.0 (#290)</description>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/14.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/14.html</guid>
+    </item>
+    <item>
+      <title>Build No. 38 (1a5f8cbd7d)</title>
+      <description>Bump animal-sniffer-annotations from 1.19 to 1.20 (#301)</description>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/38.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/38.html</guid>
+    </item>
+    <item>
+      <title>Build No. 1925 (634c34fd88)</title>
+      <description>Bump flyway-core from 7.2.1 to 7.3.0 (#284)</description>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1925.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1925.html</guid>
     </item>
     <item>
       <title>Build No. 1794 (522b585)</title>
@@ -623,186 +756,60 @@
       <guid isPermaLink="true">https://mywarp.github.io/builds/1874.html</guid>
     </item>
     <item>
-      <title>Build No. 1821 (e3c967e693)</title>
-      <description>Update Flyway to 6.1.1</description>
-      <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1821.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1821.html</guid>
-    </item>
-    <item>
-      <title>Build No. 40 (b7e5fc8c2e)</title>
-      <description>Bump ru.vyarus.animalsniffer from 1.5.2 to 1.5.3 (#302)</description>
-      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/40.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/40.html</guid>
-    </item>
-    <item>
-      <title>Build No. 27 (645d2b3d6f)</title>
-      <description>Prepare for next development iteration</description>
-      <pubDate>Mon, 1 Feb 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/27.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/27.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1849 (9c5763c5cb)</title>
-      <description>Create Dependabot config file (#250)</description>
-      <pubDate>Wed, 5 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1849.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1849.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1868 (c361eb8f4b)</title>
-      <description>Bump flyway-core from 6.5.5 to 6.5.6 (#259)</description>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1868.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1868.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1810 (44e1f81a11)</title>
-      <description>Adds (optional) cooldowns and warmups to warp signs</description>
-      <pubDate>Mon, 25 Nov 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1810.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1810.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1889 (80d7f00a9f)</title>
-      <description>Bump flyway-core from 7.0.2 to 7.0.3 (#267)</description>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1889.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1889.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1923 (bd38d7bc02)</title>
-      <description>Bump flyway-core from 7.2.0 to 7.2.1 (#282)</description>
-      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1923.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1923.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1812 (1ebc24b1c0)</title>
-      <description>Update JOOQ to 3.12.3</description>
-      <pubDate>Sun, 1 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1812.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1812.html</guid>
-    </item>
-    <item>
-      <title>Build No. 6 (4c6d950c90)</title>
-      <description>Fix build number</description>
-      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/6.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/6.html</guid>
-    </item>
-    <item>
-      <title>Build No. 36 (780a6097a0)</title>
-      <description>Bump flyway-core from 7.5.2 to 7.5.3 (#300)</description>
-      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/36.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/36.html</guid>
-    </item>
-    <item>
-      <title>Build No. 14 (40152dde29)</title>
-      <description>Bump flyway-core from 7.4.0 to 7.5.0 (#290)</description>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/14.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/14.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1853 (5632fbea67)</title>
-      <description>Update com.github.johnrengelman.shadow to 6.0.0</description>
-      <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1853.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1853.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1864 (0440f00135)</title>
-      <description>Correctly display the invitee's name</description>
-      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1864.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1864.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1777 (a447643)</title>
-      <description>Prepare for next development iteration</description>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1777.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1777.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1859 (1b2f2f1894)</title>
-      <description>Bump spigot-api from 1.16.1-R0.1-SNAPSHOT to 1.16.2-R0.1-SNAPSHOT (#252)</description>
-      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1859.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1859.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1776 (351e1d5)</title>
-      <description>Release 3.0.1</description>
+      <title>Build No. 1775 (86d9f59)</title>
+      <description>Update VaultAPI to 1.7 and switch to self-hosted repo</description>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1776.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1776.html</guid>
+      <link>https://mywarp.github.io/builds/1775.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1775.html</guid>
     </item>
     <item>
-      <title>Build No. 1836 (137b4e5f9d)</title>
-      <description>[Bukkit] Do not log an Exception when using LegacyFaceBlockResolver</description>
-      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1836.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1836.html</guid>
+      <title>Build No. 1916 (667ff808e4)</title>
+      <description>Bump flyway-core from 7.1.1 to 7.2.0 (#279)</description>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1916.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1916.html</guid>
     </item>
     <item>
-      <title>Build No. 1843 (8c61372fdd)</title>
-      <description>Update Flyway to 6.3.2</description>
-      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1843.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1843.html</guid>
+      <title>Build No. 30 (10863c39c6)</title>
+      <description>Bump jooq from 3.14.6 to 3.14.7 (#298)</description>
+      <pubDate>Wed, 3 Feb 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/30.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/30.html</guid>
     </item>
     <item>
-      <title>Build No. 1855 (9446119feb)</title>
-      <description>Use Maven Central instead of JCenter</description>
-      <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1855.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1855.html</guid>
+      <title>Build No. 1870 (40e6b0b6f1)</title>
+      <description>Bump flyway-core from 6.5.6 to 6.5.7 (#260)</description>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1870.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1870.html</guid>
     </item>
     <item>
-      <title>Build No. 38 (1a5f8cbd7d)</title>
-      <description>Bump animal-sniffer-annotations from 1.19 to 1.20 (#301)</description>
-      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/38.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/38.html</guid>
+      <title>Build No. 1788 (9308306)</title>
+      <description>Build against Bukkit 1.14.4</description>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1788.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1788.html</guid>
     </item>
     <item>
-      <title>Build No. 1854 (7ca3776d58)</title>
-      <description>Update exception.no-such-player message</description>
-      <pubDate>Thu, 6 Aug 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1854.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1854.html</guid>
+      <title>Build No. 65 (70f30931fe)</title>
+      <description>Bump jooq from 3.14.8 to 3.14.9 (#317)</description>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/65.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/65.html</guid>
     </item>
     <item>
-      <title>Build No. 1835 (d1f8450bfe)</title>
-      <description>Bump slf4j-api from 1.7.25 to 1.7.30 (#226)</description>
-      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1835.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1835.html</guid>
+      <title>Build No. 8 (1be4341292)</title>
+      <description>Bump flyway-core from 7.3.1 to 7.3.2 (#288)</description>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/8.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/8.html</guid>
     </item>
     <item>
-      <title>Build No. 1877 (c8e1d631d3)</title>
-      <description>Bump jooq-checker from 3.13.4 to 3.13.5 (#262)</description>
-      <pubDate>Mon, 5 Oct 2020 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1877.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1877.html</guid>
-    </item>
-    <item>
-      <title>Build No. 26 (d262a223e6)</title>
-      <description>Bump flyway-core from 7.5.1 to 7.5.2 (#295)</description>
-      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/26.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/26.html</guid>
-    </item>
-    <item>
-      <title>Build No. 1827 (5788b5bfe0)</title>
-      <description>Bump animal-sniffer-annotations from 1.16 to 1.18 (#227)</description>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-      <link>https://mywarp.github.io/builds/1827.html</link>
-      <guid isPermaLink="true">https://mywarp.github.io/builds/1827.html</guid>
+      <title>Build No. 1781 (8c2f99f)</title>
+      <description>Update changelog</description>
+      <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/1781.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/1781.html</guid>
     </item>
   </channel>
 </rss>
