@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 17 May 2021 09:09:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 May 2021 09:17:16 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -600,6 +600,13 @@
       <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/8.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/8.html</guid>
+    </item>
+    <item>
+      <title>Build No. 75 (158deef45e)</title>
+      <description>Bump com.github.johnrengelman.shadow from 6.1.0 to 7.0.0 (#318)</description>
+      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/75.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/75.html</guid>
     </item>
     <item>
       <title>Build No. 1906 (f4cc2a3ad1)</title>
