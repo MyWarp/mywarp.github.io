@@ -35,7 +35,7 @@ jobs:
     - name: 🔧 Run Middleman
       run: bundle exec middleman build
     - name: 🚀 Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@4.1.1
+      uses: JamesIves/github-pages-deploy-action@4.1.3
       if: github.ref == 'refs/heads/src'
       with:
         branch: master
