@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 17 May 2021 06:31:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 May 2021 09:09:43 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -782,6 +782,13 @@
       <pubDate>Wed, 8 Apr 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1844.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1844.html</guid>
+    </item>
+    <item>
+      <title>Build No. 73 (2b19580ada)</title>
+      <description>Update Gradle to 7.0</description>
+      <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/73.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/73.html</guid>
     </item>
     <item>
       <title>Build No. 1778 (1b75d82)</title>
