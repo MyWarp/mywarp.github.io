@@ -1,87 +1,124 @@
 .index .site-content {
-    align-self: center;
+  align-self: center;
 
-    font-weight: var(--font-weight--semi-bold);
+  font-weight: var(--font-weight--semi-bold);
 
-    @media screen and #{$media-large-mobile-up} {
-        font-size: ms(2);
+  @media screen and #{$media-large-mobile-up} {
+    font-size: ms(2);
 
-        .link-list {
-            font-size: 1.2rem;
-        }
+    .link-list {
+      font-size: 1.2rem;
     }
+  }
 }
 
 .link-list {
 
-    padding: var(--spacing--small) 0;
+  padding: var(--spacing--small) 0;
 
-    li {
-        display: inline-block;
-        margin-right: var(--spacing--small);
+  li {
+    display: inline-block;
+    margin-right: var(--spacing--small);
 
-        &:last-child {
-            margin-right: 0;
-        }
+    &:last-child {
+      margin-right: 0;
     }
+  }
 
-    a {
-        color: $font-color--base;
-        text-decoration: none;
-        padding: var(--spacing--small);
-        transition: color var(--timing) var(--duration);
-        transition: background-color var(--timing) var(--duration);
+  a {
+    color: $font-color--base;
+    text-decoration: none;
+    padding: var(--spacing--small);
+    transition: color var(--timing) var(--duration);
+    transition: background-color var(--timing) var(--duration);
 
-        position: relative;
+    position: relative;
 
-        &:hover {
-            background-color: $font-color--base;
-            color: $viewport-background-color;
-        }
+    &:hover {
+      background-color: $font-color--base;
+      color: $viewport-background-color;
     }
+  }
 }
 
 .link-list--underlined a {
 
-    &:before {
-        content: '';
-        position: absolute;
-        margin: 0 auto;
-        bottom: .5em;
-        left: var(--spacing--small);
-        width: calc(100% - 2* var(--spacing--small));
-        height: .125em;
-        background-color: currentcolor;
-        transition: all var(--timing) var(--duration);
-
-    }
-
+  &:before {
+    content: '';
+    position: absolute;
+    margin: 0 auto;
+    bottom: .5em;
+    left: var(--spacing--small);
+    width: calc(100% - 2* var(--spacing--small));
+    height: .125em;
+    background-color: currentcolor;
     transition: all var(--timing) var(--duration);
 
-    &:hover {
-        color: $font-color--base;
-        background-color: $viewport-background-color;
-        box-shadow: inset 0 0 0 var(--border-radius) $font-color--base;
+  }
 
-        &:before {
-            background-color: $viewport-background-color;
-        }
+  transition: all var(--timing) var(--duration);
+
+  &:hover {
+    color: $font-color--base;
+    background-color: $viewport-background-color;
+    box-shadow: inset 0 0 0 var(--border-radius) $font-color--base;
+
+    &:before {
+      background-color: $viewport-background-color;
     }
+  }
 
 }
 
-.link-list--button a {
-    background-color: $font-color--base;
-    box-shadow: inset 0 0 0 var(--border-radius) $font-color--base;
+.link-list--dropdown button {
+  background-color: $font-color--base;
+  color: $viewport-background-color;
 
-    color: $viewport-background-color;
+  border-bottom: var(--border-radius) solid $font-color--base;
+}
 
-    &:before {
-        display: none;
+.link-list--dropdown {
+  position: relative;
+
+  &:hover .dropdown__content {
+    display: block;
+  }
+}
+
+.dropdown__content {
+  display: none;
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  background-color: $viewport-background-color;
+  z-index: 9999;
+
+  border: .125em solid currentColor;
+
+  li {
+    padding: var(--spacing--small) var(--spacing);
+    width: 100%;
+    margin-right: 0;
+    border-bottom: .125em solid currentColor;
+
+    &:last-child {
+      border: none;
     }
 
-    &:hover {
-        background-color: $viewport-background-color;
+    a {
+      padding: 0;
+
+      border-bottom: .15em solid $viewport-background-color;
+      transition: border-bottom var(--timing) var(--duration);
+
+      &:hover {
         color: $font-color--base;
+        background-color: $viewport-background-color;
+
+        border-color: currentColor;
+      }
     }
+  }
 }

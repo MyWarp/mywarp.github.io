@@ -5,3 +5,7 @@
 .error {
   color: red;
 }
+
+.external-link::after {
+  content: " →";
+}

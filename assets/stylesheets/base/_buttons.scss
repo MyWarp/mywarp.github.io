@@ -5,12 +5,12 @@ button,
   appearance: none;
   background-color: $action-color;
   border: 0;
-  border-radius: var(--border-radius);
+  border-radius: 0;
   color: $action-color--contrast;
   cursor: pointer;
   display: inline-block;
   font-family: var(--font-family-base);
-  font-size: 1rem;
+  font-size: 1em;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
   line-height: 1;

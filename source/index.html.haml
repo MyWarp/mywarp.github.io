@@ -7,7 +7,13 @@ display_particles: true
 :markdown
   Available for the Spigot API ([Spigot](https://spigotmc.org), [Paper](https://papermc.io/), [CraftBukkit](https://bukkit.org/)), developed under GPL3 on [GitHub](https://github.com/MyWarp/MyWarp).
 %ul.link-list
-  %li.link-list--button
-    =link_to 'Download', 'https://github.com/MyWarp/MyWarp/releases'
+  %li.link-list--dropdown
+    %button
+      Download
+    %ul.dropdown__content
+      %li
+        =link_to 'BukkitDev', 'https://dev.bukkit.org/projects/mywarp', :class => "external-link"
+      %li
+        =link_to 'GitHub', 'https://github.com/MyWarp/MyWarp/releases', :class => "external-link"
   %li.link-list--underlined
     =link_to 'Docs', 'https://github.com/MyWarp/MyWarp/wiki'
