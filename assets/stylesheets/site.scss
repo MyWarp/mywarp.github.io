@@ -1,15 +1,17 @@
 @charset "utf-8";
 
 //libs
-@import 'modern-normalize/modern-normalize';
-@import 'modularscale-sass/stylesheets/modularscale';
-$modularscale: (base: 1em, ratio: 1.2);
+@import "@csstools/normalize.css/normalize";
+@import "bourbon/core/bourbon";
+$bourbon: ("modular-scale-base": 1em, "modular-scale-ratio": 1.2);
 
 @import "css.gg/icons/all";
 
-$hamburger-layer-color: currentcolor;
-$hamburger-layer-border-radius: 0;
-@import "hamburgers/_sass/hamburgers/hamburgers";
+$hamburger-size: 55px;
+$hamburger-active-class-name: 'is-active';
+$hamburger-thickness: .25em;
+@import "delicious-hamburgers/scss/base";
+@import "delicious-hamburgers/scss/animations/chop";
 
 //util
 @import "util/variables";

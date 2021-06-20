@@ -1,8 +1,8 @@
 html {
-    color: $font-color--base;
-    font-family: var(--font-family);
-    font-size: ms(0);
-    line-height: var(--line-height);
+  color: $font-color--base;
+  font-family: var(--font-family);
+  font-size: clamp(1rem, calc(0.9308rem + 0.3077vw), 1.2rem); //120%;
+  line-height: var(--line-height);
 }
 
 h1,
@@ -11,84 +11,82 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-family--heading);
-    line-height: var(--line-height--heading);
-    margin: 0 0 var(--spacing--small);
+  font-family: var(--font-family--heading);
+  line-height: var(--line-height--heading);
+  margin: 0 0 var(--spacing--small);
 }
 
-h1 {
-    font-size: ms(3);
-}
-
-h2 {
-    font-size: ms(2);
+@for $i from 1 through 3 {
+  h#{$i} {
+    font-size: modular-scale(3 - $i);
+  }
 }
 
 summary,
 p {
-    margin: 0 0 var(--spacing--small);
+  margin: 0 0 var(--spacing--small);
 }
 
 summary {
-    cursor: pointer;
+  cursor: pointer;
 
-    &:focus {
-        outline: var(--focus-outline);
-        outline-offset: var(--focus-outline-offset);
-    }
+  &:focus {
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-outline-offset);
+  }
 }
 
 a {
-    color: $action-color;
-    text-decoration: none;
-    text-decoration-skip-ink: auto;
-    transition: color var(--duration) var(--timing);
+  color: $action-color;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  transition: color var(--duration) var(--timing);
 
-    &:hover {
-        color: $action-color--alt;
-    }
+  &:hover {
+    color: $action-color--alt;
+  }
 
-    &:focus {
-        outline: var(--focus-outline);
-        outline-offset: var(--focus-outline-offset);
-    }
+  &:focus {
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-outline-offset);
+  }
 }
 
 hr {
-    border-bottom: var(--border);
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    margin: var(--spacing) 0;
+  border-bottom: var(--border);
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: var(--spacing) 0;
 }
 
 p a {
-    color: currentcolor;
-    text-decoration: none;
+  color: currentcolor;
+  text-decoration: none;
 
-    margin: 0 .125em;
-    position: relative;
-    color: var(--font-color--base);
+  margin: 0 .125em;
+  position: relative;
+  color: var(--font-color--base);
 
-    &:before {
-        content: '';
-        position: absolute;
-        margin: 0 auto;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: .125em;
-        background-color: currentcolor;
-        transform: scaleX(0.9);
-        transition: all var(--duration) var(--timing);
-    }
+  &:before {
+    content: '';
+    position: absolute;
+    margin: 0 auto;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: .125em;
+    background-color: currentcolor;
+    transform: scaleX(0.9);
+    transition: all var(--duration) var(--timing);
+  }
 
-    &:hover {
-        color: $action-color;
-    }
+  &:hover {
+    color: $action-color;
+  }
 
-    &:hover:before {
-        color: $action-color;
-        transform: scaleX(1);
-    }
+  &:hover:before {
+    color: $action-color;
+    transform: scaleX(1);
+  }
 }

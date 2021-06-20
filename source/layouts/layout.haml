@@ -41,9 +41,11 @@
           %h1.site-header--titel
             %a{:href=> '/'}
               =inline_svg "logo.svg", class: "site-header--logo"
-          %button#menu-button.site-header--btn.hamburger.hamburger--squeeze{:type=>'button'}
-            %span.hamburger-box
-              %span.hamburger-inner
+          %button#menu-button.site-header--btn.hamburger.hamburger--chop{:type=>'button'}
+            .inner
+              %span.bar
+              %span.bar
+              %span.bar
 
         %nav#main-navigation.site-header--nav
           %ol

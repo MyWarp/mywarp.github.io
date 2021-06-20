@@ -42,6 +42,8 @@ data.builds.each do |id, info|
     :ignore => true
 end
 
+activate :autoprefixer
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
@@ -51,7 +53,6 @@ configure :development do
 end
 
 configure :build do
-  activate :autoprefixer
   activate :minify_html
 
   activate :imageoptim do |options|
