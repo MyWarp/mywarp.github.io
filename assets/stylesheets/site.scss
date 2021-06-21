@@ -7,8 +7,9 @@ $bourbon: ("modular-scale-base": 1em, "modular-scale-ratio": 1.2);
 
 @import "css.gg/icons/all";
 
-$hamburger-size: 55px;
 $hamburger-active-class-name: 'is-active';
+$hamburger-color: currentcolor;
+$hamburger-size: 55px;
 $hamburger-thickness: .25em;
 @import "delicious-hamburgers/scss/base";
 @import "delicious-hamburgers/scss/animations/chop";
