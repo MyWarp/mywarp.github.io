@@ -5,7 +5,7 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman
-gem 'middleman', '~> 4.3'
+gem 'middleman', '~> 4.4'
 
 #Tools
 gem 'middleman-livereload'
