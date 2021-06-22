@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 22 Jun 2021 10:41:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jun 2021 11:35:11 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -404,6 +404,13 @@
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/26.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/26.html</guid>
+    </item>
+    <item>
+      <title>Build No. 94 (fc50f6af88)</title>
+      <description>Downgrade FlyWay to 7.8.1</description>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/94.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/94.html</guid>
     </item>
     <item>
       <title>Build No. 1807 (7ebc83c87f)</title>
