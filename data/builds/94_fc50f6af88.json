@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "94",
+        "successful": "true",
+        "date": "22/06/2021"
+    },
+    "version": {
+        "shortVersion": "3.1.2-SNAPSHOT",
+        "longVersion": "3.1.2-SNAPSHOT+GitHub_Action-b94.git-fc50f6af88"
+    },
+    "commit": {
+        "short_hash": "fc50f6af88",
+        "message": "Downgrade FlyWay to 7.8.1",
+        "author": "TheE",
+        "tag": ""
+    }
+}
