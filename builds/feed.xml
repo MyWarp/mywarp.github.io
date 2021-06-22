@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 21 Jun 2021 16:29:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jun 2021 10:41:05 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -68,6 +68,13 @@
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1840.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1840.html</guid>
+    </item>
+    <item>
+      <title>Build No. 93 (5cec6ad3f2)</title>
+      <description>Fix logging issues</description>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/93.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/93.html</guid>
     </item>
     <item>
       <title>Build No. 1866 (ceb3357a96)</title>
