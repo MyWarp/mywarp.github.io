@@ -17,7 +17,7 @@
   "author": "TheE (https://github.com/TheE)",
   "license": "GPL3",
   "devDependencies": {
-    "esbuild": "^0.12.15",
+    "esbuild": "^0.12.17",
     "purgecss": "^4.0.3",
     "sass": "^1.36.0"
   },
