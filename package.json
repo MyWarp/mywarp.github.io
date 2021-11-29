@@ -18,7 +18,7 @@
   "license": "GPL3",
   "devDependencies": {
     "esbuild": "^0.14.0",
-    "purgecss": "^4.0.3",
+    "purgecss": "^4.1.1",
     "sass": "^1.43.5"
   },
   "dependencies": {
