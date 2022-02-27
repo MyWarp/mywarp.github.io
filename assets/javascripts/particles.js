@@ -1,7 +1,6 @@
 import { tsParticles } from "tsparticles";
 
 function initTsParticles() {
-  console.error("running!");
   var color_var = getComputedStyle(document.body).getPropertyValue('--particles-color').trim();
   tsParticles.load('site-canvas', {
     "particles": {
@@ -48,7 +47,7 @@ function initTsParticles() {
       },
       "move": {
         "enable": true,
-        "speed": 1.5,
+        "speed": 0.95,
         "direction": "none",
         "random": false,
         "straight": false,
