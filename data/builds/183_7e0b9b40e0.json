@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "183",
+        "successful": "true",
+        "date": "04/03/2022"
+    },
+    "version": {
+        "shortVersion": "3.1.2-SNAPSHOT",
+        "longVersion": "3.1.2-SNAPSHOT+GitHub_Action-b183.git-7e0b9b40e0"
+    },
+    "commit": {
+        "short_hash": "7e0b9b40e0",
+        "message": "Bump spigot-api from 1.18.1-R0.1-SNAPSHOT to 1.18.2-R0.1-SNAPSHOT (#412)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
