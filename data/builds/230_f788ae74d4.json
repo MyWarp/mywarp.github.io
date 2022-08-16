@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "230",
+        "successful": "true",
+        "date": "16/08/2022"
+    },
+    "version": {
+        "shortVersion": "3.1.2-SNAPSHOT",
+        "longVersion": "3.1.2-SNAPSHOT+GitHub_Action-b230.git-f788ae74d4"
+    },
+    "commit": {
+        "short_hash": "f788ae74d4",
+        "message": "Bump slf4j-api from 1.7.31 to 1.7.36 (#407)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
