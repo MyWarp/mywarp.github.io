@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Aug 2022 13:52:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Aug 2022 14:09:19 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -698,6 +698,13 @@
       <pubDate>Thu, 5 Nov 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1910.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1910.html</guid>
+    </item>
+    <item>
+      <title>Build No. 230 (f788ae74d4)</title>
+      <description>Bump slf4j-api from 1.7.31 to 1.7.36 (#407)</description>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/230.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/230.html</guid>
     </item>
     <item>
       <title>Build No. 1839 (af154f27d0)</title>
