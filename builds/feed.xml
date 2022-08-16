@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Aug 2022 13:42:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Aug 2022 13:52:11 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -628,6 +628,13 @@
       <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/10.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/10.html</guid>
+    </item>
+    <item>
+      <title>Build No. 228 (a5406964d9)</title>
+      <description>Bump spigot-api from 1.18.2-R0.1-SNAPSHOT to 1.19.2-R0.1-SNAPSHOT (#451)</description>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/228.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/228.html</guid>
     </item>
     <item>
       <title>Build No. 1861 (52b8ad555e)</title>
