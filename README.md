@@ -1,11 +1,13 @@
 # [mywarp.github.io](https://mywarp.github.io)
-[![Build Status](https://github.com/MyWarp/mywarp.github.io/workflows/publish%20website/badge.svg)](https://github.com/MyWarp/mywarp.github.io/actions)
 
 Website for the [MyWarp project](https://github.com/MyWarp/MyWarp), hosted on GitHub pages.
 
-The `master` branch contains the final website, `src` contains the source. Whenever changes are pushed to `src`, it is automatically build by a Github Action and results are - upon success - pushed to `master`.
+[![Build Status](https://img.shields.io/github/workflow/status/MyWarp/mywarp.github.io/publish%20website)](https://github.com/MyWarp/mywarp.github.io/actions) 
+[![Website Status](https://img.shields.io/website?down_color=success&down_message=offline&up_color=success&up_message=online&url=https%3A%2F%2Fmywarp.github.io)](https://mywarp.github.io)
+[![License](https://img.shields.io/github/license/MyWarp/mywarp.github.io)](LICENSE.txt)
 
-## Development
+
+## About
 
 We use [Middleman](https://middlemanapp.com) to build the site. Javascript is bundled using [esbuild](https://esbuild.github.io), stylesheets using [Dart SASS](https://sass-lang.com/dart-sass).
 
@@ -24,3 +26,11 @@ bundle exec middleman build
 ```
 
 For development you might want to use Middleman's build-in server: `bundle exec middleman`.
+
+## Deployment
+
+The `master` branch contains the final website, `src` contains the source. Whenever changes are pushed to `src`, it is automatically build by a Github Action and results are - upon success - pushed to `master`.
+
+## License
+
+MyWarp binaries (in `source/files/`) are available under GPL3. Everything else is available under [MIT](LICENSE.txt).
