@@ -1,8 +1,21 @@
-import { tsParticles } from "tsparticles";
+import { tsParticles } from "tsparticles-engine";
+import { loadLinksPreset } from "tsparticles-preset-links";
 
-function initTsParticles() {
-  var color_var = getComputedStyle(document.body).getPropertyValue('--particles-color').trim();
-  tsParticles.load('site-canvas', {
+document.addEventListener('DOMContentLoaded', initParticles(), false);
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { loadParticles(); });
+
+async function initParticles() {
+  await loadLinksPreset(tsParticles);
+  await loadParticles();
+}
+
+async function loadParticles() {
+  var particleColor = getComputedStyle(document.body).getPropertyValue('--particles-color').trim();
+  console.error(particleColor);
+  await tsParticles.load("site-canvas", {
+    "background": {
+        "color": "transparent",
+    },
     "particles": {
       "number": {
         "value": 100,
@@ -12,13 +25,13 @@ function initTsParticles() {
         }
       },
       "color": {
-        "value": color_var
+        "value": particleColor
       },
       "shape": {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": color_var
+          "color": particleColor
         },
         "polygon": {
           "nb_sides": 5
@@ -40,8 +53,8 @@ function initTsParticles() {
       },
       "line_linked": {
         "enable": true,
-        "distance": 180,
-        "color": color_var,
+        "distance": 220,
+        "color": particleColor,
         "opacity": 0.4,
         "width": 1
       },
@@ -60,12 +73,9 @@ function initTsParticles() {
         }
       }
     },
-    "retina_detect": true
-  }).catch((error) => {
-    console.error(error)
+    preset: "links",
+  })
+  .catch((error) => {
+      console.error(error)
   });
 }
-//call initTsParticles() when the page has loaded
-document.addEventListener('DOMContentLoaded', initTsParticles(), false);
-//call initTsParticles() when prefered color schema changes
-window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { initTsParticles(); });
