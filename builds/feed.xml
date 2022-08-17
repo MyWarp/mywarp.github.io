@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Aug 2022 08:07:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Aug 2022 10:45:19 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -712,6 +712,13 @@
       <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/230.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/230.html</guid>
+    </item>
+    <item>
+      <title>Build No. 239 (55a421a616)</title>
+      <description>Add downloads badge to the README</description>
+      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/239.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/239.html</guid>
     </item>
     <item>
       <title>Build No. 1839 (af154f27d0)</title>
