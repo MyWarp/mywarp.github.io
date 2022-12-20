@@ -2,7 +2,7 @@
 
 Website for the [MyWarp project](https://github.com/MyWarp/MyWarp), hosted on GitHub pages.
 
-[![Build Status](https://img.shields.io/github/workflow/status/MyWarp/mywarp.github.io/publish%20website)](https://github.com/MyWarp/mywarp.github.io/actions) 
+[![Build Status](https://img.shields.io/github/actions/workflow/status/MyWarp/mywarp.github.io/publish_website.yml?branch=src)](https://github.com/MyWarp/mywarp.github.io/actions) 
 [![Website Status](https://img.shields.io/website?down_color=success&down_message=offline&up_color=success&up_message=online&url=https%3A%2F%2Fmywarp.github.io)](https://mywarp.github.io)
 [![License](https://img.shields.io/github/license/MyWarp/mywarp.github.io)](LICENSE.txt)
 
