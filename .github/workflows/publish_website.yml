@@ -18,15 +18,13 @@ jobs:
     - name: 👉 Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6
+        ruby-version: 3.1
         bundler-cache: true
     - name: 👉 Set up Node
       uses: actions/setup-node@v3
       with:
         node-version: '16'
         cache: 'npm'
-    - name: 🧱 Ruby Dependencies
-      run: bundle install
     - name: 🧱 Node Dependencies
       run: npm install
     - name: 🔧 Run Middleman

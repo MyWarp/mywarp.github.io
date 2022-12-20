@@ -34,7 +34,7 @@ end
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages
 
-data.builds.each do |id, info|
+@app.data.builds.each do |id, info|
   # see https://github.com/middleman/middleman/issues/1246#issuecomment-163596912
   proxy "/builds/#{info.build.number}.html",
     "single_build_information",
