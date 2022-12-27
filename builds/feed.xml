@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Sun, 31 Oct 2021 00:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Dec 2022 17:04:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Dec 2022 17:09:22 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -40,6 +40,13 @@
       <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1836.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1836.html</guid>
+    </item>
+    <item>
+      <title>Build No. 249 (73a262f3ff)</title>
+      <description>Bump ru.vyarus.animalsniffer from 1.5.4 to 1.6.0 (#459)</description>
+      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/249.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/249.html</guid>
     </item>
     <item>
       <title>Build No. 26 (d262a223e6)</title>
