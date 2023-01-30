@@ -24,7 +24,7 @@
   "dependencies": {
     "bourbon": "^7.2.0",
     "css.gg": "^2.0.0",
-    "delicious-hamburgers": "^1.2.2",
+    "delicious-hamburgers": "^1.2.3",
     "hamburgers": "^1.2.1",
     "modern-normalize": "^1.1.0",
     "tsparticles-preset-links": "^2.8.0"
