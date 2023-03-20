@@ -19,7 +19,7 @@
   "devDependencies": {
     "esbuild": "^0.17.11",
     "purgecss": "^5.0.0",
-    "sass": "^1.59.2"
+    "sass": "^1.59.3"
   },
   "dependencies": {
     "bourbon": "^7.3.0",
