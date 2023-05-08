@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Mon, 2 Sep 2019 00:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 8 May 2023 14:35:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 8 May 2023 14:39:43 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -600,6 +600,13 @@
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/60.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/60.html</guid>
+    </item>
+    <item>
+      <title>Build No. 266 (75a68ddf25)</title>
+      <description>Downgrade com.palantir.git-version to 0.13.0</description>
+      <pubDate>Mon, 8 May 2023 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/266.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/266.html</guid>
     </item>
     <item>
       <title>Build No. 70 (1f7eb771a7)</title>
