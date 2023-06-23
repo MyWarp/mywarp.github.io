@@ -5,7 +5,7 @@
     <description>Provides information about succesfull MyWarp builds.</description>
     <link>https://mywarp.github.io/builds/</link>
     <pubDate>Thu, 8 Jun 2023 00:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 23 Jun 2023 22:20:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jun 2023 22:24:02 +0000</lastBuildDate>
     <image>
       <url>https://mywarp.github.io/favicon-32x32.png</url>
       <title>MyWarp Development Builds</title>
@@ -187,6 +187,13 @@
       <pubDate>Mon, 5 Oct 2020 00:00:00 +0000</pubDate>
       <link>https://mywarp.github.io/builds/1877.html</link>
       <guid isPermaLink="true">https://mywarp.github.io/builds/1877.html</guid>
+    </item>
+    <item>
+      <title>Build No. 271 (57143930ea)</title>
+      <description>Bump org.spigotmc:spigot-api (#479)</description>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      <link>https://mywarp.github.io/builds/271.html</link>
+      <guid isPermaLink="true">https://mywarp.github.io/builds/271.html</guid>
     </item>
     <item>
       <title>Build No. 1843 (8c61372fdd)</title>
