@@ -271,6 +271,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mywarp.github.com/builds/274.html</loc>
+    <changefreq>never</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mywarp.github.com/builds/84.html</loc>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
@@ -802,6 +807,11 @@
   </url>
   <url>
     <loc>https://mywarp.github.com/builds/pages/10.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mywarp.github.com/builds/pages/11.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
