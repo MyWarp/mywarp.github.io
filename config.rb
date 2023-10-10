@@ -3,6 +3,10 @@ set :url_root, 'https://mywarp.github.com'
 config[:js_dir] = 'assets/javascripts'
 config[:css_dir] = 'assets/stylesheets'
 
+# Do not include files in the final build.
+# Instead, we link to the files inside the GitHub Repo (see file_url below)
+ignore 'files/*'
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
@@ -120,9 +124,10 @@ helpers do
   end
 
   def file_url(binary)
+    base_url = 'https://github.com/MyWarp/mywarp.github.io/raw/src/'
     absolute_path = Pathname.new(binary)
-    project_root  = Pathname.new("source")
-    return '/' + absolute_path.relative_path_from(project_root).to_s
+    project_root  = Pathname.new(".")
+    return base_url + absolute_path.relative_path_from(project_root).to_s
   end
 
   def file_size(binary, format="%.2f")
