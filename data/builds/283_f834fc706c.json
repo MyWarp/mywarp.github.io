@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "283",
+        "successful": "true",
+        "date": "28/10/2023"
+    },
+    "version": {
+        "shortVersion": "3.1.2",
+        "longVersion": "3.1.2+GitHub_Action-b283.git-f834fc706c"
+    },
+    "commit": {
+        "short_hash": "f834fc706c",
+        "message": "Release 3.1.2",
+        "author": "TheE",
+        "tag": ""
+    }
+}
