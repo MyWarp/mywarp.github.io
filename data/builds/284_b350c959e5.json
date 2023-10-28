@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "284",
+        "successful": "true",
+        "date": "28/10/2023"
+    },
+    "version": {
+        "shortVersion": "3.1.3-SNAPSHOT",
+        "longVersion": "3.1.3-SNAPSHOT+GitHub_Action-b284.git-b350c959e5"
+    },
+    "commit": {
+        "short_hash": "b350c959e5",
+        "message": "Prepare for next development iteration",
+        "author": "TheE",
+        "tag": ""
+    }
+}
