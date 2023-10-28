@@ -52,10 +52,10 @@ change_frequency: never
         =link_to_commit info.commit.short_hash
       %td
         =info.commit.message
-        - unless info.commit.tag.blank?
-          .build-table--commit-tag
-            %i.gg-tag
-            =info.commit.tag
+        //Need to fix some builds that had the wrong version
+        - unless info.version.shortVersion.include?("SNAPSHOT") || ["18", "20", "23", "25", "26"].include?(info.build.number)
+          .build-table--released-version
+            Stable Build
       %td
         =info.commit.author
 

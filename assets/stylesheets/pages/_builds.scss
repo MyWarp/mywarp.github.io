@@ -3,16 +3,18 @@
     text-transform: lowercase;
 }
 
-.build-table--commit-tag {
+.build-table--commit-msg {
+    line-break: anywhere;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+.build-table--released-version {
     color: $font-color--light;
     font-size: .8em;
     display: flex;
     align-items: flex-end;
-
-    i {
-        --ggs: .8;
-        margin-right: .5em;
-    }
+    text-transform: uppercase;
 }
 
 .small-button a {
