@@ -15,6 +15,5 @@ gem 'middleman-imageoptim', :git => 'https://github.com/alexsanderson/middleman-
 gem 'middleman-pagination', :git => 'https://github.com/suresh44t/middleman-pagination.git' #a fork that is compatible with Middleman 4
 gem 'middleman-robots'
 gem 'middleman-aria_current'
-gem 'middleman-favicon-maker'
 gem 'middleman-inline_svg'
 gem 'builder'

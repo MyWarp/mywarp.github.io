@@ -28,7 +28,7 @@ pagination:
         %td
           = info.commit.message
           //Need to fix some builds that had the wrong version
-          - unless info.version.shortVersion.include?("SNAPSHOT") || ["18", "20", "23", "25", "26"].include?(info.build.number)
+          - if info.version && !info.version.shortVersion.include?("SNAPSHOT") && !["18", "20", "23", "25", "26"].include?(info.build.number)
             .build-table--released-version
               Stable Build
         %td.build-table--download.small-button.fitwidth
