@@ -29,7 +29,7 @@ For development you might want to use Middleman's build-in server: `bundle exec 
 
 ## Deployment
 
-The `master` branch contains the final website, `src` contains the source. Whenever changes are pushed to `src`, it is automatically build by a Github Action and results are - upon success - pushed to `master`.
+The `src` branch contains the site's source. It is build automatically by a Github Action and deployed to GitHub Pages. (The `master` branch contains an old version of the final website that is no longer used.)
 
 ## License
 
