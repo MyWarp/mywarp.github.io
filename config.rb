@@ -77,7 +77,7 @@ end
 # https://middlemanapp.com/advanced/custom-extensions/#after_build
 
 after_build do |builder|
-  builder.thor.run 'npm run after_build'
+  builder.thor.run 'npm run purgecss'
 end
 
 # Helpers
