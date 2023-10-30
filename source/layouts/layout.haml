@@ -24,6 +24,7 @@
 
     //Title from the current page's frontmatter
     %title= locals.key?(:title) ? title : current_page.data.title || "MyWarp"
+    %description= locals.key?(:description) ? description : current_page.data.description || "An extension for Minecraft that allows players to create and share warps"
     
     =stylesheet_link_tag "site"
 
