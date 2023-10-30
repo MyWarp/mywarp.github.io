@@ -36,9 +36,9 @@
       %header.site-header
         .site-header--mobile-wrapper
           %h1.site-header--titel
-            %a{:href=> '/', :aria-label=>"Home"}
+            %a{:href=> '/', :'aria-label'=>"Home"}
               !=inline_svg "logo.svg", class: "site-header--logo"
-          %button#menu-button.site-header--btn.hamburger.hamburger--chop{:type=>'button', :aria-label=>"Toggle Navigation"}
+          %button#menu-button.site-header--btn.hamburger.hamburger--chop{:type=>'button', :'aria-label'=>"Toggle Navigation"}
             .inner
               %span.bar
               %span.bar
