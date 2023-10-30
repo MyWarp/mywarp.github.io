@@ -11,7 +11,6 @@ async function initParticles() {
 
 async function loadParticles() {
   var particleColor = getComputedStyle(document.body).getPropertyValue('--particles-color').trim();
-  console.error(particleColor);
   await tsParticles.load("site-canvas", {
     "background": {
         "color": "transparent",
