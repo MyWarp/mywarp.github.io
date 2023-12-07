@@ -1,0 +1,18 @@
+{
+    "build": {
+        "by": "GitHub_Action",
+        "number": "286",
+        "successful": "true",
+        "date": "07/12/2023"
+    },
+    "version": {
+        "shortVersion": "3.1.3-SNAPSHOT",
+        "longVersion": "3.1.3-SNAPSHOT+GitHub_Action-b286.git-d005dd415b"
+    },
+    "commit": {
+        "short_hash": "d005dd415b",
+        "message": "Bump org.spigotmc:spigot-api (#491)",
+        "author": "dependabot[bot]",
+        "tag": ""
+    }
+}
